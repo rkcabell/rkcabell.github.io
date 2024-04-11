@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: A page
+  link: /another-page.html
+- name: Four
+  link: /four.html
+- name: Five
+  link: /five.html
+- name: Six
+  link: /six.html
