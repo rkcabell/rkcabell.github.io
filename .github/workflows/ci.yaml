@@ -12,9 +12,11 @@ jobs:
         with:
           ruby-version: 3.2
           bundler-cache: true
-      - name: Set permissions for bootstrap script
-        run: chmod +x script/bootstrap
+      - name: Set permissions for scripts
+        run: |
+          chmod +x script/bootstrap
+          chmod +x script/cibuild
       - name: build
         run: ./script/bootstrap
       - name: test
-        run: script/cibuild
+        run: ./script/cibuild
