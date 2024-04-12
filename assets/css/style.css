@@ -786,7 +786,6 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-top: 40px;
   margin: 0;
 }
 
@@ -848,6 +847,18 @@ a:hover {
     /* Adjust margin as needed */
   }
 }
+
+.main-content .pdf-viewer {
+  width: 100%;
+  height: 115vh;
+  border: 0;
+}
+
+/* @media (min-width: 768px) {
+  .pdf-viewer {
+    height: 115vh;
+  }
+} */
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -1138,8 +1149,9 @@ a:hover {
 }
 
 .main-nav {
-  text-align: right;
+  text-align: center;
   padding-right: 0px;
+  padding-bottom: 40px;
   /* Adjust as necessary */
   font-family: 'Open Sans', sans-serif;
 }

@@ -1,12 +1,16 @@
 - name: Home
-  link: /
-- name: About
+  link: /index.html
+- name: Resume
+  link: /resume.html
+- name: Projects
+  link: /projects.html
+- name: Github
+  link: https://github.com/rkcabell/
+- name: About me
   link: /about.html
-- name: A page
-  link: /another-page.html
-- name: Four
-  link: /four.html
-- name: Five
-  link: /five.html
-- name: Six
-  link: /six.html
+- name: Cat
+  link: /cat.html
+- name: Art
+  link: /art.html
+- name: Dianthos
+  link: /dianthos.html

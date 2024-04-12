@@ -1,0 +1,156 @@
+ \documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape \textbf {Ryan Cabell}}\\
+	$\cdot$ Cary, NC $\cdot$ example@email.com $\cdot$ (919)-555-8815 $\cdot$\\$\cdot$LinkedIn: linkedin.com/in/rkcabell $\cdot$ Github: github.com/rkcabell $\cdot$ \\
+\end{center}
+
+% %=========== Objective ===========%
+% \header{Objective}
+% Computer science graduate with interest in software development and machine learning. Great at working with a team and communication. Seeking a team to apply and hone skills in troubleshooting and software maintenance and development. Bringing abilities to learn new technologies quickly and in changing environments.
+% \vspace{2mm}
+
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+\textbf{Blackberry QNX} \hfill Cary, NC\\
+\textit{Software Developer in Test} \hfill Jun 2022 - Mar 2024\\
+\begin{itemize} \itemsep 1pt
+    \item Authored automated testing scripts using PyTest to evaluate and validate the capabilities of WiFi chips
+	\item Developed and maintained scripts in Bash and Python on Linux and QNX systems to automate processes and reduce downtime by 4 hours a week
+	\item Led WFA Precertification testing across 11 different testbeds, including FlexTrack and QuickTrack, to ensure product compliance and performance
+	\item Oversaw and maintained QNX OS image deployment on various boards and on diverse SDP and BSP combinations through continuous integration \& continuous development (CI/CD)
+    \item Completed rigorous testing on a variety of hardware setups to pass QNX SDP 8.0 through testing cycles to product release
+    % \item Implemented database schema for streamlined storage of test results in BlackFishDB, significantly improving data retrieval efficiency across project teams
+    \item Collaborated in the creation of Quality Management System (QMS) test plans test plans and test specifications, and managed comprehensive documentation on Confluence
+\end{itemize}
+\textbf{UNCG} \hfill Greensboro, NC\\
+\textit{CS Lab Assistant} \hfill Jan 2020 - May 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Tutored students on the fundamentals of computer science
+	\item Developed a fair grading rubric with consistent approach to assignments and project work
+	% \item Explained any questions from students in emails after the grades were returned
+\end{itemize}
+\textbf{Autobell Car Wash} \hfill Raleigh, NC\\
+\textit{Team Leader} \hfill Oct 2016 - Jul 2019\\
+\vspace{2mm}
+
+
+%==== Education ====%
+\header{Education}
+\textbf{University of North Carolina - Greensboro}\hfill Greensboro, NC\\
+BS of Computer Science, minor in Mathematics  \hfill  Aug 2019 - Dec 2021\\
+GPA: 3.55\\
+
+\vspace{2mm}
+\textbf{Wake Technical Community College}\hfill Raleigh, NC\\
+Associates of Science \hfill Aug 2017 - Jun 2019\\
+\vspace{2mm}
+
+
+%=========== Projects ===========%
+\header{Projects}
+{\textbf{Better Health}} — Senior Capstone project  \\
+\hfill {\textsl{Dec 2021}} \\
+Technologies used: {\textbf{Python}}, Flask, NoSQL, MongoDB, passlib, APIs
+\begin{itemize} \itemsep 1pt
+    \item Spearheaded a team of four in developing a website aimed at empowering users to track and manage their nutritional intake, hydration, and explore healthy recipes
+	\item Designed a robust database using {\textbf{MongoDB}} to store user profiles and settings safely with encrypted, salted, and hashed passwords.
+	\item Engineered a seamless user authentication system utilizing Flask's web session and cookies packages
+\end{itemize}
+\vspace*{2mm}
+{\textbf{Craigslist web scraper}} - {Personal project} \\
+\hfill {\textsl{Dec 2020}} \\
+Technologies used: {\textbf{Java}, JSoup, CSS, FXML}  \\
+\begin{itemize} \itemsep 1pt
+	\item Engineered a Java-based web scraping tool that navigates Craigslist ad pages, extracting pertinent information and organizing it for easy access and analysis.
+	\item Integrated Jsoup library to  parse and extract data from Craigslist pages
+	\item Adhered to ethical web scraping practices by complying with guidelines specified in /robots.txt, demonstrating a commitment to responsible and respectful software development.
+\end{itemize}
+\vspace*{2mm}
+%=========== Skills ===========%
+\header{Skills}
+
+\begin{tabular}{ l l }
+    Languages:& Python, Java, C\#, C, Bash    \\
+    Technologies:   & Git, SVN, PyTest, Jenkins, WFA Precert, QNX, Linux/Ubuntu, Windows, Networks, LaTeX \\
+	Tools:& VS Code, BlackFishDB, Wireshark, Powershell, PuTTy, Meld, Jira, Confluence, Rufus  \\
+	Soft Skills:& Leadership, Teamwork, Documentation, Problem-Solving, Curiosity \\
+\end{tabular}
+\vspace{2mm}
+ 
+\end{document}
