@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* universal font for body */
+}
+
+canvas {
+  display: block;
+}
+
+.slider-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.slider-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.slider {
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+}
+
+#a-value {
+  display: block; /* Makes the span take the full width */
+  margin-top: 10px; /* Space above the span */
+  font-size: 20px; /* Larger font size makes it more prominent */
+  color: #4CAF50; /* A green color to make it stand out */
+  font-weight: bold; /* Makes the font bold */
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px;
+}
+
+
+.control-btn {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.control-btn:hover {
+  background-color: #45a049;
+}

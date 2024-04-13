@@ -722,7 +722,7 @@ a:hover {
 
 .btn {
   display: inline-block;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   color: rgba(255, 255, 255, 0.7);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
@@ -808,16 +808,21 @@ a:hover {
   /* Center vertically */
   overflow: hidden;
   /* Hide any excess image outside the container */
+
 }
 
-.grid-item img {
+.grid-item img,
+.grid-item video {
   position: absolute;
-  /* Absolute positioning */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.grid-item video {
+  object-fit: contain;
 }
 
 .grid-item:hover {
