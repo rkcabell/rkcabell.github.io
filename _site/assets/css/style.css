@@ -834,9 +834,13 @@ a:hover {
 @media (max-width: 768px) {
   .grid-item {
     width: 48%;
-    /* 2 items per row */
     padding-top: 48%;
-    /* Maintain square shape */
+  }
+
+  .selfie {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
   }
 }
 
@@ -844,11 +848,14 @@ a:hover {
 @media (max-width: 480px) {
   .grid-item {
     width: 98%;
-    /* 1 item per row */
     padding-top: 98%;
-    /* Maintain square shape */
     margin-bottom: 2%;
-    /* Adjust margin as needed */
+  }
+
+  .selfie {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333;
   }
 }
 
@@ -938,12 +945,12 @@ a:hover {
 .selfie {
   width: 300px;
   height: 300px;
-  border-radius: 50%;    /*circular frame */
-  border: 5px solid #333;/* Adds a solid border around the image */
+  border-radius: 50%;
+  border: 5px solid #333;
   object-fit: cover;
   display: block;
   margin: auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -992,13 +999,14 @@ a:hover {
   max-width: 100%;
 }
 
-.main-content h1{
+.main-content h1 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
   font-size: 35px;
   color: #000000;
 }
+
 .main-content h2,
 .main-content h3,
 .main-content h4,
@@ -1173,10 +1181,10 @@ a:hover {
 }
 
 .main-nav {
-  display: flex;  
+  display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%; 
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -1207,11 +1215,32 @@ a:hover {
   color: rgb(88, 88, 197);
 }
 
-.main-nav a:nth-child(1) {border-left: 8px solid #000000; background-color: #95d094; } /* Home */
-.main-nav a:nth-child(2) { background-color: #5d90b8; } /* About Me */
-.main-nav a:nth-child(3) { background-color: #8767a3; } /* Cat */
-.main-nav a:nth-child(4) { background-color: #cfb15f; } /* Art */
-.main-nav a:nth-child(5) { background-color: #b87ca0; } /* Worldbuilding */
+.main-nav a:nth-child(1) {
+  border-left: 8px solid #000000;
+  background-color: #95d094;
+}
+
+/* Home */
+.main-nav a:nth-child(2) {
+  background-color: #5d90b8;
+}
+
+/* About Me */
+.main-nav a:nth-child(3) {
+  background-color: #8767a3;
+}
+
+/* Cat */
+.main-nav a:nth-child(4) {
+  background-color: #cfb15f;
+}
+
+/* Art */
+.main-nav a:nth-child(5) {
+  background-color: #b87ca0;
+}
+
+/* Worldbuilding */
 
 
 .site-footer-owner {
