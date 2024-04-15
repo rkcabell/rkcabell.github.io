@@ -50,6 +50,16 @@ html {
   * Remove default margin.
   */
 body {
+
+
+  margin: 0;
+}
+
+#default-bkg {
+  background-color: #3e3e42;
+}
+
+#home-page-bkg {
   /* wave warm */
   /* background-image: repeating-radial-gradient(circle at 0 0, transparent 0, rgba(42, 65, 87, 0.41) 51px), repeating-linear-gradient(#f4ce62, #a62162);
   background-color: rgba(42, 65, 87, 0.41); */
@@ -62,14 +72,16 @@ body {
     radial-gradient(farthest-side at 50% -33.33%, #0000 52%, #000000 54% 57%, #0000 59%),
     #ffffff;
   background-size: calc(244px/4.667) 244px, 244px calc(244px/4.667);
-
-  margin: 0;
 }
 
+/* green */
 .main-container {
   border-radius: 6%;
-  background: #bc48ff;
+  background-color: #748066;
   margin: 0 21%;
+  /* padding-top: 320px; */
+  position: relative;
+  overflow: hidden;
 }
 
 /* HTML5 display definitions
@@ -227,6 +239,56 @@ img {
 svg:not(:root) {
   overflow: hidden;
 }
+
+/**
+  * hide SVG animation when the screen width is less than iphone
+  * iPhone's default scale is optimized for 980 wide
+  */
+@media (max-width:54em) {
+  #svg {
+    display: none;
+  }
+
+  #selfie,
+  #color-wheel {
+    width: 50%;
+    height: 50%;
+  }
+
+  .main-container {
+    margin-top: 112px;
+  }
+}
+
+
+/* For wide mobile */
+@media (max-width: 768px) {
+  .grid-item {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  /* .selfie {
+    width: 200px;
+    height: 200px;
+  } */
+}
+
+/* For long mobile */
+@media (max-width: 480px) {
+  .grid-item {
+    width: 98%;
+    padding-top: 98%;
+    margin-bottom: 2%;
+  }
+
+  /* .selfie {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #333;
+  } */
+}
+
 
 /* Grouping content
     ========================================================================== */
@@ -775,6 +837,9 @@ a:hover {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .btn:hover {
@@ -786,24 +851,29 @@ a:hover {
   border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* btn horizontal spacing: 1 unit relative to root element */
 .btn+.btn {
   margin-left: 1rem;
+  /* margin-left: auto; */
 }
 
+/* Adjusts padding of buttons on screens wider than 64em, optimizing button size for larger displays */
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem;
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+/* Adjusts padding and font size of buttons for medium-sized screens, providing a responsive design between 42em and 64em wide */
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+/* small screens: Make each button take full width of its container */
+@media screen and (max-width: 54em) {
   .btn {
     display: block;
     width: 100%;
@@ -814,6 +884,41 @@ a:hover {
   .btn+.btn {
     margin-top: 1rem;
     margin-left: 0;
+  }
+}
+
+/* very small screens: Make each button take half width of its container */
+@media screen and (max-width: 40em) {
+  .btn {
+    display: block;
+    width: 80%;
+    /* padding inside each button */
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    /* Vertical margin of half root container size and horizontal margin auto for centering horizontally */
+    margin: 0.5rem auto;
+    /* margin-left: 25%; */
+  }
+
+  .btn+.btn {
+    margin-top: 1rem;
+    margin: 1rem auto;
+  }
+}
+
+/* teeny screens: Make each button take half width of its container */
+@media screen and (max-width: 20em) {
+  .btn {
+    display: block;
+    width: 60%;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+    margin: 0.5rem auto;
+  }
+
+  .btn+.btn {
+    margin-top: 1rem;
+    margin: 1rem auto;
   }
 }
 
@@ -832,6 +937,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* justify-content: center; */
   margin: 0;
 }
 
@@ -877,34 +983,6 @@ a:hover {
   z-index: 10;
 }
 
-/* For wide mobile */
-@media (max-width: 768px) {
-  .grid-item {
-    width: 48%;
-    padding-top: 48%;
-  }
-
-  .selfie {
-    width: 200px;
-    height: 200px;
-    /* border: 0px; */
-  }
-}
-
-/* For long mobile */
-@media (max-width: 480px) {
-  .grid-item {
-    width: 98%;
-    padding-top: 98%;
-    margin-bottom: 2%;
-  }
-
-  .selfie {
-    width: 150px;
-    height: 150px;
-    border: 2px solid #333;
-  }
-}
 
 .main-content .pdf-viewer {
   width: 100%;
@@ -926,15 +1004,15 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem;
+    padding: 4rem 5rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 54em) {
   .page-header {
-    padding: 2rem 1rem;
+    padding: 3rem 2rem;
   }
 }
 
@@ -949,15 +1027,15 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 54em) {
   .project-name {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 
@@ -973,35 +1051,18 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .project-tagline {
     font-size: 1.15rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 54em) {
   .project-tagline {
     font-size: 1rem;
   }
 }
 
-.main-content {
-  word-wrap: break-word;
-  justify-content: center;
-  margin: 0;
-  align-items: center;
-
-}
-
-.txt {
-  background: #ebebeb;
-  padding: 20px;
-  border-radius: 15px;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  margin-bottom: 20px;
-}
 
 
 /* 
@@ -1029,14 +1090,14 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .main-content {
     padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 54em) {
   .main-content {
     padding: 2rem 1rem;
     font-size: 1rem;
@@ -1230,13 +1291,13 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 54em) and (max-width: 64em) {
   .site-footer {
     font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 54em) {
   .site-footer {
     font-size: 0.9rem;
   }
@@ -1277,44 +1338,114 @@ a:hover {
   }
 }
 
-.selfie {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.main-content {
+  /* background-color: #0086B3; */
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 50px; */
+  /* justify-content: center; */
+  width:auto;
+  /* margin-right: 1rem; */
+  position: relative;
 }
 
-.color-wheel {
-  width: 350px;
-  height: 350px;
+#box-for-selfie {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 250px;
+  background-color: rgba(46, 46, 46, 0.5);
+  border-radius: 2rem;
+  margin-bottom: 10%;
+  /* overflow: hidden; */
+}
+
+#box-for-selfie::before {
+  /* Necessary for the pseudo-element to display */
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  height: 3px;
+  background-color: #FFFDD0;
+  z-index: 1;
+  animation: spinline 3s cubic-bezier(0.23, 0.78, 0.54, -0.81) infinite;
+
+}
+
+#selfie,
+#color-wheel {
+  transition: all 0.3s ease;
   border-radius: 100%;
   object-fit: cover;
   display: block;
   margin: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /*position is absolute, relative to @box-for-selfie*/
   position: absolute;
-  top: 55%;
   left: 50%;
+  top: 50%;
+}
+
+#selfie {
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+#color-wheel {
+  width: 310px;
+  height: 310px;
+  /* width: 100%;
+  height: auto; */
+  z-index: 2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
   animation: spin 3s cubic-bezier(0.23, 0.78, 0.54, -0.81) infinite;
+}
+
+@keyframes spinline {
+  from {
+    transform: rotate(0deg);
+
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
+
   }
 
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+
+.txt {
+  /* cream */
+  background-color: #FFFDD0;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  position: relative;
+  /* width: 80%;  */
+}
+
 
 .main-nav {
   display: flex;
@@ -1388,4 +1519,4 @@ a:hover {
   color: #819198;
 }
 
-/*# sourceMappingURL=style.css.map */
+# sourceMappingURL=style.css.map

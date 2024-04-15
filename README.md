@@ -1,10 +1,9 @@
 # Personal Portfolio
 
-![Thumbnail of preview](thumbnail.png)
 
 ## Work in Progress
 
-To use the Cayman theme:
+Default text here
 
 1. this is an ordered list
 
