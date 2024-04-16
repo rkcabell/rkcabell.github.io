@@ -57,13 +57,15 @@
         <h2 class="project-tagline">Software Developer</h2>
         <!----------------------------------------------------------[ BUTTONS ]---------------------------------------------------------->
 
-        <a class="btn" href="resume.html">Resume</a>
-        <a class="btn" href="projects.html">Projects</a>
-        <a class="btn" href="https://github.com/rkcabell/">GitHub</a>
-        <a class="btn" href="/projects.html">Projects</a>
-        <a class="btn" href="/cat.html">Cat</a>
-        <a class="btn" href="/art.html">Art</a>
-        <a class="btn" href="/world.html">Worldbuilding</a>
+        <a class="btn" href="resume.html" title="resume">Resume</a>
+        <a class="btn" href="projects.html" title="personal projects">Projects</a>
+        <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
+            title="github UwU">GitHub</a>
+        <a class="btn" href="/cat.html" title="cat pics :3">Cat</a>
+        <a class="btn" href="/art.html" title="artwork">Art</a>
+        <a class="btn" href="/world.html" title="worldbuilding">Worldbuilding</a>
+        <a class="btn" href="https://www.youtube.com/@fracturedinfinities" title="youtube channel xD" target="_blank"
+            rel="noopener noreferrer">Youtube</a>
 
 
     </header>
@@ -91,17 +93,12 @@
                 <div id="color-wheel"></div>
                 <img id="selfie" src="/assets/selfie3_edited.png" alt="image of myself">
             </div>
+            <p class="prologue">This blurb will be smaller on some devices</p>
             <div class="txt">
                 <h1>About Me</h1>
-                <p>
-                    Hello! I’m Ryan Cabell, a Full-Stack Software Developer with a strong foundation with wifi and operating
-                    systems, and a passion for creating efficient solutions that enhance everyday life. Over the
-                    past three years, I've refined my expertise in Python and Bash. At the heart of my work is a
-                    deep-rooted intrigue with the bleeding edge of technology and artificial intelligence coupled with a
-                    dedication to discovering and appreciating the beauty in innovative solutions. Browse my
-                    work experience, projects, or reach out directly to start a conversation.
-                </p>
-                <p>Feel free to explore. I am using this website to host my resume as well as my artwork, worldbuilding, and pictures of my cat Pico!</p>
+                <p class="blurb"></p>
+                <p>Feel free to explore. I am using this website to host my resume as well as my artwork, worldbuilding,
+                    and pictures of my cat Pico!</p>
             </div>
             <!----------------------------------------------------------[ GRID ]---------------------------------------------------------->
             <a id="links"></a>
@@ -109,25 +106,21 @@
             <section class="grid-section">
                 <!-- Each of these links represents a placeholder for a grid item -->
                 <a href="/art" class="grid-item">
-                    <img src="/assets/cymatocyst.png" alt="image of cymatocyst alien">
+                    <img src="/assets/cymatocyst.png" alt="image of cymatocyst alien" title=" cymatocyst artwork">
                 </a>
-                <a href="/world" class="grid-item">
+                <a href="/world" class="grid-item" title="dianthos in part 3">
                     <img src="/assets/world_age2_small.png" alt="image of alien earthlike planet Dianthos">
                 </a>
-                <a href="/world/youtube" class="grid-item">
+                <a href="https://www.youtube.com/@fracturedinfinities" class="grid-item" title="Youtube channel"
+                    target="_blank" rel="noopener noreferrer">
                     <img src="/assets/frac_inf_icon.png" alt="image of cymatocyst alien">
                 </a>
-                <a href="/projects" class="grid-item">
+                <a href="/projects" class="grid-item" title="Halverson attractor project">
                     <video width="800" height="800" autoplay playbackRate="5">
                         <source src="/assets/Halvorsen_vid.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", () => {
-                            const video = document.querySelector('video');
-                            video.playbackRate = 5; // Doubles the speed of the video playback
-                        });
-                    </script>
+
                 </a>
                 <a href="#" class="grid-item"></a>
                 <a href="#" class="grid-item"></a>
@@ -146,6 +139,32 @@
         <span class="site-footer-owner"><a href="https://github.com/rkcabell/rkcabell.github.io">rkcabell.github.io</a>
             is maintained by <a href="https://github.com/rkcabell">rkcabell</a>.</span>
     </footer>
+
+    <!----------------------------------------------------------[ SCRIPTS ]---------------------------------------------------------->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const blurb = document.querySelector('.blurb');
+            const fullText = "Hello! I’m Ryan Cabell, a Full-Stack Software Developer with a strong foundation with wifi and operating systems, and a passion for creating efficient solutions that enhance everyday life. Over the past three years, I've refined my expertise in Python and Bash. At the heart of my work is a deep-rooted intrigue with the bleeding edge of technology and artificial intelligence coupled with a dedication to discovering and appreciating the beauty in innovative solutions. Browse my work experience, projects, or reach out directly to start a conversation.";
+            const shortText = "Hello! I’m Ryan Cabell, a Software Developer with a strong foundation with wifi and operating systems";
+
+            function handleResize() {
+                if (window.innerWidth <= 600) {
+                    blurb.textContent = shortText;
+                } else {
+                    blurb.textContent = fullText;
+                }
+            }
+
+            handleResize();
+
+            window.addEventListener('resize', handleResize);
+        });
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const video = document.querySelector('video');
+            video.playbackRate = 5;
+        });
+    </script>
 
 </body>
 
