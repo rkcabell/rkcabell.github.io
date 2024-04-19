@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - MyWikiSite</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body id="default-bkg">
+    <header>
+        <h1>{{ page.title }}</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Navigation</h3>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <!-- Generate sidebar links dynamically based on site data or categories -->
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            {{ content }}
+            <div class="meta">
+                <p>Categories: {{ page.categories | join: ", " }}</p>
+                <p>Tags: {{ page.tags | join: ", " }}</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} MyWikiSite</p>
+
+    </footer>
+</body>
+
+</html>

@@ -4,36 +4,79 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── LICENSE
 ├── README.md
 ├── _config.yml
-├── _data/
+├── _data//
 │   └── navigation.yml
-├── _includes/
+├── _includes//
 │   ├── head-custom-google-analytics.html
 │   ├── head-custom.html
-│   └── navigation.html
-├── _layouts/
+│   ├── navigation.html
+│   └── sidebar.html
+├── _layouts//
+│   ├── 404.html
 │   ├── default.html
+│   ├── post.html
 │   └── resume_layout.html
-├── _sass/
+├── _posts//
+│   ├── 2020-01-01-example-post.md
+│   └── 2024-02-12-photo.md
+├── _sass//
 │   ├── cayman.scss
+│   ├── fonts.scss
 │   ├── jekyll-theme-cayman.scss
 │   ├── normalize.scss
 │   ├── rouge-github.scss
-│   └── variables.scss
-├── _site/
+│   ├── variables.scss
+│   └── w3.scss
+├── _site//
+│   ├── 404.html
 │   ├── LICENSE
 │   ├── README.md
 │   ├── art.html
-│   ├── assets/
+│   ├── assets//
 │   │   ├── Halvorsen_vid.mp4
 │   │   ├── RyanResumeCensoredLatex.txt
 │   │   ├── RyanResumeCensoredPDF.pdf
 │   │   ├── RyanResumeCensoredTXT.txt
-│   │   ├── css/
+│   │   ├── blog//
+│   │   │   └── posts//
+│   │   │       └── 2020//
+│   │   │           └── 01//
+│   │   │               └── 01//
+│   │   │                   └── example-post.html
+│   │   ├── css//
 │   │   │   └── style.css
 │   │   ├── cymatocyst.png
 │   │   ├── favicon.ico
+│   │   ├── fonts//
+│   │   │   ├── Noto-Sans-700//
+│   │   │   │   ├── Noto-Sans-700.eot
+│   │   │   │   ├── Noto-Sans-700.svg
+│   │   │   │   ├── Noto-Sans-700.ttf
+│   │   │   │   ├── Noto-Sans-700.woff
+│   │   │   │   └── Noto-Sans-700.woff2
+│   │   │   ├── Noto-Sans-700italic//
+│   │   │   │   ├── Noto-Sans-700italic.eot
+│   │   │   │   ├── Noto-Sans-700italic.svg
+│   │   │   │   ├── Noto-Sans-700italic.ttf
+│   │   │   │   ├── Noto-Sans-700italic.woff
+│   │   │   │   └── Noto-Sans-700italic.woff2
+│   │   │   ├── Noto-Sans-italic//
+│   │   │   │   ├── Noto-Sans-italic.eot
+│   │   │   │   ├── Noto-Sans-italic.svg
+│   │   │   │   ├── Noto-Sans-italic.ttf
+│   │   │   │   ├── Noto-Sans-italic.woff
+│   │   │   │   └── Noto-Sans-italic.woff2
+│   │   │   └── Noto-Sans-regular//
+│   │   │       ├── Noto-Sans-regular.eot
+│   │   │       ├── Noto-Sans-regular.svg
+│   │   │       ├── Noto-Sans-regular.ttf
+│   │   │       ├── Noto-Sans-regular.woff
+│   │   │       └── Noto-Sans-regular.woff2
 │   │   ├── frac_inf_icon.png
 │   │   ├── icon_1024_yt.png
+│   │   ├── images//
+│   │   │   ├── external-link-ltr-icon.png
+│   │   │   └── external.svg
 │   │   ├── selfie.jpg
 │   │   ├── selfie2.jpg
 │   │   ├── selfie3.jpg
@@ -42,36 +85,68 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   ├── selfie5.png
 │   │   └── world_age2_small.png
 │   ├── cat.html
+│   ├── example-page.html
+│   ├── feed.xml
+│   ├── generate_tree.sh
 │   ├── index.html
 │   ├── jekyll-theme-cayman.gemspec
-│   ├── p5js/
+│   ├── p5js//
 │   │   ├── Halvorsen.js
 │   │   └── p5style.css
-│   ├── pages/
-│   │   └── cayman.html
+│   ├── photo.html
 │   ├── projects.html
+│   ├── redirects.json
 │   ├── resume.html
-│   ├── script/
-│   │   ├── bootstrap
-│   │   ├── cibuild
-│   │   ├── release
-│   │   ├── server
-│   │   └── validate-html
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── sitemap_full.xml
 │   ├── thumbnail.png
-│   ├── world/
-│   │   └── youtube.html
-│   └── world.html
-├── assets/
+│   ├── tree.txt
+│   ├── wiki//
+│   │   └── example-page.md
+│   ├── world.html
+│   └── youtube.html
+├── assets//
+│   ├── 404.html
 │   ├── Halvorsen_vid.mp4
 │   ├── RyanResumeCensoredLatex.txt
 │   ├── RyanResumeCensoredPDF.pdf
 │   ├── RyanResumeCensoredTXT.txt
-│   ├── css/
+│   ├── css//
 │   │   └── style.css
 │   ├── cymatocyst.png
 │   ├── favicon.ico
+│   ├── fonts//
+│   │   ├── Noto-Sans-700//
+│   │   │   ├── Noto-Sans-700.eot
+│   │   │   ├── Noto-Sans-700.svg
+│   │   │   ├── Noto-Sans-700.ttf
+│   │   │   ├── Noto-Sans-700.woff
+│   │   │   └── Noto-Sans-700.woff2
+│   │   ├── Noto-Sans-700italic//
+│   │   │   ├── Noto-Sans-700italic.eot
+│   │   │   ├── Noto-Sans-700italic.svg
+│   │   │   ├── Noto-Sans-700italic.ttf
+│   │   │   ├── Noto-Sans-700italic.woff
+│   │   │   └── Noto-Sans-700italic.woff2
+│   │   ├── Noto-Sans-italic//
+│   │   │   ├── Noto-Sans-italic.eot
+│   │   │   ├── Noto-Sans-italic.svg
+│   │   │   ├── Noto-Sans-italic.ttf
+│   │   │   ├── Noto-Sans-italic.woff
+│   │   │   └── Noto-Sans-italic.woff2
+│   │   └── Noto-Sans-regular//
+│   │       ├── Noto-Sans-regular.eot
+│   │       ├── Noto-Sans-regular.svg
+│   │       ├── Noto-Sans-regular.ttf
+│   │       ├── Noto-Sans-regular.woff
+│   │       └── Noto-Sans-regular.woff2
 │   ├── frac_inf_icon.png
 │   ├── icon_1024_yt.png
+│   ├── images//
+│   │   ├── external-link-ltr-icon.png
+│   │   └── external.svg
+│   ├── js//
 │   ├── selfie.jpg
 │   ├── selfie2.jpg
 │   ├── selfie3.jpg
@@ -80,25 +155,19 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── selfie5.png
 │   └── world_age2_small.png
 ├── generate_tree.sh
-├── generate_tree1.sh
 ├── index.html
 ├── jekyll-theme-cayman.gemspec
-├── p5js/
+├── p5js//
 │   ├── Halvorsen.js
 │   └── p5style.css
-├── pages/
+├── pages//
 │   ├── art.md
 │   ├── cat.md
-│   ├── cayman.html
 │   ├── projects.md
 │   ├── resume.md
 │   ├── world.md
 │   └── youtube.md
-├── script/
-│   ├── bootstrap
-│   ├── cibuild
-│   ├── release
-│   ├── server
-│   └── validate-html
 ├── thumbnail.png
-└── tree.txt
+├── tree.txt
+└── wiki//
+    └── example-page.md
