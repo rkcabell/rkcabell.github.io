@@ -1,11 +1,25 @@
-<nav class="main-nav">
-  <a href="/index.html">Home</a>
-  <a href="/resume.html">Resume</a>
-  <a href="/projects.html">Projects</a>
-  <a href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer">Github</a>
-  <a href="/cat.html">Cat</a>
-  <a href="/art.html">Art</a>
-  <a href="/world.html">Worldbuilding</a>
-  <a href="https://www.youtube.com/@fracturedinfinities" class="grid-item" title="Youtube channel"
-                    target="_blank" rel="noopener noreferrer">Youtube</a>
+<!-- <link rel="stylesheet" href="/assets/css/style.css?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c"> -->
+<!-- <nav >
+  <a class="btn" href="index.html" title="resume">Home</a>
+  <a class="btn" href="resume.html" title="resume">Resume</a>
+  <a class="btn" href="projects.html" title="personal projects">Projects</a>
+  <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
+    title="github UwU">GitHub</a>
+  <a class="btn" href="/cat.html" title="cat pics :3">Cat</a>
+  <a class="btn" href="/art.html" title="artwork">Art</a>
+  <a class="btn" href="/world.html" title="worldbuilding">Worldbuilding</a>
+  <a class="btn" href="https://www.youtube.com/@fracturedinfinities" title="youtube channel xD" target="_blank"
+    rel="noopener noreferrer">Youtube</a>
+</nav> -->
+
+
+<nav>
+  <a class="btn" href="index.html" title="Home">Home</a>
+
+  {% assign sorted_pages = site.pages | where: "categories", "root" | sort: "order" %}
+
+  {% for item in sorted_pages %}
+  {% if item.permalink != page.permalink %}
+  <a class="btn" href="{{ item.permalink }}">{{ item.moniker | default: item.title }}</a> {% endif %}
+  {% endfor %}
 </nav>

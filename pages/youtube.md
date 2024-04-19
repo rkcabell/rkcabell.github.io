@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Fractured Infinities
+moniker: Youtube
 description: Welcome to my Youtube Channel
-permalink: /world/youtube
+permalink: /youtube
+categories: [world]
 ---
 # Dianthos youtube series
 

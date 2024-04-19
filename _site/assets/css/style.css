@@ -838,6 +838,8 @@ a:hover {
   text-decoration: underline;
 }
 
+
+
 .btn {
   display: inline-block;
   /* margin-bottom: 1rem; */
@@ -852,6 +854,20 @@ a:hover {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+.solo-btn-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.solo-btn {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);

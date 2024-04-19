@@ -1,0 +1,104 @@
+Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.io:
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── _config.yml
+├── _data/
+│   └── navigation.yml
+├── _includes/
+│   ├── head-custom-google-analytics.html
+│   ├── head-custom.html
+│   └── navigation.html
+├── _layouts/
+│   ├── default.html
+│   └── resume_layout.html
+├── _sass/
+│   ├── cayman.scss
+│   ├── jekyll-theme-cayman.scss
+│   ├── normalize.scss
+│   ├── rouge-github.scss
+│   └── variables.scss
+├── _site/
+│   ├── LICENSE
+│   ├── README.md
+│   ├── art.html
+│   ├── assets/
+│   │   ├── Halvorsen_vid.mp4
+│   │   ├── RyanResumeCensoredLatex.txt
+│   │   ├── RyanResumeCensoredPDF.pdf
+│   │   ├── RyanResumeCensoredTXT.txt
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── cymatocyst.png
+│   │   ├── favicon.ico
+│   │   ├── frac_inf_icon.png
+│   │   ├── icon_1024_yt.png
+│   │   ├── selfie.jpg
+│   │   ├── selfie2.jpg
+│   │   ├── selfie3.jpg
+│   │   ├── selfie3_edited.png
+│   │   ├── selfie4.jpg
+│   │   ├── selfie5.png
+│   │   └── world_age2_small.png
+│   ├── cat.html
+│   ├── index.html
+│   ├── jekyll-theme-cayman.gemspec
+│   ├── p5js/
+│   │   ├── Halvorsen.js
+│   │   └── p5style.css
+│   ├── pages/
+│   │   └── cayman.html
+│   ├── projects.html
+│   ├── resume.html
+│   ├── script/
+│   │   ├── bootstrap
+│   │   ├── cibuild
+│   │   ├── release
+│   │   ├── server
+│   │   └── validate-html
+│   ├── thumbnail.png
+│   ├── world/
+│   │   └── youtube.html
+│   └── world.html
+├── assets/
+│   ├── Halvorsen_vid.mp4
+│   ├── RyanResumeCensoredLatex.txt
+│   ├── RyanResumeCensoredPDF.pdf
+│   ├── RyanResumeCensoredTXT.txt
+│   ├── css/
+│   │   └── style.css
+│   ├── cymatocyst.png
+│   ├── favicon.ico
+│   ├── frac_inf_icon.png
+│   ├── icon_1024_yt.png
+│   ├── selfie.jpg
+│   ├── selfie2.jpg
+│   ├── selfie3.jpg
+│   ├── selfie3_edited.png
+│   ├── selfie4.jpg
+│   ├── selfie5.png
+│   └── world_age2_small.png
+├── generate_tree.sh
+├── generate_tree1.sh
+├── index.html
+├── jekyll-theme-cayman.gemspec
+├── p5js/
+│   ├── Halvorsen.js
+│   └── p5style.css
+├── pages/
+│   ├── art.md
+│   ├── cat.md
+│   ├── cayman.html
+│   ├── projects.md
+│   ├── resume.md
+│   ├── world.md
+│   └── youtube.md
+├── script/
+│   ├── bootstrap
+│   ├── cibuild
+│   ├── release
+│   ├── server
+│   └── validate-html
+├── thumbnail.png
+└── tree.txt

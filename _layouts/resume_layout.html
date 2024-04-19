@@ -15,24 +15,30 @@
   {% include head-custom.html %}
 </head>
 
-<body>
-  <a id="skip-to-content" href="#content">Skip to the content.</a>
+<body id="default-bkg">
 
   <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+      }}</h2>
+
+
     {% if site.show_downloads %}
     <a href="/assets/RyanResumeCensoredPDF.pdf" class="btn" download>Download pdf</a>
     <a href="/assets/RyanResumeCensoredLatex.txt" class="btn" download>Download LaTeX</a>
     <a href="/assets/RyanResumeCensoredTXT.txt" class="btn" download>Download txt</a>
     {% endif %}
+    <div class="solo-btn-wrapper">
+      {% include navigation.html %}
+  </div>
   </header>
 
   <main id="content" class="main-content" role="main">
-    {% include navigation.html %}
+
     {{ content }}
     <!-- Embed PDF -->
-    <iframe class="pdf-viewer" src="{{ page.pdf_url | default: '/assets/RyanResumeCensoredPDF.pdf' }}" title="PDF Document Viewer" ></iframe>
+    <iframe class="pdf-viewer" src="{{ page.pdf_url | default: '/assets/RyanResumeCensoredPDF.pdf' }}"
+      title="PDF Document Viewer"></iframe>
     <!-- End Embed PDF -->
 
     <footer class="site-footer">
