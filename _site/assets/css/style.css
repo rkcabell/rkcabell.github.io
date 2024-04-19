@@ -55,9 +55,20 @@ body {
   margin: 0;
 }
 
+#error-bkg {
+  background-color: #bb4d4d;
+}
+
 #default-bkg {
   background-color: #3e3e42;
+  color: white;
 }
+
+#txt-bkg {
+  background-color: #2e2e31;
+  color: white;
+}
+
 
 #home-page-bkg {
   /* wave warm */
@@ -103,7 +114,6 @@ summary {
   * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
   */
 audio,
-canvas,
 progress,
 video {
   display: inline-block;
@@ -1376,6 +1386,24 @@ a:hover {
   /* overflow: hidden; */
 }
 
+.button-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.slider-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.slider-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.project-container {
+  display: flex;
+}
 
 .main-content {
   /* background-color: #0086B3; */
@@ -1556,32 +1584,133 @@ a:hover {
   color: rgb(88, 88, 197);
 }
 
-.main-nav a:nth-child(1) {
-  border-left: 8px solid #000000;
-  background-color: #95d094;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
 }
 
-/* Home */
-.main-nav a:nth-child(2) {
-  background-color: #5d90b8;
+.project-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* About Me */
-.main-nav a:nth-child(3) {
-  background-color: #8767a3;
+.project-item img {
+  width: 100%;
+  height: auto;
 }
 
-/* Cat */
-.main-nav a:nth-child(4) {
-  background-color: #cfb15f;
+
+
+
+.slider {
+  width: 50%;
+  margin: 10px auto;
+  display: block;
 }
 
-/* Art */
-.main-nav a:nth-child(5) {
-  background-color: #b87ca0;
+#a-value {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4CAF50;
+  font-weight: bold;
 }
 
-/* Worldbuilding */
+
+.control-btn {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.control-btn:hover {
+  background-color: #45a049;
+}
+
+/* .center-hwise canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar {
+  width: 250px;
+  /* Set the width of the sidebar */
+  height: 100vh;
+  /* Full height */
+  position: sticky;
+  /* Fixed sidebar (it will stay in place as you scroll) */
+  left: 0;
+  /* Align to the left side of the page */
+  top: 0;
+  /* Align to the top of the viewport */
+  background-color: #333;
+  /* Dark background for the sidebar */
+  overflow-x: hidden;
+  /* Prevent horizontal scroll */
+  /* padding-top: 20px; */
+  /* Spacing from the top */
+}
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0px;
+}
+
+.sidebar li {
+  
+  border-bottom: 1px solid #ccc;
+}
+
+
+.sidebar a {
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  /* Light grey on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    /* Full width on small screens */
+    height: auto;
+    position: relative;
+    /* Change position for mobile */
+  }
+
+  .sidebar a {
+    float: left;
+    padding: 10px;
+  }
+}
 
 
 .site-footer-owner {

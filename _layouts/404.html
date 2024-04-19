@@ -1,22 +1,39 @@
----
-title: Not Found
-permalink: /404.html
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
 
-<!-- redirect to page creator if not exists 
-{% if site.disable_edit != true %}
-<script type="text/javascript">
-    var filename = window.location.pathname.split('/').pop();
-    if (!filename.endsWith(".md"))
-        filename+=".md";
+<head>
+    <meta charset="UTF-8">
 
-    var url = '{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: 'wiki' }}/'+filename;
-    window.location=url;
-</script>
-{% else %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
 
-Page Not Found
+    <title>{{ page.title }}</title>
 
-{% endif %}-->
+</head>
 
-Page Not Found
+<body id="error-bkg">
+    <header class="page-header" role="banner">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default:
+            site.github.project_tagline
+            }}</h2>
+        <!-- <a href="/index.html" class="btn">Home</a> -->
+        {% include navigation.html %}
+    </header>
+    <main id="content" class="main-content" role="main">
+
+        {{ content | markdownify}}
+
+    </main>
+    <footer class="site-footer">
+        {% if site.github.is_project_page %}
+        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>
+            is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+    </footer>
+</body>
+
+</html>

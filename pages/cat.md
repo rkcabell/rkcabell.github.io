@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cat
-description: Pictures of my cat Pico De Gallo
+description: Pictures of my cat Pico
 moniker: Cat
 permalink: /cat
 categories: [root, gallery]

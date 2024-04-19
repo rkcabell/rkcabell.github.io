@@ -1,0 +1,14 @@
+- name: Vector Fields
+  description: My first project was to create a vector field in Python. The goal was simple, to generate particles to swirl according to a vector field.
+  image: /assets/images/vector_field.png
+  link: /projects/vector_field
+
+- name: Halvorsen Attractor
+  description: Attractors are dynamical systems which show a set of states that tend to evolve to repeat a certain pattern. They display chaotic behavior that is highly sensitive to initial conditions. Although deterministic, two points with ever so slightly different starting positions or velocities may follow very different paths.
+  image: /assets/images/halvorsen.png
+  link: /projects/halvorsen.html
+
+- name: Project Three
+  description: Description of project three.
+  image: /path/to/image2.jpg
+  link: /projects/project-two

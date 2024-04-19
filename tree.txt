@@ -5,7 +5,8 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── README.md
 ├── _config.yml
 ├── _data//
-│   └── navigation.yml
+│   ├── navigation.yml
+│   └── projects.yml
 ├── _includes//
 │   ├── head-custom-google-analytics.html
 │   ├── head-custom.html
@@ -15,6 +16,7 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── 404.html
 │   ├── default.html
 │   ├── post.html
+│   ├── project_layout.html
 │   └── resume_layout.html
 ├── _posts//
 │   ├── 2020-01-01-example-post.md
@@ -28,24 +30,20 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── variables.scss
 │   └── w3.scss
 ├── _site//
+│   ├── 2020//
+│   │   └── 01//
+│   │       └── 01//
+│   │           └── example-post.html
 │   ├── 404.html
 │   ├── LICENSE
 │   ├── README.md
 │   ├── art.html
 │   ├── assets//
-│   │   ├── Halvorsen_vid.mp4
 │   │   ├── RyanResumeCensoredLatex.txt
 │   │   ├── RyanResumeCensoredPDF.pdf
 │   │   ├── RyanResumeCensoredTXT.txt
-│   │   ├── blog//
-│   │   │   └── posts//
-│   │   │       └── 2020//
-│   │   │           └── 01//
-│   │   │               └── 01//
-│   │   │                   └── example-post.html
 │   │   ├── css//
 │   │   │   └── style.css
-│   │   ├── cymatocyst.png
 │   │   ├── favicon.ico
 │   │   ├── fonts//
 │   │   │   ├── Noto-Sans-700//
@@ -72,34 +70,36 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │       ├── Noto-Sans-regular.ttf
 │   │   │       ├── Noto-Sans-regular.woff
 │   │   │       └── Noto-Sans-regular.woff2
-│   │   ├── frac_inf_icon.png
-│   │   ├── icon_1024_yt.png
 │   │   ├── images//
+│   │   │   ├── cymatocyst.png
 │   │   │   ├── external-link-ltr-icon.png
-│   │   │   └── external.svg
-│   │   ├── selfie.jpg
-│   │   ├── selfie2.jpg
-│   │   ├── selfie3.jpg
-│   │   ├── selfie3_edited.png
-│   │   ├── selfie4.jpg
-│   │   ├── selfie5.png
-│   │   └── world_age2_small.png
+│   │   │   ├── external.svg
+│   │   │   ├── frac_inf_icon.png
+│   │   │   ├── halvorsen.png
+│   │   │   ├── icon_1024_yt.png
+│   │   │   ├── selfie.jpg
+│   │   │   ├── selfie2.jpg
+│   │   │   ├── selfie3.jpg
+│   │   │   ├── selfie3_edited.png
+│   │   │   ├── selfie4.jpg
+│   │   │   ├── selfie5.png
+│   │   │   ├── vector_field.png
+│   │   │   └── world_age2_small.png
+│   │   ├── js//
+│   │   │   ├── halvorsen.js
+│   │   │   ├── p5.js
+│   │   │   └── p5.min.js
+│   │   └── videos//
+│   │       └── halvorsen_vid.mp4
 │   ├── cat.html
-│   ├── example-page.html
-│   ├── feed.xml
-│   ├── generate_tree.sh
 │   ├── index.html
 │   ├── jekyll-theme-cayman.gemspec
-│   ├── p5js//
-│   │   ├── Halvorsen.js
-│   │   └── p5style.css
 │   ├── photo.html
+│   ├── projects//
+│   │   ├── halvorsen.html
+│   │   └── vector_field.html
 │   ├── projects.html
-│   ├── redirects.json
 │   ├── resume.html
-│   ├── robots.txt
-│   ├── sitemap.xml
-│   ├── sitemap_full.xml
 │   ├── thumbnail.png
 │   ├── tree.txt
 │   ├── wiki//
@@ -107,14 +107,11 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── world.html
 │   └── youtube.html
 ├── assets//
-│   ├── 404.html
-│   ├── Halvorsen_vid.mp4
 │   ├── RyanResumeCensoredLatex.txt
 │   ├── RyanResumeCensoredPDF.pdf
 │   ├── RyanResumeCensoredTXT.txt
 │   ├── css//
 │   │   └── style.css
-│   ├── cymatocyst.png
 │   ├── favicon.ico
 │   ├── fonts//
 │   │   ├── Noto-Sans-700//
@@ -141,32 +138,40 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │       ├── Noto-Sans-regular.ttf
 │   │       ├── Noto-Sans-regular.woff
 │   │       └── Noto-Sans-regular.woff2
-│   ├── frac_inf_icon.png
-│   ├── icon_1024_yt.png
 │   ├── images//
+│   │   ├── cymatocyst.png
 │   │   ├── external-link-ltr-icon.png
-│   │   └── external.svg
+│   │   ├── external.svg
+│   │   ├── frac_inf_icon.png
+│   │   ├── halvorsen.png
+│   │   ├── icon_1024_yt.png
+│   │   ├── selfie.jpg
+│   │   ├── selfie2.jpg
+│   │   ├── selfie3.jpg
+│   │   ├── selfie3_edited.png
+│   │   ├── selfie4.jpg
+│   │   ├── selfie5.png
+│   │   ├── vector_field.png
+│   │   └── world_age2_small.png
 │   ├── js//
-│   ├── selfie.jpg
-│   ├── selfie2.jpg
-│   ├── selfie3.jpg
-│   ├── selfie3_edited.png
-│   ├── selfie4.jpg
-│   ├── selfie5.png
-│   └── world_age2_small.png
-├── generate_tree.sh
+│   │   ├── halvorsen.js
+│   │   ├── p5.js
+│   │   └── p5.min.js
+│   └── videos//
+│       └── halvorsen_vid.mp4
 ├── index.html
 ├── jekyll-theme-cayman.gemspec
-├── p5js//
-│   ├── Halvorsen.js
-│   └── p5style.css
 ├── pages//
+│   ├── 404.md
 │   ├── art.md
 │   ├── cat.md
 │   ├── projects.md
 │   ├── resume.md
 │   ├── world.md
 │   └── youtube.md
+├── projects//
+│   ├── halvorsen.md
+│   └── vector_field.md
 ├── thumbnail.png
 ├── tree.txt
 └── wiki//
