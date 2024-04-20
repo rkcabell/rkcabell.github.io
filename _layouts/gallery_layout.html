@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+    <meta charset="UTF-8">
+
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+        type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo-style.css">
+
+    {% include head-custom.html %}
+</head>
+
+<body id="default-bkg">
+
+    <header class="page-header" role="banner">
+        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ page.description | default: site.description | default:
+            site.github.project_tagline
+            }}</h2>
+        {% include navigation.html %}
+    </header>
+
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-6 tm-text-primary">
+                {{page.heading}}
+            </h2>
+        </div>
+        <div class="row tm-mb-90 tm-gallery" id="gallery">
+            <!-- Using jekyll categories -->
+            {% if page.gallery %}
+            {% assign gallery_items = site.data[page.gallery] %}
+            {% for item in gallery_items %}
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="{{ item.imgSrc }}" alt="{{ item.title }}" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>{{ item.title }}</h2>
+                        <a href="{{ item.link }}">View more</a>
+                    </figcaption>
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light">{{ item.date }}</span>
+                    <span>{{ item.views }} views</span>
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <p>No gallery data found.</p>
+            {% endif %}
+        </div>
+
+        <div class="row tm-mb-90">
+            <div class="col-12 d-flex justify-content-center align-items-center tm-paging-col">
+                <div class="tm-paging d-flex">
+                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">2</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">3</a>
+                    <a href="javascript:void(0);" class="tm-paging-link">4</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- container-fluid, tm-container-content -->
+
+    <!-- <script src="/assets/js/gallery_populate.js"></script> -->
+
+
+</body>
+
+</html>
