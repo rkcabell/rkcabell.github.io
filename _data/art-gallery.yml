@@ -1,91 +1,91 @@
 
 - title: "Art01"
-  imgSrc: "assets/images/art_img/art1.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art1.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art1.png"
-            
+                
 - title: "Art02"
-  imgSrc: "assets/images/art_img/art2.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art2.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art2.png"
-            
+                
 - title: "Art03"
-  imgSrc: "assets/images/art_img/art3.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art3.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art3.png"
-            
+                
 - title: "Art04"
-  imgSrc: "assets/images/art_img/art4.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art4.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art4.png"
-            
+                
 - title: "Art05"
-  imgSrc: "assets/images/art_img/art5.png"
-  date: "20 Aug 2023"
+  imgSrc: "/assets/images/thumbnails/art5.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art5.png"
-            
+                
 - title: "Art06"
-  imgSrc: "assets/images/art_img/art6.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art6.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art6.png"
-            
+                
 - title: "Art07"
-  imgSrc: "assets/images/art_img/art7.png"
-  date: "20 Apr 2024"
+  imgSrc: "/assets/images/thumbnails/art7.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art7.png"
-            
+                
 - title: "Art08"
-  imgSrc: "assets/images/art_img/art8.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art8.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art8.png"
-            
+                
 - title: "Art09"
-  imgSrc: "assets/images/art_img/art9.png"
-  date: "10 Mar 2023"
+  imgSrc: "/assets/images/thumbnails/art9.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art9.png"
-            
+                
 - title: "Art10"
-  imgSrc: "assets/images/art_img/art10.png"
-  date: "9 Mar 2024"
+  imgSrc: "/assets/images/thumbnails/art10.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art10.png"
-            
+                
 - title: "Art11"
-  imgSrc: "assets/images/art_img/art11.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art11.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art11.png"
-            
+                
 - title: "Art12"
-  imgSrc: "assets/images/art_img/art12.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art12.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art12.png"
-            
+                
 - title: "Art13"
-  imgSrc: "assets/images/art_img/art13.png"
-  date: "16 Aug 2023"
-  link: "photo-detail.html?v=art13.png"
-            
+  imgSrc: "/assets/images/thumbnails/art13.PNG"
+  date: "21 Apr 2024"
+  link: "photo-detail.html?v=art13.PNG"
+                
 - title: "Art14"
-  imgSrc: "assets/images/art_img/art14.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art14.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art14.png"
-            
+                
 - title: "Art15"
-  imgSrc: "assets/images/art_img/art15.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art15.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art15.png"
-            
+                
 - title: "Art16"
-  imgSrc: "assets/images/art_img/art16.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art16.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art16.png"
-            
+                
 - title: "Art17"
-  imgSrc: "assets/images/art_img/art17.png"
-  date: "6 Feb 2023"
+  imgSrc: "/assets/images/thumbnails/art17.png"
+  date: "21 Apr 2024"
   link: "photo-detail.html?v=art17.png"
-            
+                
 - title: "Art18"
-  imgSrc: "assets/images/art_img/art18.JPG"
-  date: "20 Jul 2020"
-  link: "photo-detail.html?v=art18.JPG"
-            
+  imgSrc: "/assets/images/thumbnails/art18.jpg"
+  date: "22 Apr 2024"
+  link: "photo-detail.html?v=art18.jpg"
+                

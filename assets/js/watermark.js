@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
           "url('assets/images/watermark.png')"
         watermarkDiv.style.backgroundRepeat = 'no-repeat'
         watermarkDiv.style.backgroundSize = '20%'
-        watermarkDiv.style.opacity = '1'
-        watermarkDiv.style.pointerEvents = 'none' // Prevent watermark from interfering with image interaction
-        watermarkDiv.style.zIndex = '1000' // Ensure it is on top
+        // watermarkDiv.style.opacity = '1'
+        // watermarkDiv.style.pointerEvents = 'none' // Prevent watermark from interfering with image interaction
+        // watermarkDiv.style.zIndex = '1000' // Ensure it is on top
         container.appendChild(watermarkDiv)
         container.classList.add('watermarked-applied') // Mark it as watermarked
       }
     })
-  }, 500) // Adjust this delay based on when other scripts finish manipulating the DOM
+  }, 0)
 })
