@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var pagingContainer = document.querySelector('.tm-paging')
+  // var buttonSet = document.querySelectorAll('.tm-paging')
+  var pagingContainers = document.querySelectorAll('.tm-paging')
   var itemsPerPageSelect = document.getElementById('itemsPerPage')
   var allGalleryItems = document.querySelectorAll('.tm-video-item')
 
-  function setupPagination (totalItems, itemsPerPage) {
+  function setupPagination (totalItems, itemsPerPage, pagingContainer) {
     const numberOfPages = Math.ceil(totalItems / itemsPerPage)
     pagingContainer.innerHTML = '' // Clear existing pagination links
 
@@ -35,11 +36,15 @@ document.addEventListener('DOMContentLoaded', function () {
         index >= startIndex && index < endIndex ? 'block' : 'none'
     })
 
-    document.querySelectorAll('.tm-paging-link').forEach((link, index) => {
-      link.classList.remove('active')
-      if (index === pageNumber) {
-        link.classList.add('active')
-      }
+    document.querySelectorAll('.tm-paging').forEach(pagingContainer => {
+      pagingContainer
+        .querySelectorAll('.tm-paging-link')
+        .forEach((link, index) => {
+          link.classList.remove('active')
+          if (index === pageNumber) {
+            link.classList.add('active')
+          }
+        })
     })
   }
 
@@ -49,8 +54,11 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 
   // Initialize pagination with the selected number of items per page
-  setupPagination(
-    allGalleryItems.length,
-    parseInt(itemsPerPageSelect.value, 10)
-  )
+  pagingContainers.forEach(pagingContainer => {
+    setupPagination(
+      allGalleryItems.length,
+      parseInt(itemsPerPageSelect.value, 10),
+      pagingContainer
+    )
+  })
 })
