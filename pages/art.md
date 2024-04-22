@@ -8,6 +8,7 @@ categories: [root, gallery, protected]
 heading: 'Browse my sketches, clay works, and others'
 gallery: art-gallery
 order: 3
+tags: sketch, pen, colored pencil, pastel, watercolor, clay, wood, metal, canvas, paper, linocut, metal, origami, sculpture, doodle
 incremental: true
 protected: true
 ---

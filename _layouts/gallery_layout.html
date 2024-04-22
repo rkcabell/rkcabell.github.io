@@ -74,7 +74,9 @@
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
                         <span class="tm-text-gray-light">{{ item.date }}</span>
-                        <span>tag: {{ item.tag }}</span>
+                        {% if page.tags %}
+                            <span>tag: {{ item.tag }}</span>
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}

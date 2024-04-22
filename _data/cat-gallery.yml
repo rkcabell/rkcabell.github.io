@@ -1,8 +1,8 @@
 
 - title: "Cat01"
-  imgSrc: "/assets/images/thumbnails/cat1.png"
+  imgSrc: "/assets/images/thumbnails/cat1.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat1.png"
+  link: "photo-detail.html?v=cat1.jpg"
                 
 - title: "Cat02"
   imgSrc: "/assets/images/thumbnails/cat2.png"
@@ -15,9 +15,9 @@
   link: "photo-detail.html?v=cat3.png"
                 
 - title: "Cat04"
-  imgSrc: "/assets/images/thumbnails/cat4.png"
+  imgSrc: "/assets/images/thumbnails/cat4.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat4.png"
+  link: "photo-detail.html?v=cat4.jpg"
                 
 - title: "Cat05"
   imgSrc: "/assets/images/thumbnails/cat5.png"
@@ -25,9 +25,9 @@
   link: "photo-detail.html?v=cat5.png"
                 
 - title: "Cat06"
-  imgSrc: "/assets/images/thumbnails/cat6.jpg"
+  imgSrc: "/assets/images/thumbnails/cat6.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat6.jpg"
+  link: "photo-detail.html?v=cat6.png"
                 
 - title: "Cat07"
   imgSrc: "/assets/images/thumbnails/cat7.png"
@@ -35,9 +35,9 @@
   link: "photo-detail.html?v=cat7.png"
                 
 - title: "Cat08"
-  imgSrc: "/assets/images/thumbnails/cat8.png"
+  imgSrc: "/assets/images/thumbnails/cat8.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat8.png"
+  link: "photo-detail.html?v=cat8.jpg"
                 
 - title: "Cat09"
   imgSrc: "/assets/images/thumbnails/cat9.png"
@@ -45,19 +45,19 @@
   link: "photo-detail.html?v=cat9.png"
                 
 - title: "Cat10"
-  imgSrc: "/assets/images/thumbnails/cat10.jpg"
+  imgSrc: "/assets/images/thumbnails/cat10.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat10.jpg"
+  link: "photo-detail.html?v=cat10.png"
                 
 - title: "Cat11"
-  imgSrc: "/assets/images/thumbnails/cat11.jpg"
+  imgSrc: "/assets/images/thumbnails/cat11.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat11.jpg"
+  link: "photo-detail.html?v=cat11.png"
                 
 - title: "Cat12"
-  imgSrc: "/assets/images/thumbnails/cat12.jpg"
+  imgSrc: "/assets/images/thumbnails/cat12.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat12.jpg"
+  link: "photo-detail.html?v=cat12.png"
                 
 - title: "Cat13"
   imgSrc: "/assets/images/thumbnails/cat13.png"
@@ -65,9 +65,9 @@
   link: "photo-detail.html?v=cat13.png"
                 
 - title: "Cat14"
-  imgSrc: "/assets/images/thumbnails/cat14.jpg"
+  imgSrc: "/assets/images/thumbnails/cat14.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat14.jpg"
+  link: "photo-detail.html?v=cat14.png"
                 
 - title: "Cat15"
   imgSrc: "/assets/images/thumbnails/cat15.png"
@@ -75,9 +75,9 @@
   link: "photo-detail.html?v=cat15.png"
                 
 - title: "Cat16"
-  imgSrc: "/assets/images/thumbnails/cat16.png"
+  imgSrc: "/assets/images/thumbnails/cat16.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat16.png"
+  link: "photo-detail.html?v=cat16.jpg"
                 
 - title: "Cat17"
   imgSrc: "/assets/images/thumbnails/cat17.png"
@@ -100,9 +100,9 @@
   link: "photo-detail.html?v=cat20.png"
                 
 - title: "Cat21"
-  imgSrc: "/assets/images/thumbnails/cat21.png"
+  imgSrc: "/assets/images/thumbnails/cat21.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat21.png"
+  link: "photo-detail.html?v=cat21.jpg"
                 
 - title: "Cat22"
   imgSrc: "/assets/images/thumbnails/cat22.png"
@@ -110,14 +110,14 @@
   link: "photo-detail.html?v=cat22.png"
                 
 - title: "Cat23"
-  imgSrc: "/assets/images/thumbnails/cat23.png"
+  imgSrc: "/assets/images/thumbnails/cat23.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat23.png"
+  link: "photo-detail.html?v=cat23.jpg"
                 
 - title: "Cat24"
-  imgSrc: "/assets/images/thumbnails/cat24.png"
+  imgSrc: "/assets/images/thumbnails/cat24.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat24.png"
+  link: "photo-detail.html?v=cat24.jpg"
                 
 - title: "Cat25"
   imgSrc: "/assets/images/thumbnails/cat25.png"
@@ -125,9 +125,9 @@
   link: "photo-detail.html?v=cat25.png"
                 
 - title: "Cat26"
-  imgSrc: "/assets/images/thumbnails/cat26.jpg"
+  imgSrc: "/assets/images/thumbnails/cat26.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat26.jpg"
+  link: "photo-detail.html?v=cat26.png"
                 
 - title: "Cat27"
   imgSrc: "/assets/images/thumbnails/cat27.jpg"
@@ -145,9 +145,9 @@
   link: "photo-detail.html?v=cat29.png"
                 
 - title: "Cat30"
-  imgSrc: "/assets/images/thumbnails/cat30.png"
+  imgSrc: "/assets/images/thumbnails/cat30.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat30.png"
+  link: "photo-detail.html?v=cat30.jpg"
                 
 - title: "Cat31"
   imgSrc: "/assets/images/thumbnails/cat31.png"
@@ -155,9 +155,9 @@
   link: "photo-detail.html?v=cat31.png"
                 
 - title: "Cat32"
-  imgSrc: "/assets/images/thumbnails/cat32.jpg"
+  imgSrc: "/assets/images/thumbnails/cat32.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat32.jpg"
+  link: "photo-detail.html?v=cat32.png"
                 
 - title: "Cat33"
   imgSrc: "/assets/images/thumbnails/cat33.png"
@@ -165,9 +165,9 @@
   link: "photo-detail.html?v=cat33.png"
                 
 - title: "Cat34"
-  imgSrc: "/assets/images/thumbnails/cat34.jpg"
+  imgSrc: "/assets/images/thumbnails/cat34.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat34.jpg"
+  link: "photo-detail.html?v=cat34.png"
                 
 - title: "Cat35"
   imgSrc: "/assets/images/thumbnails/cat35.jpg"
@@ -180,9 +180,9 @@
   link: "photo-detail.html?v=cat36.png"
                 
 - title: "Cat37"
-  imgSrc: "/assets/images/thumbnails/cat37.jpg"
+  imgSrc: "/assets/images/thumbnails/cat37.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat37.jpg"
+  link: "photo-detail.html?v=cat37.png"
                 
 - title: "Cat38"
   imgSrc: "/assets/images/thumbnails/cat38.png"
@@ -190,9 +190,9 @@
   link: "photo-detail.html?v=cat38.png"
                 
 - title: "Cat39"
-  imgSrc: "/assets/images/thumbnails/cat39.png"
+  imgSrc: "/assets/images/thumbnails/cat39.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat39.png"
+  link: "photo-detail.html?v=cat39.jpg"
                 
 - title: "Cat40"
   imgSrc: "/assets/images/thumbnails/cat40.png"
@@ -205,14 +205,14 @@
   link: "photo-detail.html?v=cat41.jpg"
                 
 - title: "Cat42"
-  imgSrc: "/assets/images/thumbnails/cat42.png"
+  imgSrc: "/assets/images/thumbnails/cat42.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat42.png"
+  link: "photo-detail.html?v=cat42.jpg"
                 
 - title: "Cat43"
-  imgSrc: "/assets/images/thumbnails/cat43.png"
+  imgSrc: "/assets/images/thumbnails/cat43.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat43.png"
+  link: "photo-detail.html?v=cat43.jpg"
                 
 - title: "Cat44"
   imgSrc: "/assets/images/thumbnails/cat44.png"
@@ -225,19 +225,19 @@
   link: "photo-detail.html?v=cat45.jpg"
                 
 - title: "Cat46"
-  imgSrc: "/assets/images/thumbnails/cat46.jpg"
+  imgSrc: "/assets/images/thumbnails/cat46.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat46.jpg"
+  link: "photo-detail.html?v=cat46.png"
                 
 - title: "Cat47"
-  imgSrc: "/assets/images/thumbnails/cat47.jpg"
+  imgSrc: "/assets/images/thumbnails/cat47.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat47.jpg"
+  link: "photo-detail.html?v=cat47.png"
                 
 - title: "Cat48"
-  imgSrc: "/assets/images/thumbnails/cat48.jpg"
+  imgSrc: "/assets/images/thumbnails/cat48.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat48.jpg"
+  link: "photo-detail.html?v=cat48.png"
                 
 - title: "Cat49"
   imgSrc: "/assets/images/thumbnails/cat49.png"
@@ -265,19 +265,19 @@
   link: "photo-detail.html?v=cat53.png"
                 
 - title: "Cat54"
-  imgSrc: "/assets/images/thumbnails/cat54.png"
+  imgSrc: "/assets/images/thumbnails/cat54.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat54.png"
+  link: "photo-detail.html?v=cat54.jpg"
                 
 - title: "Cat55"
-  imgSrc: "/assets/images/thumbnails/cat55.png"
+  imgSrc: "/assets/images/thumbnails/cat55.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat55.png"
+  link: "photo-detail.html?v=cat55.jpg"
                 
 - title: "Cat56"
-  imgSrc: "/assets/images/thumbnails/cat56.jpg"
+  imgSrc: "/assets/images/thumbnails/cat56.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat56.jpg"
+  link: "photo-detail.html?v=cat56.png"
                 
 - title: "Cat57"
   imgSrc: "/assets/images/thumbnails/cat57.jpg"
@@ -290,14 +290,14 @@
   link: "photo-detail.html?v=cat58.png"
                 
 - title: "Cat59"
-  imgSrc: "/assets/images/thumbnails/cat59.jpg"
+  imgSrc: "/assets/images/thumbnails/cat59.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat59.jpg"
+  link: "photo-detail.html?v=cat59.png"
                 
 - title: "Cat60"
-  imgSrc: "/assets/images/thumbnails/cat60.png"
+  imgSrc: "/assets/images/thumbnails/cat60.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat60.png"
+  link: "photo-detail.html?v=cat60.jpg"
                 
 - title: "Cat61"
   imgSrc: "/assets/images/thumbnails/cat61.png"
@@ -330,9 +330,9 @@
   link: "photo-detail.html?v=cat66.png"
                 
 - title: "Cat67"
-  imgSrc: "/assets/images/thumbnails/cat67.png"
+  imgSrc: "/assets/images/thumbnails/cat67.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat67.png"
+  link: "photo-detail.html?v=cat67.jpg"
                 
 - title: "Cat68"
   imgSrc: "/assets/images/thumbnails/cat68.jpg"
@@ -345,29 +345,29 @@
   link: "photo-detail.html?v=cat69.png"
                 
 - title: "Cat70"
-  imgSrc: "/assets/images/thumbnails/cat70.png"
+  imgSrc: "/assets/images/thumbnails/cat70.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat70.png"
+  link: "photo-detail.html?v=cat70.jpg"
                 
 - title: "Cat71"
-  imgSrc: "/assets/images/thumbnails/cat71.jpg"
+  imgSrc: "/assets/images/thumbnails/cat71.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat71.jpg"
+  link: "photo-detail.html?v=cat71.png"
                 
 - title: "Cat72"
-  imgSrc: "/assets/images/thumbnails/cat72.jpg"
+  imgSrc: "/assets/images/thumbnails/cat72.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat72.jpg"
+  link: "photo-detail.html?v=cat72.png"
                 
 - title: "Cat73"
-  imgSrc: "/assets/images/thumbnails/cat73.png"
+  imgSrc: "/assets/images/thumbnails/cat73.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat73.png"
+  link: "photo-detail.html?v=cat73.jpg"
                 
 - title: "Cat74"
-  imgSrc: "/assets/images/thumbnails/cat74.jpg"
+  imgSrc: "/assets/images/thumbnails/cat74.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat74.jpg"
+  link: "photo-detail.html?v=cat74.png"
                 
 - title: "Cat75"
   imgSrc: "/assets/images/thumbnails/cat75.png"
@@ -385,9 +385,9 @@
   link: "photo-detail.html?v=cat77.png"
                 
 - title: "Cat78"
-  imgSrc: "/assets/images/thumbnails/cat78.png"
+  imgSrc: "/assets/images/thumbnails/cat78.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat78.png"
+  link: "photo-detail.html?v=cat78.jpg"
                 
 - title: "Cat79"
   imgSrc: "/assets/images/thumbnails/cat79.png"
@@ -395,14 +395,14 @@
   link: "photo-detail.html?v=cat79.png"
                 
 - title: "Cat80"
-  imgSrc: "/assets/images/thumbnails/cat80.jpg"
+  imgSrc: "/assets/images/thumbnails/cat80.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat80.jpg"
+  link: "photo-detail.html?v=cat80.png"
                 
 - title: "Cat81"
-  imgSrc: "/assets/images/thumbnails/cat81.jpg"
+  imgSrc: "/assets/images/thumbnails/cat81.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat81.jpg"
+  link: "photo-detail.html?v=cat81.png"
                 
 - title: "Cat82"
   imgSrc: "/assets/images/thumbnails/cat82.png"
@@ -410,9 +410,9 @@
   link: "photo-detail.html?v=cat82.png"
                 
 - title: "Cat83"
-  imgSrc: "/assets/images/thumbnails/cat83.jpg"
+  imgSrc: "/assets/images/thumbnails/cat83.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat83.jpg"
+  link: "photo-detail.html?v=cat83.png"
                 
 - title: "Cat84"
   imgSrc: "/assets/images/thumbnails/cat84.png"
@@ -420,9 +420,9 @@
   link: "photo-detail.html?v=cat84.png"
                 
 - title: "Cat85"
-  imgSrc: "/assets/images/thumbnails/cat85.png"
+  imgSrc: "/assets/images/thumbnails/cat85.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat85.png"
+  link: "photo-detail.html?v=cat85.jpg"
                 
 - title: "Cat86"
   imgSrc: "/assets/images/thumbnails/cat86.png"
@@ -430,34 +430,34 @@
   link: "photo-detail.html?v=cat86.png"
                 
 - title: "Cat87"
-  imgSrc: "/assets/images/thumbnails/cat87.png"
+  imgSrc: "/assets/images/thumbnails/cat87.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat87.png"
+  link: "photo-detail.html?v=cat87.jpg"
                 
 - title: "Cat88"
-  imgSrc: "/assets/images/thumbnails/cat88.png"
+  imgSrc: "/assets/images/thumbnails/cat88.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat88.png"
+  link: "photo-detail.html?v=cat88.jpg"
                 
 - title: "Cat89"
-  imgSrc: "/assets/images/thumbnails/cat89.png"
+  imgSrc: "/assets/images/thumbnails/cat89.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat89.png"
+  link: "photo-detail.html?v=cat89.jpg"
                 
 - title: "Cat90"
-  imgSrc: "/assets/images/thumbnails/cat90.png"
+  imgSrc: "/assets/images/thumbnails/cat90.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat90.png"
+  link: "photo-detail.html?v=cat90.jpg"
                 
 - title: "Cat91"
-  imgSrc: "/assets/images/thumbnails/cat91.png"
+  imgSrc: "/assets/images/thumbnails/cat91.jpg"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat91.png"
+  link: "photo-detail.html?v=cat91.jpg"
                 
 - title: "Cat92"
-  imgSrc: "/assets/images/thumbnails/cat92.jpg"
+  imgSrc: "/assets/images/thumbnails/cat92.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat92.jpg"
+  link: "photo-detail.html?v=cat92.png"
                 
 - title: "Cat93"
   imgSrc: "/assets/images/thumbnails/cat93.png"
@@ -465,14 +465,14 @@
   link: "photo-detail.html?v=cat93.png"
                 
 - title: "Cat94"
-  imgSrc: "/assets/images/thumbnails/cat94.jpg"
+  imgSrc: "/assets/images/thumbnails/cat94.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat94.jpg"
+  link: "photo-detail.html?v=cat94.png"
                 
 - title: "Cat95"
-  imgSrc: "/assets/images/thumbnails/cat95.jpg"
+  imgSrc: "/assets/images/thumbnails/cat95.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat95.jpg"
+  link: "photo-detail.html?v=cat95.png"
                 
 - title: "Cat96"
   imgSrc: "/assets/images/thumbnails/cat96.png"
@@ -495,7 +495,7 @@
   link: "photo-detail.html?v=cat99.png"
                 
 - title: "Cat100"
-  imgSrc: "/assets/images/thumbnails/cat100.jpg"
+  imgSrc: "/assets/images/thumbnails/cat100.png"
   date: "22 Apr 2024"
-  link: "photo-detail.html?v=cat100.jpg"
+  link: "photo-detail.html?v=cat100.png"
                 
