@@ -220,7 +220,8 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── paginator3.js
 │   │   │   ├── paginator_orig.js
 │   │   │   ├── resize_gallery.js
-│   │   │   └── watermark.js
+│   │   │   ├── watermark.js
+│   │   │   └── watermark.py
 │   │   └── videos//
 │   │       └── halvorsen_vid.mp4
 │   ├── cat.html
@@ -419,7 +420,8 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   ├── paginator3.js
 │   │   ├── paginator_orig.js
 │   │   ├── resize_gallery.js
-│   │   └── watermark.js
+│   │   ├── watermark.js
+│   │   └── watermark.py
 │   └── videos//
 │       └── halvorsen_vid.mp4
 ├── favicon.ico

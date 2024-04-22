@@ -109,12 +109,11 @@ def generate_document(directory, mode):
             date = get_earliest_date(os.path.join(file_path, file))
             formatted_date = format_date(date)
             title = f"{base_title}{index:02}"  # Pad with zero for consistent file name length
-            tag = random.choice(tags)
+            # tag = random.choice(tags)
             entry = f"""
 - title: "{title}"
   imgSrc: "{file_path}{file}"
   date: "{formatted_date}"
-  tag: "{tag}"
   link: "photo-detail.html?v={file}"
             """
             entries.append(entry)
