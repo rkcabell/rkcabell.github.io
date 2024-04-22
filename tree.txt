@@ -35,28 +35,20 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   └── templatemo-style.css
 │   ├── fonts//
 │   │   ├── Noto-Sans-700//
-│   │   │   ├── Noto-Sans-700.eot
 │   │   │   ├── Noto-Sans-700.svg
 │   │   │   ├── Noto-Sans-700.ttf
-│   │   │   ├── Noto-Sans-700.woff
 │   │   │   └── Noto-Sans-700.woff2
 │   │   ├── Noto-Sans-700italic//
-│   │   │   ├── Noto-Sans-700italic.eot
 │   │   │   ├── Noto-Sans-700italic.svg
 │   │   │   ├── Noto-Sans-700italic.ttf
-│   │   │   ├── Noto-Sans-700italic.woff
 │   │   │   └── Noto-Sans-700italic.woff2
 │   │   ├── Noto-Sans-italic//
-│   │   │   ├── Noto-Sans-italic.eot
 │   │   │   ├── Noto-Sans-italic.svg
 │   │   │   ├── Noto-Sans-italic.ttf
-│   │   │   ├── Noto-Sans-italic.woff
 │   │   │   └── Noto-Sans-italic.woff2
 │   │   └── Noto-Sans-regular//
-│   │       ├── Noto-Sans-regular.eot
 │   │       ├── Noto-Sans-regular.svg
 │   │       ├── Noto-Sans-regular.ttf
-│   │       ├── Noto-Sans-regular.woff
 │   │       └── Noto-Sans-regular.woff2
 │   ├── images//
 │   │   ├── art_img//
@@ -64,65 +56,65 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── art10.png
 │   │   │   ├── art11.png
 │   │   │   ├── art12.png
-│   │   │   ├── art13.PNG
+│   │   │   ├── art13.png
 │   │   │   ├── art14.png
 │   │   │   ├── art15.png
 │   │   │   ├── art16.png
 │   │   │   ├── art17.png
-│   │   │   ├── art18.jpg
+│   │   │   ├── art18.png
 │   │   │   ├── art2.png
 │   │   │   ├── art3.png
 │   │   │   ├── art4.png
 │   │   │   ├── art5.png
-│   │   │   ├── art6.png
+│   │   │   ├── art6.jpg
 │   │   │   ├── art7.png
 │   │   │   ├── art8.png
 │   │   │   └── art9.png
 │   │   ├── cat_img//
 │   │   │   ├── cat1.png
-│   │   │   ├── cat10.png
-│   │   │   ├── cat100.png
-│   │   │   ├── cat11.png
-│   │   │   ├── cat12.png
-│   │   │   ├── cat13.jpg
-│   │   │   ├── cat14.png
+│   │   │   ├── cat10.jpg
+│   │   │   ├── cat100.jpg
+│   │   │   ├── cat11.jpg
+│   │   │   ├── cat12.jpg
+│   │   │   ├── cat13.png
+│   │   │   ├── cat14.jpg
 │   │   │   ├── cat15.png
 │   │   │   ├── cat16.png
 │   │   │   ├── cat17.png
 │   │   │   ├── cat18.png
-│   │   │   ├── cat19.JPG
+│   │   │   ├── cat19.jpg
 │   │   │   ├── cat2.png
 │   │   │   ├── cat20.png
 │   │   │   ├── cat21.png
 │   │   │   ├── cat22.png
-│   │   │   ├── cat23.JPG
+│   │   │   ├── cat23.png
 │   │   │   ├── cat24.png
-│   │   │   ├── cat25.JPG
-│   │   │   ├── cat26.png
-│   │   │   ├── cat27.png
+│   │   │   ├── cat25.png
+│   │   │   ├── cat26.jpg
+│   │   │   ├── cat27.jpg
 │   │   │   ├── cat28.png
 │   │   │   ├── cat29.png
-│   │   │   ├── cat3.JPG
+│   │   │   ├── cat3.png
 │   │   │   ├── cat30.png
 │   │   │   ├── cat31.png
-│   │   │   ├── cat32.png
+│   │   │   ├── cat32.jpg
 │   │   │   ├── cat33.png
-│   │   │   ├── cat34.JPG
-│   │   │   ├── cat35.png
+│   │   │   ├── cat34.jpg
+│   │   │   ├── cat35.jpg
 │   │   │   ├── cat36.png
-│   │   │   ├── cat37.JPG
-│   │   │   ├── cat38.JPG
+│   │   │   ├── cat37.jpg
+│   │   │   ├── cat38.png
 │   │   │   ├── cat39.png
 │   │   │   ├── cat4.png
-│   │   │   ├── cat40.JPG
-│   │   │   ├── cat41.png
+│   │   │   ├── cat40.png
+│   │   │   ├── cat41.jpg
 │   │   │   ├── cat42.png
 │   │   │   ├── cat43.png
-│   │   │   ├── cat44.jpg
+│   │   │   ├── cat44.png
 │   │   │   ├── cat45.jpg
-│   │   │   ├── cat46.png
-│   │   │   ├── cat47.JPG
-│   │   │   ├── cat48.JPG
+│   │   │   ├── cat46.jpg
+│   │   │   ├── cat47.jpg
+│   │   │   ├── cat48.jpg
 │   │   │   ├── cat49.png
 │   │   │   ├── cat5.png
 │   │   │   ├── cat50.png
@@ -131,53 +123,53 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── cat53.png
 │   │   │   ├── cat54.png
 │   │   │   ├── cat55.png
-│   │   │   ├── cat56.JPG
-│   │   │   ├── cat57.png
-│   │   │   ├── cat58.JPG
-│   │   │   ├── cat59.png
-│   │   │   ├── cat6.JPG
-│   │   │   ├── cat60.JPG
+│   │   │   ├── cat56.jpg
+│   │   │   ├── cat57.jpg
+│   │   │   ├── cat58.png
+│   │   │   ├── cat59.jpg
+│   │   │   ├── cat6.jpg
+│   │   │   ├── cat60.png
 │   │   │   ├── cat61.png
 │   │   │   ├── cat62.png
 │   │   │   ├── cat63.png
 │   │   │   ├── cat64.png
 │   │   │   ├── cat65.png
-│   │   │   ├── cat66.jpg
-│   │   │   ├── cat67.JPG
-│   │   │   ├── cat68.JPG
-│   │   │   ├── cat69.JPG
+│   │   │   ├── cat66.png
+│   │   │   ├── cat67.png
+│   │   │   ├── cat68.jpg
+│   │   │   ├── cat69.png
 │   │   │   ├── cat7.png
-│   │   │   ├── cat70.JPG
-│   │   │   ├── cat71.png
-│   │   │   ├── cat72.JPG
-│   │   │   ├── cat73.JPG
-│   │   │   ├── cat74.JPG
+│   │   │   ├── cat70.png
+│   │   │   ├── cat71.jpg
+│   │   │   ├── cat72.jpg
+│   │   │   ├── cat73.png
+│   │   │   ├── cat74.jpg
 │   │   │   ├── cat75.png
-│   │   │   ├── cat76.png
+│   │   │   ├── cat76.jpg
 │   │   │   ├── cat77.png
 │   │   │   ├── cat78.png
-│   │   │   ├── cat79.JPG
+│   │   │   ├── cat79.png
 │   │   │   ├── cat8.png
-│   │   │   ├── cat80.png
-│   │   │   ├── cat81.JPG
+│   │   │   ├── cat80.jpg
+│   │   │   ├── cat81.jpg
 │   │   │   ├── cat82.png
-│   │   │   ├── cat83.JPG
+│   │   │   ├── cat83.jpg
 │   │   │   ├── cat84.png
-│   │   │   ├── cat85.JPG
-│   │   │   ├── cat86.JPG
+│   │   │   ├── cat85.png
+│   │   │   ├── cat86.png
 │   │   │   ├── cat87.png
 │   │   │   ├── cat88.png
 │   │   │   ├── cat89.png
-│   │   │   ├── cat9.JPG
-│   │   │   ├── cat90.JPG
+│   │   │   ├── cat9.png
+│   │   │   ├── cat90.png
 │   │   │   ├── cat91.png
-│   │   │   ├── cat92.png
+│   │   │   ├── cat92.jpg
 │   │   │   ├── cat93.png
-│   │   │   ├── cat94.png
-│   │   │   ├── cat95.png
+│   │   │   ├── cat94.jpg
+│   │   │   ├── cat95.jpg
 │   │   │   ├── cat96.png
-│   │   │   ├── cat97.png
-│   │   │   ├── cat98.JPG
+│   │   │   ├── cat97.jpg
+│   │   │   ├── cat98.png
 │   │   │   └── cat99.png
 │   │   ├── cymatocyst.png
 │   │   ├── default_img.jpg
@@ -195,64 +187,64 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── art10.png
 │   │   │   ├── art11.png
 │   │   │   ├── art12.png
-│   │   │   ├── art13.PNG
+│   │   │   ├── art13.png
 │   │   │   ├── art14.png
 │   │   │   ├── art15.png
 │   │   │   ├── art16.png
 │   │   │   ├── art17.png
-│   │   │   ├── art18.jpg
+│   │   │   ├── art18.png
 │   │   │   ├── art2.png
 │   │   │   ├── art3.png
 │   │   │   ├── art4.png
 │   │   │   ├── art5.png
-│   │   │   ├── art6.png
+│   │   │   ├── art6.jpg
 │   │   │   ├── art7.png
 │   │   │   ├── art8.png
 │   │   │   ├── art9.png
 │   │   │   ├── cat1.png
-│   │   │   ├── cat10.png
-│   │   │   ├── cat100.png
-│   │   │   ├── cat11.png
-│   │   │   ├── cat12.png
-│   │   │   ├── cat13.jpg
-│   │   │   ├── cat14.png
+│   │   │   ├── cat10.jpg
+│   │   │   ├── cat100.jpg
+│   │   │   ├── cat11.jpg
+│   │   │   ├── cat12.jpg
+│   │   │   ├── cat13.png
+│   │   │   ├── cat14.jpg
 │   │   │   ├── cat15.png
 │   │   │   ├── cat16.png
 │   │   │   ├── cat17.png
 │   │   │   ├── cat18.png
-│   │   │   ├── cat19.JPG
+│   │   │   ├── cat19.jpg
 │   │   │   ├── cat2.png
 │   │   │   ├── cat20.png
 │   │   │   ├── cat21.png
 │   │   │   ├── cat22.png
-│   │   │   ├── cat23.JPG
+│   │   │   ├── cat23.png
 │   │   │   ├── cat24.png
-│   │   │   ├── cat25.JPG
-│   │   │   ├── cat26.png
-│   │   │   ├── cat27.png
+│   │   │   ├── cat25.png
+│   │   │   ├── cat26.jpg
+│   │   │   ├── cat27.jpg
 │   │   │   ├── cat28.png
 │   │   │   ├── cat29.png
-│   │   │   ├── cat3.JPG
+│   │   │   ├── cat3.png
 │   │   │   ├── cat30.png
 │   │   │   ├── cat31.png
-│   │   │   ├── cat32.png
+│   │   │   ├── cat32.jpg
 │   │   │   ├── cat33.png
-│   │   │   ├── cat34.JPG
-│   │   │   ├── cat35.png
+│   │   │   ├── cat34.jpg
+│   │   │   ├── cat35.jpg
 │   │   │   ├── cat36.png
-│   │   │   ├── cat37.JPG
-│   │   │   ├── cat38.JPG
+│   │   │   ├── cat37.jpg
+│   │   │   ├── cat38.png
 │   │   │   ├── cat39.png
 │   │   │   ├── cat4.png
-│   │   │   ├── cat40.JPG
-│   │   │   ├── cat41.png
+│   │   │   ├── cat40.png
+│   │   │   ├── cat41.jpg
 │   │   │   ├── cat42.png
 │   │   │   ├── cat43.png
-│   │   │   ├── cat44.jpg
+│   │   │   ├── cat44.png
 │   │   │   ├── cat45.jpg
-│   │   │   ├── cat46.png
-│   │   │   ├── cat47.JPG
-│   │   │   ├── cat48.JPG
+│   │   │   ├── cat46.jpg
+│   │   │   ├── cat47.jpg
+│   │   │   ├── cat48.jpg
 │   │   │   ├── cat49.png
 │   │   │   ├── cat5.png
 │   │   │   ├── cat50.png
@@ -261,57 +253,56 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── cat53.png
 │   │   │   ├── cat54.png
 │   │   │   ├── cat55.png
-│   │   │   ├── cat56.JPG
-│   │   │   ├── cat57.png
-│   │   │   ├── cat58.JPG
-│   │   │   ├── cat59.png
-│   │   │   ├── cat6.JPG
-│   │   │   ├── cat60.JPG
+│   │   │   ├── cat56.jpg
+│   │   │   ├── cat57.jpg
+│   │   │   ├── cat58.png
+│   │   │   ├── cat59.jpg
+│   │   │   ├── cat6.jpg
+│   │   │   ├── cat60.png
 │   │   │   ├── cat61.png
 │   │   │   ├── cat62.png
 │   │   │   ├── cat63.png
 │   │   │   ├── cat64.png
 │   │   │   ├── cat65.png
-│   │   │   ├── cat66.jpg
-│   │   │   ├── cat67.JPG
-│   │   │   ├── cat68.JPG
-│   │   │   ├── cat69.JPG
+│   │   │   ├── cat66.png
+│   │   │   ├── cat67.png
+│   │   │   ├── cat68.jpg
+│   │   │   ├── cat69.png
 │   │   │   ├── cat7.png
-│   │   │   ├── cat70.JPG
-│   │   │   ├── cat71.png
-│   │   │   ├── cat72.JPG
-│   │   │   ├── cat73.JPG
-│   │   │   ├── cat74.JPG
+│   │   │   ├── cat70.png
+│   │   │   ├── cat71.jpg
+│   │   │   ├── cat72.jpg
+│   │   │   ├── cat73.png
+│   │   │   ├── cat74.jpg
 │   │   │   ├── cat75.png
-│   │   │   ├── cat76.png
+│   │   │   ├── cat76.jpg
 │   │   │   ├── cat77.png
 │   │   │   ├── cat78.png
-│   │   │   ├── cat79.JPG
+│   │   │   ├── cat79.png
 │   │   │   ├── cat8.png
-│   │   │   ├── cat80.png
-│   │   │   ├── cat81.JPG
+│   │   │   ├── cat80.jpg
+│   │   │   ├── cat81.jpg
 │   │   │   ├── cat82.png
-│   │   │   ├── cat83.JPG
+│   │   │   ├── cat83.jpg
 │   │   │   ├── cat84.png
-│   │   │   ├── cat85.JPG
-│   │   │   ├── cat86.JPG
+│   │   │   ├── cat85.png
+│   │   │   ├── cat86.png
 │   │   │   ├── cat87.png
 │   │   │   ├── cat88.png
 │   │   │   ├── cat89.png
-│   │   │   ├── cat9.JPG
-│   │   │   ├── cat90.JPG
+│   │   │   ├── cat9.png
+│   │   │   ├── cat90.png
 │   │   │   ├── cat91.png
-│   │   │   ├── cat92.png
+│   │   │   ├── cat92.jpg
 │   │   │   ├── cat93.png
-│   │   │   ├── cat94.png
-│   │   │   ├── cat95.png
+│   │   │   ├── cat94.jpg
+│   │   │   ├── cat95.jpg
 │   │   │   ├── cat96.png
-│   │   │   ├── cat97.png
-│   │   │   ├── cat98.JPG
+│   │   │   ├── cat97.jpg
+│   │   │   ├── cat98.png
 │   │   │   └── cat99.png
 │   │   ├── vector_field.png
 │   │   ├── watermark.png
-│   │   ├── watermark_compress.bat
 │   │   └── world_age2_small.png
 │   ├── js//
 │   │   ├── fslightbox.js
@@ -330,11 +321,9 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── favicon.ico
 ├── Gemfile
 ├── Gemfile.lock
-├── generate_tree.sh
 ├── index.html
 ├── jekyll-theme.gemspec
 ├── LICENSE
-├── output_image.png
 ├── pages//
 │   ├── 404.md
 │   ├── art.md
@@ -343,12 +332,16 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── resume.md
 │   ├── world.md
 │   └── youtube.md
-├── populate_galleries.py
 ├── projects//
 │   ├── halvorsen.md
 │   └── vector_field.md
 ├── README.md
-├── thumbnail.png
+├── scripts//
+│   ├── generate_tree.sh
+│   ├── populate_galleries.py
+│   ├── randomize_cats.py
+│   ├── rename_files.py
+│   └── thumbify.bat
 ├── tree.txt
 └── wiki//
     └── example-page.md
