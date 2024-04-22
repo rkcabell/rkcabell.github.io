@@ -10,5 +10,6 @@ Gemfile.lock
 /assets/images/selfie2.jpg
 /assets/images/selfie3.jpg
 /assets/images/selfie5.png
-*.bat
-populate_galleries.py
+/scripts/*
+# keep scripts folder by leaving gitkeep
+!/scripts/.gitkeep

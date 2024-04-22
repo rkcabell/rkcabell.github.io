@@ -8,7 +8,7 @@ categories: [root, gallery, protected]
 heading: 'Browse my sketches, clay works, and others'
 gallery: art-gallery
 order: 3
-
+incremental: true
 protected: true
 ---
 
