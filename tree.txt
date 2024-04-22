@@ -5,17 +5,20 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── README.md
 ├── _config.yml
 ├── _data//
+│   ├── art-gallery.yml
+│   ├── cat-gallery.yml
 │   ├── navigation.yml
 │   └── projects.yml
 ├── _includes//
 │   ├── head-custom-google-analytics.html
 │   ├── head-custom.html
 │   ├── navigation.html
-│   └── sidebar.html
+│   └── project_sidebar.html
 ├── _layouts//
 │   ├── 404.html
 │   ├── default.html
-│   ├── post.html
+│   ├── gallery_layout.html
+│   ├── post_layout.html
 │   ├── project_layout.html
 │   └── resume_layout.html
 ├── _posts//
@@ -43,8 +46,9 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   ├── RyanResumeCensoredPDF.pdf
 │   │   ├── RyanResumeCensoredTXT.txt
 │   │   ├── css//
-│   │   │   └── style.css
-│   │   ├── favicon.ico
+│   │   │   ├── bootstrap.min.css
+│   │   │   ├── style.css
+│   │   │   └── templatemo-style.css
 │   │   ├── fonts//
 │   │   │   ├── Noto-Sans-700//
 │   │   │   │   ├── Noto-Sans-700.eot
@@ -71,29 +75,158 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │       ├── Noto-Sans-regular.woff
 │   │   │       └── Noto-Sans-regular.woff2
 │   │   ├── images//
+│   │   │   ├── art_img//
+│   │   │   │   ├── art1.png
+│   │   │   │   ├── art10.png
+│   │   │   │   ├── art11.png
+│   │   │   │   ├── art12.png
+│   │   │   │   ├── art13.png
+│   │   │   │   ├── art14.png
+│   │   │   │   ├── art15.png
+│   │   │   │   ├── art16.png
+│   │   │   │   ├── art17.png
+│   │   │   │   ├── art18.JPG
+│   │   │   │   ├── art2.png
+│   │   │   │   ├── art3.png
+│   │   │   │   ├── art4.png
+│   │   │   │   ├── art5.png
+│   │   │   │   ├── art6.png
+│   │   │   │   ├── art7.png
+│   │   │   │   ├── art8.png
+│   │   │   │   └── art9.png
+│   │   │   ├── cat_img//
+│   │   │   │   ├── cat1.png
+│   │   │   │   ├── cat10.png
+│   │   │   │   ├── cat100.png
+│   │   │   │   ├── cat11.png
+│   │   │   │   ├── cat12.png
+│   │   │   │   ├── cat13.jpg
+│   │   │   │   ├── cat14.png
+│   │   │   │   ├── cat15.png
+│   │   │   │   ├── cat16.png
+│   │   │   │   ├── cat17.png
+│   │   │   │   ├── cat18.png
+│   │   │   │   ├── cat19.JPG
+│   │   │   │   ├── cat2.png
+│   │   │   │   ├── cat20.png
+│   │   │   │   ├── cat21.png
+│   │   │   │   ├── cat22.png
+│   │   │   │   ├── cat23.JPG
+│   │   │   │   ├── cat24.png
+│   │   │   │   ├── cat25.JPG
+│   │   │   │   ├── cat26.png
+│   │   │   │   ├── cat27.png
+│   │   │   │   ├── cat28.png
+│   │   │   │   ├── cat29.png
+│   │   │   │   ├── cat3.JPG
+│   │   │   │   ├── cat30.png
+│   │   │   │   ├── cat31.png
+│   │   │   │   ├── cat32.png
+│   │   │   │   ├── cat33.png
+│   │   │   │   ├── cat34.JPG
+│   │   │   │   ├── cat35.png
+│   │   │   │   ├── cat36.png
+│   │   │   │   ├── cat37.JPG
+│   │   │   │   ├── cat38.JPG
+│   │   │   │   ├── cat39.png
+│   │   │   │   ├── cat4.png
+│   │   │   │   ├── cat40.JPG
+│   │   │   │   ├── cat41.png
+│   │   │   │   ├── cat42.png
+│   │   │   │   ├── cat43.png
+│   │   │   │   ├── cat44.jpg
+│   │   │   │   ├── cat45.jpg
+│   │   │   │   ├── cat46.png
+│   │   │   │   ├── cat47.JPG
+│   │   │   │   ├── cat48.JPG
+│   │   │   │   ├── cat49.png
+│   │   │   │   ├── cat5.png
+│   │   │   │   ├── cat50.png
+│   │   │   │   ├── cat51.png
+│   │   │   │   ├── cat52.png
+│   │   │   │   ├── cat53.png
+│   │   │   │   ├── cat54.png
+│   │   │   │   ├── cat55.png
+│   │   │   │   ├── cat56.JPG
+│   │   │   │   ├── cat57.png
+│   │   │   │   ├── cat58.JPG
+│   │   │   │   ├── cat59.png
+│   │   │   │   ├── cat6.JPG
+│   │   │   │   ├── cat60.JPG
+│   │   │   │   ├── cat61.png
+│   │   │   │   ├── cat62.png
+│   │   │   │   ├── cat63.png
+│   │   │   │   ├── cat64.png
+│   │   │   │   ├── cat65.png
+│   │   │   │   ├── cat66.jpg
+│   │   │   │   ├── cat67.JPG
+│   │   │   │   ├── cat68.JPG
+│   │   │   │   ├── cat69.JPG
+│   │   │   │   ├── cat7.png
+│   │   │   │   ├── cat70.JPG
+│   │   │   │   ├── cat71.png
+│   │   │   │   ├── cat72.JPG
+│   │   │   │   ├── cat73.JPG
+│   │   │   │   ├── cat74.JPG
+│   │   │   │   ├── cat75.png
+│   │   │   │   ├── cat76.png
+│   │   │   │   ├── cat77.png
+│   │   │   │   ├── cat78.png
+│   │   │   │   ├── cat79.JPG
+│   │   │   │   ├── cat8.png
+│   │   │   │   ├── cat80.png
+│   │   │   │   ├── cat81.JPG
+│   │   │   │   ├── cat82.png
+│   │   │   │   ├── cat83.JPG
+│   │   │   │   ├── cat84.png
+│   │   │   │   ├── cat85.JPG
+│   │   │   │   ├── cat86.JPG
+│   │   │   │   ├── cat87.png
+│   │   │   │   ├── cat88.png
+│   │   │   │   ├── cat89.png
+│   │   │   │   ├── cat9.JPG
+│   │   │   │   ├── cat90.JPG
+│   │   │   │   ├── cat91.png
+│   │   │   │   ├── cat92.png
+│   │   │   │   ├── cat93.png
+│   │   │   │   ├── cat94.png
+│   │   │   │   ├── cat95.png
+│   │   │   │   ├── cat96.png
+│   │   │   │   ├── cat97.png
+│   │   │   │   ├── cat98.JPG
+│   │   │   │   └── cat99.png
 │   │   │   ├── cymatocyst.png
+│   │   │   ├── default_img.jpg
 │   │   │   ├── external-link-ltr-icon.png
 │   │   │   ├── external.svg
 │   │   │   ├── frac_inf_icon.png
 │   │   │   ├── halvorsen.png
 │   │   │   ├── icon_1024_yt.png
-│   │   │   ├── selfie.jpg
 │   │   │   ├── selfie2.jpg
 │   │   │   ├── selfie3.jpg
 │   │   │   ├── selfie3_edited.png
-│   │   │   ├── selfie4.jpg
 │   │   │   ├── selfie5.png
 │   │   │   ├── vector_field.png
+│   │   │   ├── watermark.png
 │   │   │   └── world_age2_small.png
 │   │   ├── js//
+│   │   │   ├── fslightbox.js
 │   │   │   ├── halvorsen.js
 │   │   │   ├── p5.js
-│   │   │   └── p5.min.js
+│   │   │   ├── p5.min.js
+│   │   │   ├── package.json
+│   │   │   ├── paginator.js
+│   │   │   ├── paginator2.js
+│   │   │   ├── paginator3.js
+│   │   │   ├── paginator_orig.js
+│   │   │   ├── resize_gallery.js
+│   │   │   └── watermark.js
 │   │   └── videos//
 │   │       └── halvorsen_vid.mp4
 │   ├── cat.html
+│   ├── favicon.ico
 │   ├── index.html
-│   ├── jekyll-theme-cayman.gemspec
+│   ├── jekyll-theme.gemspec
 │   ├── photo.html
 │   ├── projects//
 │   │   ├── halvorsen.html
@@ -111,8 +244,9 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── RyanResumeCensoredPDF.pdf
 │   ├── RyanResumeCensoredTXT.txt
 │   ├── css//
-│   │   └── style.css
-│   ├── favicon.ico
+│   │   ├── bootstrap.min.css
+│   │   ├── style.css
+│   │   └── templatemo-style.css
 │   ├── fonts//
 │   │   ├── Noto-Sans-700//
 │   │   │   ├── Noto-Sans-700.eot
@@ -139,28 +273,158 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │       ├── Noto-Sans-regular.woff
 │   │       └── Noto-Sans-regular.woff2
 │   ├── images//
+│   │   ├── art_img//
+│   │   │   ├── art1.png
+│   │   │   ├── art10.png
+│   │   │   ├── art11.png
+│   │   │   ├── art12.png
+│   │   │   ├── art13.png
+│   │   │   ├── art14.png
+│   │   │   ├── art15.png
+│   │   │   ├── art16.png
+│   │   │   ├── art17.png
+│   │   │   ├── art18.JPG
+│   │   │   ├── art2.png
+│   │   │   ├── art3.png
+│   │   │   ├── art4.png
+│   │   │   ├── art5.png
+│   │   │   ├── art6.png
+│   │   │   ├── art7.png
+│   │   │   ├── art8.png
+│   │   │   └── art9.png
+│   │   ├── cat_img//
+│   │   │   ├── cat1.png
+│   │   │   ├── cat10.png
+│   │   │   ├── cat100.png
+│   │   │   ├── cat11.png
+│   │   │   ├── cat12.png
+│   │   │   ├── cat13.jpg
+│   │   │   ├── cat14.png
+│   │   │   ├── cat15.png
+│   │   │   ├── cat16.png
+│   │   │   ├── cat17.png
+│   │   │   ├── cat18.png
+│   │   │   ├── cat19.JPG
+│   │   │   ├── cat2.png
+│   │   │   ├── cat20.png
+│   │   │   ├── cat21.png
+│   │   │   ├── cat22.png
+│   │   │   ├── cat23.JPG
+│   │   │   ├── cat24.png
+│   │   │   ├── cat25.JPG
+│   │   │   ├── cat26.png
+│   │   │   ├── cat27.png
+│   │   │   ├── cat28.png
+│   │   │   ├── cat29.png
+│   │   │   ├── cat3.JPG
+│   │   │   ├── cat30.png
+│   │   │   ├── cat31.png
+│   │   │   ├── cat32.png
+│   │   │   ├── cat33.png
+│   │   │   ├── cat34.JPG
+│   │   │   ├── cat35.png
+│   │   │   ├── cat36.png
+│   │   │   ├── cat37.JPG
+│   │   │   ├── cat38.JPG
+│   │   │   ├── cat39.png
+│   │   │   ├── cat4.png
+│   │   │   ├── cat40.JPG
+│   │   │   ├── cat41.png
+│   │   │   ├── cat42.png
+│   │   │   ├── cat43.png
+│   │   │   ├── cat44.jpg
+│   │   │   ├── cat45.jpg
+│   │   │   ├── cat46.png
+│   │   │   ├── cat47.JPG
+│   │   │   ├── cat48.JPG
+│   │   │   ├── cat49.png
+│   │   │   ├── cat5.png
+│   │   │   ├── cat50.png
+│   │   │   ├── cat51.png
+│   │   │   ├── cat52.png
+│   │   │   ├── cat53.png
+│   │   │   ├── cat54.png
+│   │   │   ├── cat55.png
+│   │   │   ├── cat56.JPG
+│   │   │   ├── cat57.png
+│   │   │   ├── cat58.JPG
+│   │   │   ├── cat59.png
+│   │   │   ├── cat6.JPG
+│   │   │   ├── cat60.JPG
+│   │   │   ├── cat61.png
+│   │   │   ├── cat62.png
+│   │   │   ├── cat63.png
+│   │   │   ├── cat64.png
+│   │   │   ├── cat65.png
+│   │   │   ├── cat66.jpg
+│   │   │   ├── cat67.JPG
+│   │   │   ├── cat68.JPG
+│   │   │   ├── cat69.JPG
+│   │   │   ├── cat7.png
+│   │   │   ├── cat70.JPG
+│   │   │   ├── cat71.png
+│   │   │   ├── cat72.JPG
+│   │   │   ├── cat73.JPG
+│   │   │   ├── cat74.JPG
+│   │   │   ├── cat75.png
+│   │   │   ├── cat76.png
+│   │   │   ├── cat77.png
+│   │   │   ├── cat78.png
+│   │   │   ├── cat79.JPG
+│   │   │   ├── cat8.png
+│   │   │   ├── cat80.png
+│   │   │   ├── cat81.JPG
+│   │   │   ├── cat82.png
+│   │   │   ├── cat83.JPG
+│   │   │   ├── cat84.png
+│   │   │   ├── cat85.JPG
+│   │   │   ├── cat86.JPG
+│   │   │   ├── cat87.png
+│   │   │   ├── cat88.png
+│   │   │   ├── cat89.png
+│   │   │   ├── cat9.JPG
+│   │   │   ├── cat90.JPG
+│   │   │   ├── cat91.png
+│   │   │   ├── cat92.png
+│   │   │   ├── cat93.png
+│   │   │   ├── cat94.png
+│   │   │   ├── cat95.png
+│   │   │   ├── cat96.png
+│   │   │   ├── cat97.png
+│   │   │   ├── cat98.JPG
+│   │   │   └── cat99.png
 │   │   ├── cymatocyst.png
+│   │   ├── default_img.jpg
 │   │   ├── external-link-ltr-icon.png
 │   │   ├── external.svg
 │   │   ├── frac_inf_icon.png
 │   │   ├── halvorsen.png
 │   │   ├── icon_1024_yt.png
-│   │   ├── selfie.jpg
 │   │   ├── selfie2.jpg
 │   │   ├── selfie3.jpg
 │   │   ├── selfie3_edited.png
-│   │   ├── selfie4.jpg
 │   │   ├── selfie5.png
+│   │   ├── thumbnails//
 │   │   ├── vector_field.png
+│   │   ├── watermark.png
 │   │   └── world_age2_small.png
 │   ├── js//
+│   │   ├── fslightbox.js
 │   │   ├── halvorsen.js
 │   │   ├── p5.js
-│   │   └── p5.min.js
+│   │   ├── p5.min.js
+│   │   ├── package.json
+│   │   ├── paginator.js
+│   │   ├── paginator2.js
+│   │   ├── paginator3.js
+│   │   ├── paginator_orig.js
+│   │   ├── resize_gallery.js
+│   │   └── watermark.js
 │   └── videos//
 │       └── halvorsen_vid.mp4
+├── favicon.ico
 ├── index.html
-├── jekyll-theme-cayman.gemspec
+├── jekyll-theme.gemspec
 ├── pages//
 │   ├── 404.md
 │   ├── art.md

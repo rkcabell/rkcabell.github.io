@@ -197,6 +197,7 @@ a:hover {
 .tm-container-small {
     max-width: 1050px;
 }
+
 /* 
 .btn {
     border-radius: 0;
@@ -282,9 +283,9 @@ a.tm-text-primary:hover {
     color: #666666;
 }
 
-.tm-bg-gray {
+/* .tm-bg-gray {
     background-color: #EEEEEE;
-}
+} */
 
 .tm-input-paging {
     width: 40px;
@@ -376,13 +377,51 @@ p,
 }
 
 .tm-video-item {
-    position: relative;
     overflow: hidden;
-    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    /* text-align: center; */
+    /* transition: width 0.3s ease, height 0.3s ease; */
 }
 
-.tm-video-item img {
+.tm-format {
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    transition: width 0.3s ease, height 0.3s ease;
+    /* padding: 15px; */
+    
+}
+.tm-format::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 20px solid rgba(255, 255, 255, 0.0); */
+    /* border-top: 10px solid rgba(255, 255, 255, 0.0); */
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    /* background: linear-gradient(to right,#800000, #ffd900 ); */
+    background: linear-gradient(45deg,#800000, #ffd900 );
+    z-index: -1;
+    padding: 5px;}  /*This padding creates the 'border' area */
+    /* margin: -5px; Pull the pseudo-element out to the edge of the container 
+}*/
+
+.tm-format img {
     position: relative;
     display: block;
     min-height: 100%;
@@ -390,7 +429,7 @@ p,
     opacity: 0.8;
 }
 
-.tm-video-item figcaption {
+.tm-format figcaption {
     padding: 2em;
     color: #fff;
     text-transform: uppercase;
@@ -399,13 +438,13 @@ p,
     backface-visibility: hidden;
 }
 
-.tm-video-item figcaption::before,
-.tm-video-item figcaption::after {
+/* .tm-format figcaption::before, */
+.tm-format figcaption::after {
     pointer-events: none;
 }
 
-.tm-video-item figcaption,
-.tm-video-item figcaption>a {
+.tm-format figcaption,
+.tm-format figcaption>a {
     position: absolute;
     top: 0;
     left: 0;
@@ -413,7 +452,7 @@ p,
     height: 100%;
 }
 
-.tm-video-item figcaption>a {
+.tm-format figcaption>a {
     z-index: 1000;
     text-indent: 200%;
     white-space: nowrap;
@@ -421,17 +460,17 @@ p,
     opacity: 0;
 }
 
-.tm-video-item h2 {
+.tm-format h2 {
     word-spacing: -0.15em;
     font-weight: 300;
 }
 
-.tm-video-item h2,
-.tm-video-item p {
+.tm-format h2,
+.tm-format p {
     margin: 0;
 }
 
-.tm-video-item p {
+.tm-format p {
     letter-spacing: 1px;
     font-size: 68.5%;
 }
@@ -476,13 +515,13 @@ p,
 /*---------------*/
 /***** Ming *****/
 /*---------------*/
-
+/* 
 figure.effect-ming {
     background: #030c17;
-}
+} */
 
 figure.effect-ming img {
-    opacity: 0.9;
+    opacity: 1;
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
 }
@@ -496,7 +535,7 @@ figure.effect-ming figcaption::before {
     border: 2px solid #fff;
     box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.2);
     content: '';
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: scale3d(1.4, 1.4, 1);
@@ -548,6 +587,7 @@ figure.effect-ming:hover img {
 .tm-social-links li:last-child {
     margin-right: 0;
 }
+
 /* 
 .tm-social-links li a {
     color: #999999;

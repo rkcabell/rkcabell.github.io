@@ -34,29 +34,51 @@
             <h2 class="col-6 tm-text-primary">
                 {{page.heading}}
             </h2>
+         
+
+            <div class="col-6 text-right">
+                <label for="itemsPerPage">Items per page:</label>
+                <select id="itemsPerPage" name="itemsPerPage">
+                    <option class="option" value="12">12</option>
+                    <option value="24" selected>24</option>
+                    <option value="48">48</option>
+                    <option value="100">100</option>
+                </select>    
+                <button class="size-btn small" onclick="resizeGallery('small')" title="Small">
+                    <img src="assets/images/default_img.jpg" alt="Small" class="icon-small">
+                </button>
+                <button class="size-btn med active" onclick="resizeGallery('med')" title="Medium">
+                    <img src="assets/images/default_img.jpg" alt="Medium" class="icon-medium">
+                </button>
+                <button class="size-btn full" onclick="resizeGallery('full')" title="Full">
+                    <img src="assets/images/default_img.jpg" alt="Full" class="icon-full">
+                </button>
+            </div>
         </div>
         <div class="row tm-mb-90 tm-gallery" id="gallery">
             <!-- Using jekyll categories -->
+            <!-- Only load the first 24 items initially -->
             {% if page.gallery %}
             {% assign gallery_items = site.data[page.gallery] %}
-            {% for item in gallery_items %}
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
-                <figure class="effect-ming tm-video-item">
-                    <img src="{{ item.imgSrc }}" alt="{{ item.title }}" class="img-fluid">
-                    <figcaption class="d-flex align-items-center justify-content-center">
-                        <h2>{{ item.title }}</h2>
-                        <a href="{{ item.link }}">View more</a>
-                    </figcaption>
-                </figure>
-                <div class="d-flex justify-content-between tm-text-gray">
-                    <span class="tm-text-gray-light">{{ item.date }}</span>
-                    <span>{{ item.views }} views</span>
+                {% for item in gallery_items %}
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 tm-video-item" >
+                    <figure class="effect-ming tm-format">
+                        <!-- Check if the page is protected before adding the watermark -->
+                        <div class="{% if page.protected %} watermarked {% endif %}">
+                            <img src="{{ item.imgSrc }}" alt="{{ item.title }}" class="img-fluid">
+                        </div>
+                        <figcaption class="d-flex align-items-center justify-content-center">
+                            <h2>{{ item.title }}</h2>
+                            <a data-fslightbox="gallery" href="{{ item.imgSrc }}">Expand</a>
+                        </figcaption>
+                    </figure>
+                    <div class="d-flex justify-content-between tm-text-gray">
+                        <span class="tm-text-gray-light">{{ item.date }}</span>
+                        <span>tag: {{ item.tag }}</span>
+                    </div>
                 </div>
-            </div>
-            {% endfor %}
-            {% else %}
-            <p>No gallery data found.</p>
-            {% endif %}
+                {% endfor %}
+             {% endif %}
         </div>
 
         <div class="row tm-mb-90">
@@ -73,7 +95,11 @@
 
     <!-- <script src="/assets/js/gallery_populate.js"></script> -->
 
-
+    <script src="/assets/js/fslightbox.js"></script>
+    <script src="/assets/js/resize_gallery.js"></script>
+    <script src="/assets/js/paginator.js" defer></script>
+    <script src="/assets/js/watermark.js" defer></script>
+    <!-- defer: script is meant to be executed after the document has been parsed, but before firing the DOMContentLoaded event -->
 </body>
 
 </html>

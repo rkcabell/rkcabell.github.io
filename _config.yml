@@ -3,4 +3,6 @@ description: Professional Software Developer
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
-categories: [root, world, gallery, project]
+categories: [root, world, gallery, project, protected]
+paginate: 25
+paginate_path: '/page:num/'

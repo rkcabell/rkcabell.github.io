@@ -1,4 +1,4 @@
-/*!
+/*
  * Bootstrap v5.0.0-alpha2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -315,7 +315,7 @@ caption {
 
 th {
     text-align: inherit;
-    text-align: -webkit-match-parent
+    /* text-align: -webkit-match-parent */
 }
 
 tbody,
@@ -6924,8 +6924,29 @@ fieldset:disabled .btn {
 }
 
 .d-flex {
-    display: flex !important
+    display: flex !important;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
 }
+
+.tm-format.small {
+    width: 100%;
+    height: auto;
+    max-height: 118px;
+    background-size: contain; 
+  }
+
+  .tm-format.med {
+    width: 100%; 
+    height: auto;
+    max-height: 236px; 
+    background-size: contain; 
+  }
+
+  .tm-format.full {
+    background-size: contain;
+  }
 
 .d-inline-flex {
     display: inline-flex !important
@@ -7865,7 +7886,7 @@ fieldset:disabled .btn {
 .lh-lg {
     line-height: 2 !important
 }
-
+/* 
 .bg-primary {
     background-color: #0d6efd !important
 }
@@ -7912,7 +7933,7 @@ fieldset:disabled .btn {
 
 .bg-gradient {
     background-image: var(--bs-gradient) !important
-}
+} */
 
 .text-wrap {
     white-space: normal !important
