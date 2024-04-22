@@ -4,5 +4,5 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .jekyll-cache
-/assets/images/cat_img/
-/assets/images/art_img/
+/assets/images/cat_img/*
+/assets/images/art_img/*
