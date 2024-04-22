@@ -65,11 +65,11 @@
                     <figure class="effect-ming tm-format">
                         <!-- Check if the page is protected before adding the watermark -->
                         <div class="{% if page.protected %} watermarked {% endif %}">
-                            <img loading="lazy" src="{{ item.imgSrc }}" alt="{{ item.title }}" class="img-fluid">
+                            <img loading="lazy" src="{{ item.imgSrc | image_src_validate }}" alt="{{ item.title }}" class="img-fluid">
                         </div>
                         <figcaption class="d-flex align-items-center justify-content-center">
                             <h2>{{ item.title }}</h2>
-                            <a data-fslightbox="gallery" href="{{ item.imgSrc }}">Expand</a>
+                            <a data-fslightbox="gallery" href="{{ item.imgSrc | image_src_validate }}">Expand</a>
                         </figcaption>
                     </figure>
                     <div class="d-flex justify-content-between tm-text-gray">
