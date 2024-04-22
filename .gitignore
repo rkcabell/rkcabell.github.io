@@ -4,5 +4,11 @@ Gemfile.lock
 *.gem
 .jekyll-cache
 .jekyll-cache
-/assets/images/cat_img/*
-/assets/images/art_img/*
+/assets/images/*_img/*.jpg
+/assets/images/*_img/*.png
+/assets/images/*_img/*.jpeg
+/assets/images/selfie2.jpg
+/assets/images/selfie3.jpg
+/assets/images/selfie5.png
+*.bat
+populate_galleries.py

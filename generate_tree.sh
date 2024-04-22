@@ -1,19 +1,24 @@
 #!/bin/bash
 
-# Function to simulate 'tree' command using legal UTF-8 characters
+# Function to simulate 'tree' command
 function pseudo_tree() {
     local directory=$1
     local indent=$2
 
     # Get a list of all entries in the directory except '.' and '..'
-    local entries=($(ls -A1 "$directory" | grep -v '^\.')) # Exclude directories starting with '.'
+    local entries=($(ls -A1 "$directory" | grep -vE '^\.|^_site/?$')) # Exclude dirs starting with '.' and the _site/ dir
     local total=${#entries[@]}
     local count=0
+
+    # echo "Debug: Listing entries in $directory" >> debug.txt
+    # for entry in "${entries[@]}"; do
+    #     echo "Debug: $entry" >> debug.txt
+    # done
 
     # Loop through all entries
     for entry in "${entries[@]}"; do
         ((count++))
-        local current_path="$directory/$entry"
+        local cur_path="$directory/$entry"
         # Determine if this is the last entry to format it with └── or ├──
         if [ $count -eq $total ]; then
             local branch_char="└──"
@@ -22,7 +27,7 @@ function pseudo_tree() {
         fi
 
         # Check if the current entry is a directory
-        if [ -d "$current_path" ]; then
+        if [ -d "$cur_path" ]; then
             # Print the directory with a trailing slash
             echo "${indent}${branch_char} $entry/" >> tree.txt
             # Recurse into the directory with increased indentation
@@ -30,7 +35,7 @@ function pseudo_tree() {
             if [ $count -eq $total ]; then
                 new_indent="${indent}    "
             fi
-            pseudo_tree "$current_path" "$new_indent"
+            pseudo_tree "$cur_path" "$new_indent"
         else
             # Print the file entry
             echo "${indent}${branch_char} $entry" >> tree.txt

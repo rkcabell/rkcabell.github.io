@@ -21,7 +21,7 @@ function setup() {
 }
 
 function init() {
-    // Initialize coordinates
+    // Initialize points
     tracer1 = createVector(1.0, 0.0, 0.0);
     tracer2 = createVector(1.5, 0.0, 0.0);
 }
