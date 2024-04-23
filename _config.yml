@@ -4,5 +4,33 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 categories: [root, world, gallery, project, protected]
+collections_dir: wiki
+collections:
+  chapters:
+    output: true
+    sort_by: order
+    permalink: /:collection/:name
+  eras:
+    output: true
+    sort_by: order
+    permalink: /:collection/:slug
+  environments:
+    output: true
+    permalink: /:collection/:slug
+  habitals:
+    output: true
+    permalink: /:collection/:slug
 paginate: 25
 paginate_path: '/page:num/'
+# defaults:
+#   - scope:
+#       path: '' # empty string to apply settings to all files
+#       type: 'pages' # targeting only 'pages' type
+#     values:
+#       permalink: /:basename.html # setting URL to be the filename at the root
+
+# Automatically loaded by jekyll
+# plugins_dir: _plugins
+# plugins:
+#   - pages_link_override
+#   - image_src_validate

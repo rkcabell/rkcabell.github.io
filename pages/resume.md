@@ -3,7 +3,8 @@ layout: resume_layout
 title: Resume
 description: Click to download
 moniker: Resume
-permalink: /resume
+slug: resume
+permalink: /resume.html
 categories: [root]
 order: 1
 ---

@@ -1,0 +1,98 @@
+<div class="wiki-sidebar">
+
+  
+    <!-- Dropdown for Chapters -->
+    {% assign sorted_chapters = site.chapters | sort: 'order' %}
+    <div class="dropdown">
+      <button class="dropbtn">Chapters</button>
+      <div class="dropdown-content">
+        {% for chapter in sorted_chapters %}
+          <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  
+    <!-- Dropdown for Eras -->
+    <div class="dropdown">
+      <button class="dropbtn">Eras</button>
+      <div class="dropdown-content">
+        {% for era in site.eras %}
+          <a href="{{ era.url | relative_url }}">{{ era.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Dropdown for Environments -->
+    <div class="dropdown">
+      <button class="dropbtn">Environments</button>
+      <div class="dropdown-content">
+        {% for env in site.environments %}
+          <a href="{{ env.url | relative_url }}">{{ env.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">Habitals</button>
+      <div class="dropdown-content">
+
+        <!-- Priasts -->
+        <div class="dropdown-section">
+          <h4>Priasts</h4>
+          {% for habital in site.habitals %}
+            {% if habital.tags contains 'priast' %}
+              <a href="{{ habital.url | relative_url }}">{{ habital.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Somatocysts -->
+        <div class="dropdown-section">
+          <h4>Somatocysts</h4>
+          {% for habital in site.habitals %}
+            {% if habital.tags contains 'somatocyst' %}
+              <a href="{{ habital.url | relative_url }}">{{ habital.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Cymatocysts -->
+        <div class="dropdown-section">
+          <h4>Cymatocysts</h4>
+          {% for habital in site.habitals %}
+            {% if habital.tags contains 'cymatocyst' %}
+              <a href="{{ habital.url | relative_url }}">{{ habital.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Torids -->
+        <div class="dropdown-section">
+          <h4>Torids</h4>
+          {% for habital in site.habitals %}
+            {% if habital.tags contains 'torid' %}
+              <a href="{{ habital.url | relative_url }}">{{ habital.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <!-- Primidus -->
+        <div class="dropdown-section">
+          <h4>Primidus</h4>
+          {% for habital in site.habitals %}
+            {% if habital.tags contains 'primidus' %}
+              <a href="{{ habital.url | relative_url }}">{{ habital.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div> <!-- end inner menu -->
+    </div><!-- end habital menu -->
+
+        <!-- Dropdown for Encyclopedia -->
+        <div class="dropdown">
+          <button class="dropbtn">Encyclopedia</button>
+              <a href="{{ env.url | relative_url }}">{{ env.title }}</a>
+        </div>
+
+  </div>
+  

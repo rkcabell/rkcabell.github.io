@@ -3,9 +3,11 @@ layout: default
 title: Fractured Infinities
 moniker: Youtube
 description: Welcome to my Youtube Channel
-permalink: /youtube
+slug: youtube
+permalink: /youtube.html
 categories: [world]
 ---
+
 # Dianthos youtube series
 
 Episode 1: Creation Era

@@ -3,6 +3,7 @@ layout: default
 title: Projects
 moniker: Projects
 description: My personal projects
+slug: projects
 permalink: /projects.html
 categories: [root, project]
 order: 2

@@ -3,6 +3,7 @@ layout: gallery_layout
 title: Artwork
 description: Pictures of my artwork
 moniker: Art
+slug: art
 permalink: /art.html
 categories: [root, gallery, protected]
 heading: 'Browse my sketches, clay works, and others'

@@ -1,0 +1,10 @@
+---
+layout: base
+---
+{% if page.url contains '/chapters/' %}
+  Chapter: {{page.order | minus: 9}}
+{% endif %}
+
+<article>
+  {{ content }}
+</article>

@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en-US' }}"></html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - MyWikiSite</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% includes post-head %}
 </head>
 
 <body id="default-bkg">
@@ -14,19 +11,27 @@
     </header>
     <div class="container">
         <div class="sidebar">
+            <!-- <div class="tag-group">
+                {% for tag in page.tags %}
+                    <span class="tag-text">
+                      <a href="#">{{ tag }}</a>
+                    </span>
+                {% endfor %} -->
+              </div>
             <h3>Navigation</h3>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <!-- Generate sidebar links dynamically based on site data or categories -->
                 </ul>
             </nav>
         </div>
         <div class="content">
             {{ content }}
             <div class="meta">
+                <span class="tag-text">
                 <p>Categories: {{ page.categories | join: ", " }}</p>
                 <p>Tags: {{ page.tags | join: ", " }}</p>
+            </span>
             </div>
         </div>
     </div>

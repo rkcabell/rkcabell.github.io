@@ -6,11 +6,9 @@
   link: /projects.html
 - name: Github
   link: https://github.com/rkcabell/
-- name: About me
-  link: /about.html
 - name: Cat
   link: /cat.html
 - name: Art
   link: /art.html
 - name: Dianthos
-  link: /dianthos.html
+  link: /world.html
