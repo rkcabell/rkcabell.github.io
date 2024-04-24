@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* ! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -1895,12 +1895,14 @@ canvas {
     top: 0;
     left: 0;
     background-color: #333;
-    /* overflow-x:visible; */
-    overflow-x: visible;
+    overflow-x:visible;
+    /* overflow-x: hidden; */
     border-right: 1px solid #aaa;
     padding: 1rem;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
-    /* z-index: 60; */
+    transition: transform 0.3s;
+    transform: translateX(-150%);
+    z-index: 90;
   }
 
   .dropdown {
@@ -1914,7 +1916,7 @@ canvas {
     background-color: #eee; 
     color: #333;
     padding: 10px; 
-    width: 100%; /* Extend the button width to the full container */
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
@@ -1925,14 +1927,14 @@ canvas {
   }
 
     .dropbtn:hover {
-      background-color: #ddd;
+      background-color: #b3b3b3;
     }
 
     .dropdown-content {
       display: none; 
       position: absolute;
       left: 50%;
-      /* top: 0; */
+      /* top: 0px; */
       background-color: #fff; 
       min-width: 240px;
       max-height: 40vh;
@@ -1943,6 +1945,7 @@ canvas {
       padding: 0.5rem;
       border-radius: 15px 0 0 15px;
     }
+    
     .dropdown:hover .dropdown-content {
       display: block;
     }
@@ -1961,17 +1964,117 @@ canvas {
       color: #bbb;
     }
 
-    @media screen and (max-width: 768px) {
-      .wiki-sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-      }
-      .dropdown-content {
-        position: relative;
-      }
+    .slide-main {
+      transition: transform 0.3s;
+      width: 100%;
+      margin-left: 0;
+  }
+  .hamburger {
+    display: block;
+    position: sticky;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #333;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border-radius: 5px;
+  }
+
+  .dropdown:hover .dropdown-content,
+.dropdown.drop-active .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #b3b3b3;
+}
+
+  .menu-toggle {
+    display: none;
+}
+
+/* .menu-toggle:not(:checked) ~ .dropdown .dropdown-content {
+  display: none;
+} */
+
+
+.menu-toggle:checked + .wiki-sidebar + .slide-main {
+  transform: translateX(0);
+}
+
+.menu-toggle:checked + .hamburger + .wiki-sidebar {
+  transform: translateX(-20%);
+}
+
+.menu-toggle:checked + .hamburger {
+  transform: translateX(210px);
+  background-color: #14642b;
+}
+  
+@media (max-width: 768px) {
+
+    .hamburger {
+      display: block;
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 95; /* Ensure hamburger is above other elements */
+    }
+    .wiki-sidebar {
+        position: sticky;
+        z-index: 90;
+        transform: translateX(-100%);
+    }
+    .slide-main {
+      transform: translateX(-50%);
+    }
+    .menu-toggle:checked ~ .slide-main {
+      transform: translateX(0);  /* Adjust as per the sidebar width */
     }
 
+    .menu-toggle:checked + .hamburger {
+      transform: translateX(0);
+      background-color: #14642b;
+    }
+
+    .menu-toggle:checked + .hamburger + .wiki-sidebar + .slide-main {
+      transform: translateX(0);
+    }
+    .menu-toggle:checked + .hamburger + .wiki-sidebar {
+    transform: translateX(0);
+    }
+    .dropdown:hover .dropbtn,
+    .dropdown.drop-active .dropbtn {
+      background-color: #b3b3b3;
+    }
+}
+  
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%
+}
+.row {
+  --bs-gutter-x: 15rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2)
+}
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 50%
+}
+
+.col-sm-12 {
+  flex: 0 0 auto;
+  width: 100%
+}
 
 .site-footer-owner {
   display: block;

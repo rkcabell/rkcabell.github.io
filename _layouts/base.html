@@ -26,15 +26,16 @@
         {% endif %}
       </nav>
   </header>
-  <div class="flex-container">
-
-    {% include wiki-sidebar.html %}
-  
-    <main id="content" class="main-content txt-bkg" role="main">
+  <div class="flex-container ">
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">☰</label>
+        {% include wiki-sidebar.html %}
+    <main id="content" class="main-content txt-bkg slide-main" role="main">
         {{ content }}
     </main>
+  </div>
 
-   </div>
+
   <!-- Universal footer -->
   <footer class="site-footer">
     {% if site.github.is_project_page %}
@@ -42,5 +43,6 @@
       is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
     {% endif %}
   </footer>
+
 </body>
 </html>
