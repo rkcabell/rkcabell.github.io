@@ -349,6 +349,11 @@ svg:not(:root) {
 
 }
 
+#svg .path-0 {
+  transform: rotate(180deg) translate(0%, -55%);
+  transform-origin: center center;
+}
+
 
 /* Grouping content
     ========================================================================== */
