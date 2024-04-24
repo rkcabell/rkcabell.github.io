@@ -240,6 +240,11 @@ svg:not(:root) {
   overflow: hidden;
 }
 
+.d-flex.align-items-center {
+  height: 100%;
+}
+
+
 /**
   * hide SVG animation when the screen width is less than iphone
   * iPhone's default scale is optimized for 980 wide
@@ -895,6 +900,7 @@ a:hover {
   display: block;
   max-width: 100%;
   height: auto;
+  /* vertical-align: middle; */
 }
 
 .size-btn:hover {

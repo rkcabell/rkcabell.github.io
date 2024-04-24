@@ -16,3 +16,7 @@ protected: true
 
 <!-- # Art page -->
 <!-- pagination: true -->
+
+These have been uploaded in full quality with a watermark applied
+
+If you are interested in any, let me know and I can provide the original file

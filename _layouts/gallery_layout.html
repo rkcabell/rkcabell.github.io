@@ -30,30 +30,37 @@
 
 
     <div class="container-fluid tm-container-content tm-mt-60">
-        <div class="row mb-4">
-            <h2 class="col-6 tm-text-primary">
-                {{page.heading}}
-            </h2>
-         
-
-            <div class="col-6 text-right">
-                <label for="itemsPerPage">Items per page:</label>
-                <select id="itemsPerPage" name="itemsPerPage">
-                    <option class="option" value="12">12</option>
-                    <option value="24" selected>24</option>
-                    <option value="48">48</option>
-                    <option value="100">100</option>
-                </select>    
-                <button class="size-btn small" onclick="resizeGallery('small')" title="Small">
-                    <img src="assets/images/default_img.jpg" alt="Small" class="icon-small">
-                </button>
-                <button class="size-btn med active" onclick="resizeGallery('med')" title="Medium">
-                    <img src="assets/images/default_img.jpg" alt="Medium" class="icon-medium">
-                </button>
-                <button class="size-btn full" onclick="resizeGallery('full')" title="Full">
-                    <img src="assets/images/default_img.jpg" alt="Full" class="icon-full">
-                </button>
+        <div id="pre-gallery-container" class="row mb-4" >
+            <div class="col-md-6 tm-text-primary">
+                <h2 >
+                    {{page.heading}}
+                </h2>
+                {{content}}
             </div>
+
+            <div class="col-md-6 text-right">
+                <div class="d-flex align-items-center justify-content-end">
+                    <div>
+                        <label for="itemsPerPage">Items per page:</label>
+                        <select id="itemsPerPage" name="itemsPerPage" class="mr-2">
+                            <option class="option" value="12">12</option>
+                            <option value="24" selected>24</option>
+                            <option value="48">48</option>
+                            <option value="100">100</option>
+                        </select>    
+                    </div>
+                    <button class="size-btn small mr-1" onclick="resizeGallery('small')" title="Small">
+                        <img src="assets/images/default_img.jpg" alt="Small" class="icon-small">
+                    </button>
+                    <button class="size-btn med active mr-1" onclick="resizeGallery('med')" title="Medium">
+                        <img src="assets/images/default_img.jpg" alt="Medium" class="icon-medium">
+                    </button>
+                    <button class="size-btn full" onclick="resizeGallery('full')" title="Full">
+                        <img src="assets/images/default_img.jpg" alt="Full" class="icon-full">
+                    </button>
+                </div>
+            </div>
+            
             <div class="row tm-mb-50">
                 <div class="col-12 d-flex justify-content-center align-items-center tm-paging-col">
                     <div class="tm-paging d-flex">
