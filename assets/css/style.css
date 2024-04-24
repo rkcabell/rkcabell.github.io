@@ -85,6 +85,7 @@ body {
   background-image: 
       radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
       radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+  background-repeat: no-repeat;
 }
 
 .glass {
@@ -2008,6 +2009,7 @@ canvas {
 }
 
 .slide-main {
+  position: relative;
   transition: transform 0.3s;
   /* width: 50%; */
   margin-top: 5rem;
@@ -2015,10 +2017,11 @@ canvas {
   margin-right: auto;
   flex-grow: 1; 
 }
+
 .hamburger {
   display: block;
-  position: fixed;
-  top: 10px;
+  position: absolute;
+  top: 20rem;
   left: 10px;
   padding: 10px;
   font-size: 20px;
@@ -2068,7 +2071,7 @@ canvas {
     .hamburger {
       display: block;
       position: fixed;
-      top: 10px;
+      top: 20rem;
       left: 10px;
       z-index: 95;
     }
@@ -2081,7 +2084,7 @@ canvas {
         transform: translateX(-100%);
     }
     .slide-main {
-      position: fixed;
+      position: relative;
       transition: transform 0.3s;
       margin-top: 24rem;
       margin-left: auto;
