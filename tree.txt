@@ -19,7 +19,7 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── wiki-sidebar.html
 ├── _layouts//
 │   ├── 404.html
-│   ├── base.html
+│   ├── basewiki_layout.html
 │   ├── default.html
 │   ├── eras_layout.html
 │   ├── gallery_layout.html
@@ -48,6 +48,7 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   ├── RyanResumeCensoredTXT.txt
 │   ├── css//
 │   │   ├── bootstrap.min.css
+│   │   ├── stars.css
 │   │   ├── style.css
 │   │   ├── templatemo-style.css
 │   ├── fonts//
@@ -199,6 +200,7 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   ├── selfie3.jpg
 │   │   ├── selfie3_edited.png
 │   │   ├── selfie5.png
+│   │   ├── stars.png
 │   │   ├── thumbnails//
 │   │   │   ├── art1.png
 │   │   │   ├── art10.png
@@ -318,12 +320,14 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 │   │   │   ├── cat97.jpg
 │   │   │   ├── cat98.png
 │   │   │   ├── cat99.png
+│   │   ├── twinkling.png
 │   │   ├── vector_field.png
 │   │   ├── watermark.png
 │   │   ├── world_age2_small.png
 │   ├── js//
 │   │   ├── fslightbox.js
 │   │   ├── halvorsen.js
+│   │   ├── mobile-dropdown.js
 │   │   ├── p5.js
 │   │   ├── p5.min.js
 │   │   ├── package.json
