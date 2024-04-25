@@ -1,6 +1,7 @@
 <!-- _layouts/base.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
         <meta charset="UTF-8">
         {% seo %}
@@ -11,15 +12,29 @@
         <meta name="theme-color" content="#157878">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/stars.css?v='}}">
         {% include head-custom.html %}
 </head>
-<body id="glassmorph">
-  <div class="body-wrapper">
-    <div class="not-footer">
+
+{% if page.url contains 'eras/' %}
+    {% assign body_id = 'glassmorph-era' %}
+  {% elsif page.url contains 'chapters/' %}
+    {% assign body_class = 'stars' %}
+  {% elsif page.url contains 'environments/' %}
+    {% assign body_id = 'glassmorph-environment' %}
+  {% elsif page.url contains 'habitals/' %}
+    {% assign body_id = 'glassmorph-habital' %}
+  {% else %}
+    {% assign body_id = 'glassmorph' %}
+{% endif %}
+
+<body id="{{ body_id }}" class="{{ body_class }}" >
+  <div class="body-wrapper ">
+    <div class="not-footer ">
       <!-- Universal header -->
       <header class="wiki-page-header" role="banner">
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+        <h1 class="project-name ">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline ">{{ page.description | default: site.description | default: site.github.project_tagline
           }}</h2>
           <nav>
             <a class="btn" href="/index.html" title="Home">Home</a>
@@ -32,7 +47,7 @@
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <label for="menu-toggle" class="hamburger">☰</label>
             {% include wiki-sidebar.html %}
-        <main id="content" class="main-content slide-main glass" role="main">
+        <main id="content" class="main-content slide-main glass " role="main">
             {{ content }}
         </main>
       </div>

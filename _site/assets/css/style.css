@@ -6,6 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
+
 html {
   font-family: sans-serif;
   /* 1 */
@@ -16,7 +17,7 @@ html {
 }
 
 html, body {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -83,9 +84,67 @@ body {
     */
   background-color: #111927;
   background-image: 
-      radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
-      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+      radial-gradient(farthest-corner at 87% 33%, hsl(162.00, 77%, 40%) 0, transparent 50%), 
+      radial-gradient(farthest-corner at 22% 65%, hsl(218.00, 39%, 21%) 0, transparent 45%);
+  
+}
+/* 
+#glassmorph-chapter {
+  background-image: 
+  radial-gradient(farthest-corner at 5% 5%, hsl(265, 80%, 70%) 0, transparent 80%),
+  radial-gradient(farthest-corner at 95% 5%, hsl(5, 80%, 70%) 0, transparent 80%),
+  radial-gradient(farthest-corner at 5% 95%, hsl(145, 80%, 70%) 0, transparent 80%),
+  radial-gradient(farthest-corner at 95% 95%, hsl(325, 80%, 70%) 0, transparent 80%);
+background-color: #214667;
+} */
+
+/* #glassmorph-chapter {
+  background-image: 
+    radial-gradient(circle at 20% 30%, hsl(260, 49%, 54%) 0, transparent 40%),
+    radial-gradient(circle at 80% 70%, hsl(260, 100%, 40%) 0, transparent 40%);
+  background-color: #000022; 
+} */
+
+/* #glassmorph-chapter {
+  background-color: #0a0017;
+  background-image: 
+    radial-gradient(circle at 20% 20%, hsl(210, 80%, 60%) 0, transparent 50%),
+    radial-gradient(circle at 80% 10%, hsl(42, 87%, 55%) 0, transparent 50%),
+    radial-gradient(circle at 10% 90%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 90% 90%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 50% 50%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 40% 70%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 60% 15%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 10% 50%, hsl(0, 0%, 100%) 0, transparent 50%),
+    radial-gradient(circle at 90% 30%, hsl(0, 0%, 100%) 0, transparent 50%);
   background-repeat: no-repeat;
+  background-size: 10px 10px, 8px 8px, 10px 10px, 8px 8px, 6px 6px, 12px 12px, 9px 9px, 7px 7px, 11px 11px;
+  background-position: 10% 20%, 50% 5%, 90% 90%, 10% 80%, 80% 50%, 30% 40%, 70% 20%, 20% 60%, 75% 80%; 
+} */
+
+
+
+#glassmorph-era {
+  background-image: 
+  radial-gradient(farthest-corner at 30% 30%, hsl(251, 61%, 60%) 0, transparent 80%), 
+  radial-gradient(farthest-corner at 70% 70%, hsl(41, 75%, 56%) 0, transparent 80%);
+  background-color: #531c58;
+}
+
+#glassmorph-environment {
+  background-image: 
+    radial-gradient(farthest-corner at 80% 10%, hsl(25, 85%, 45%) 0, transparent 55%), 
+    radial-gradient(farthest-corner at 20% 90%, hsl(75, 60%, 40%) 0, transparent 55%);
+  background-color: #f8f8f8;
+}
+
+#glassmorph-habital {
+  background-image: 
+  radial-gradient(farthest-corner at 10% 20%, hsl(15, 80%, 65%) 0, transparent 60%),
+  radial-gradient(farthest-corner at 90% 20%, hsl(45, 85%, 60%) 0, transparent 60%),
+  radial-gradient(farthest-corner at 10% 80%, hsl(135, 75%, 55%) 0, transparent 60%),
+  radial-gradient(farthest-corner at 90% 80%, hsl(225, 65%, 50%) 0, transparent 60%);
+background-color: #214667;
 }
 
 .glass {
@@ -1927,16 +1986,6 @@ canvas {
   will-change: transform;
 }
 
-/* .wiki-sidebar {
-  position: fixed;
-  margin-top: 24rem;
-  height: 100vh;
-  z-index: 90;
-  height:calc(100vh - 24rem); 
-  width: 13rem;
-  transform: translateX(-100%);
-  overflow-y: hidden;
-} */
 
 .wiki-sidebar {
   width: 250px;
@@ -1949,7 +1998,7 @@ canvas {
   padding: 1rem;
   box-shadow: 2px 0px 5px rgba(0,0,0,0.1);
   transition: transform 0.3s;
-  transform: translateX(-150%);
+  transform: translateX(-100%);
   z-index: 90;
 }
 
@@ -2070,7 +2119,7 @@ canvas {
   min-height: 100vh;
   margin-bottom: 0; 
 }
-  
+
 @media (max-width: 768px) {
 
     .hamburger {
