@@ -1,321 +1,133 @@
 - extraFields:
-    name: Era of the Archons
-    order: 10
+    content: Pre-universe&nbsp;
+    name: Amplituhedron
+    order: 1
     parentDoc:
-      value:
-        _id: 5aa804ad-b998-45f7-88a5-4c615e03293f
-        label: Episode 6
-        type: chapters
-        url: /project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f
-        value: 5aa804ad-b998-45f7-88a5-4c615e03293f
-    title: entry1
-  id: 0a61fead-2419-452b-b381-55c906ea72c6
+      id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+      label: Episode 1
+      type: folder
+      url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+  id: dce31e88-c8d6-4804-b583-028892e8f490
+  title: entry1
+  type: chapters
 - extraFields:
-    name: Solar eclipse
-    order: 19
-    parentDoc:
-      value:
-        _id: c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
-        label: Episode 12
-        type: chapters
-        url: /project/display-content/chapters/c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
-        value: c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
-    spoilerNotes: "&nbsp;God flies into the sun\r<div>&nbsp;Reader knows not why\r\
-      </div><div>&nbsp;From here the planet is all downhill\r</div><div><br></div>"
-    title: entry2
-  id: 0f0f3cfa-dbe5-41e3-866b-857ea5547f1b
-- extraFields:
-    name: Efflorescence
-    order: 17
-    parentDoc:
-      value:
-        _id: 21bb9f35-5560-44ec-9441-346b241ae59c
-        label: Episode 10
-        type: chapters
-        url: /project/display-content/chapters/21bb9f35-5560-44ec-9441-346b241ae59c
-        value: 21bb9f35-5560-44ec-9441-346b241ae59c
-    spoilerNotes: "the period or state of flowering\r<div>Water with dissolved salts\
-      \ rise through rock (capillary action) and evaporate, leaving salt - analogy\
-      \ to moth dust, moths use scales to escape - analogy to magic as fairy dust\r\
-      </div><div>Opposite of hygroscopic/deliquescence\r</div><div>&nbsp;Dianthos\
-      \ means the bloom of a god. This chapter starts that process\r</div><div>&nbsp;Industrial\
-      \ technology, and hundreds of cultures, balanced spirituality\r</div><div><br></div>"
-    title: entry3
-  id: 0fe3b554-783e-4701-ab0d-ff5360f7a988
+    categorySwitch: true
+    name: Episode 1
+    order: 1
+  id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+  title: entry2
+  type: folder
 - extraFields:
     categoryDescription: 'Contains chapter 5: Biopoesis'
     categorySwitch: true
     name: Episode 2
     order: 2
-    title: entry4
   id: 15562d2a-a270-4c93-8b42-ee57bdcf9f7d
+  title: entry3
+  type: folder
+- extraFields:
+    name: Universe
+    order: 2
+    parentDoc:
+      id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+      label: Episode 1
+      type: folder
+      url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+    spoilerNotes: "A summary of what the universe is from the perspective of different\
+      \ things.\r<div>&nbsp;Light - instantaneous existence but distance traveled\
+      \ = far\r</div><div>&nbsp;Virtual particles - instantaneous existence but distance\
+      \ traveled = not much\r</div><div>&nbsp;Bacteria - single area, a few days\r\
+      </div><div>&nbsp;Organism - single planet, a few years\r</div><div>&nbsp;Galaxies,\
+      \ travel, space, time, quantum foam, black holes, fine tuning\r</div><div><br></div>"
+  id: f6b74db8-68e2-41ed-aa2d-1caa24bf5c67
+  title: entry4
+  type: chapters
+- extraFields:
+    categorySwitch: true
+    name: Episode 3
+    order: 3
+  id: ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
+  title: entry5
+  type: folder
+- extraFields:
+    name: Solar system
+    order: 3
+    parentDoc:
+      id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+      label: Episode 1
+      type: folder
+      url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+    spoilerNotes: "&nbsp;A summary of the solar system from start to Dianthos.\r<div>Star\
+      \ formation caused by rogue black hole.\r</div><div>&nbsp;Formation after periodic\
+      \ elements may exist\r</div><div>&nbsp;Stages: dust cloud, spinning, to planets.\r\
+      </div><div>Cycles. Procession, wobble, spin, rotation, nutation, etc\r</div><div><br></div>"
+  id: fa3606b3-37b3-4d7c-89b4-348b37e1a142
+  title: entry6
+  type: chapters
+- extraFields:
+    name: Dianthos
+    order: 4
+    parentDoc:
+      id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+      label: Episode 1
+      type: folder
+      url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+  id: b325635a-b66e-4f6d-a5d2-aec2755b5367
+  title: entry7
+  type: chapters
+- extraFields:
+    categorySwitch: true
+    name: Episode 4
+    order: 4
+  id: ea2ddbf1-e09f-4ab4-8382-019481b65c91
+  title: entry8
+  type: folder
 - extraFields:
     content: <div><br></div><div><br></div><div><img src="file:///C:\Users\Rynan\Desktop\Dianthos\youtube_assets\Phylogenetic
       Tree Micro.png"></div><div><br></div><div><br></div>
     name: Biopoesis
     order: 5
     parentDoc:
-      value:
-        _id: 15562d2a-a270-4c93-8b42-ee57bdcf9f7d
-        id: 15562d2a-a270-4c93-8b42-ee57bdcf9f7d
-        label: Episode 2
-        type: chapters
-        url: /project/display-content/chapters/15562d2a-a270-4c93-8b42-ee57bdcf9f7d
+      id: 15562d2a-a270-4c93-8b42-ee57bdcf9f7d
+      label: Episode 2
+      type: folder
+      url: /project/display-content/chapters/15562d2a-a270-4c93-8b42-ee57bdcf9f7d
     spoilerNotes: "Origin of life\r<div>&nbsp;Bacterial mats\r</div><div><br></div>"
-    title: entry5
   id: 1c32ef61-2d36-4997-bd80-98edda45caa3
+  title: entry9
+  type: chapters
 - extraFields:
     categorySwitch: true
-    name: Episode 15
-    order: 15
-    title: entry6
-  id: 1c87bc86-d667-4eca-b18f-fa55a8b34a0a
-- extraFields:
-    categorySwitch: true
-    name: Episode 11
-    order: 11
-    title: entry7
-  id: 1e2c54d3-36ec-48a7-8715-79fbc730203f
-- extraFields:
-    categorySwitch: true
-    name: Episode 10
-    order: 10
-    title: entry8
-  id: 21bb9f35-5560-44ec-9441-346b241ae59c
-- extraFields:
-    name: Deliquescence
-    order: 11
-    parentDoc:
-      value:
-        _id: a3e42c7e-29be-44ff-8dff-7f2453385959
-        label: Episode 7
-        type: chapters
-        url: /project/display-content/chapters/a3e42c7e-29be-44ff-8dff-7f2453385959
-        value: a3e42c7e-29be-44ff-8dff-7f2453385959
-    title: entry9
-  id: 25357c1c-0b19-447e-887a-27d4ca4a01e0
-- extraFields:
-    categorySwitch: true
-    name: Episode 9
-    order: 9
-    title: entry10
-  id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-- extraFields:
-    name: Starforge Crucible
-    order: 24
-    parentDoc:
-      value:
-        _id: b6de8343-5f26-47cf-b036-4054e68e9425
-        label: Episode 16
-        type: chapters
-        url: /project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425
-        value: b6de8343-5f26-47cf-b036-4054e68e9425
-    spoilerNotes: '&nbsp;The sun, containing the larval god, goes neutron star mode'
-    title: entry11
-  id: 3be97ba6-9e02-4884-8f26-2bf4247de83a
-- extraFields:
-    categorySwitch: true
-    name: Episode 14
-    order: 14
-    title: entry12
-  id: 3e0c72d5-7478-45e2-aca2-26d8811fa7fa
-- extraFields:
-    name: Halcyon
-    order: 18
-    parentDoc:
-      value:
-        _id: 1e2c54d3-36ec-48a7-8715-79fbc730203f
-        label: Episode 11
-        type: chapters
-        url: /project/display-content/chapters/1e2c54d3-36ec-48a7-8715-79fbc730203f
-        value: 1e2c54d3-36ec-48a7-8715-79fbc730203f
-    spoilerNotes: "&nbsp;Equilibrium where life and the ecosystem become one. Deer\
-      \ and wolf graph of life\r<div>&nbsp;Culture and technology boom\r</div><div>&nbsp;Approaching\
-      \ maximum consciousness of the highest life\r</div><div><br></div>"
-    title: entry13
-  id: 466d3c28-45f1-4b72-a686-9aaa09c560ae
-- extraFields:
-    categorySwitch: true
-    name: Episode 13
-    order: 13
-    title: entry14
-  id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-- extraFields:
-    name: Cacophony
-    order: 9
-    parentDoc:
-      value:
-        _id: 5aa804ad-b998-45f7-88a5-4c615e03293f
-        label: Episode 6
-        type: chapters
-        url: /project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f
-        value: 5aa804ad-b998-45f7-88a5-4c615e03293f
-    title: entry15
-  id: 4868714b-d3ae-481b-bb39-d70f1bbedf88
-- extraFields:
-    name: At capacity
-    order: 16
-    parentDoc:
-      value:
-        _id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-        label: Episode 9
-        type: chapters
-        url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
-        value: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-    title: entry16
-  id: 4c5fcde2-c096-4c49-b2c4-80a0401748e4
-- extraFields:
-    name: Failure to launch
-    order: 21
-    parentDoc:
-      value:
-        _id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-        label: Episode 13
-        type: chapters
-        url: /project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-        value: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-    spoilerNotes: "&nbsp;New generation does not thrive like their ancestors - shift\
-      \ in paradigm/worldview\r<div><br></div>"
-    title: entry17
-  id: 56475a84-a39b-4638-ac86-b9de026b6c56
+    name: Episode 5
+    order: 5
+  id: dc80db75-be38-4539-952b-6417e6e109d6
+  title: entry10
+  type: folder
 - extraFields:
     categorySwitch: true
     name: Episode 6
     order: 6
-    title: entry18
   id: 5aa804ad-b998-45f7-88a5-4c615e03293f
-- extraFields:
-    name: Pandora's Cradle
-    order: 25
-    parentDoc:
-      value:
-        _id: b6de8343-5f26-47cf-b036-4054e68e9425
-        label: Episode 16
-        type: chapters
-        url: /project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425
-        value: b6de8343-5f26-47cf-b036-4054e68e9425
-    spoilerNotes: The neutron star that would normally become a black hole, hatches
-      after tens of billions of years
-    title: entry19
-  id: 5b2e13ae-b833-4221-9686-c5d7e551592a
-- extraFields:
-    name: Flowers for Algernon
-    order: 22
-    parentDoc:
-      value:
-        _id: 3e0c72d5-7478-45e2-aca2-26d8811fa7fa
-        label: Episode 14
-        type: chapters
-        url: /project/display-content/chapters/3e0c72d5-7478-45e2-aca2-26d8811fa7fa
-        value: 3e0c72d5-7478-45e2-aca2-26d8811fa7fa
-    spoilerNotes: "&nbsp;Allusion to a story about a retarded man becoming genius\
-      \ and then becoming retarded again\r<div><br></div>"
-    title: entry20
-  id: 75b1af2d-45a5-4b49-83a1-790e0288ff09
-- extraFields:
-    name: Escarpment
-    order: 20
-    parentDoc:
-      value:
-        _id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-        label: Episode 13
-        type: chapters
-        url: /project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-        value: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
-    spoilerNotes: Progress drops off a cliff
-    title: entry21
-  id: 76196c14-f0b1-4c36-ba3c-5546e603ef61
-- extraFields:
-    name: Neoarchons
-    order: 15
-    parentDoc:
-      value:
-        _id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-        label: Episode 9
-        type: chapters
-        url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
-        value: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-    title: entry22
-  id: 7a5fbf65-4439-4776-98f1-b0b590f2d981
-- extraFields:
-    name: Hubris
-    order: 13
-    parentDoc:
-      value:
-        _id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-        label: Episode 8
-        type: chapters
-        url: /project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-        value: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-    title: entry23
-  id: 8017922e-f0a3-4f54-aedf-f658be3f261f
-- extraFields:
-    name: Lapse
-    order: 23
-    parentDoc:
-      value:
-        _id: 1c87bc86-d667-4eca-b18f-fa55a8b34a0a
-        label: Episode 15
-        type: chapters
-        url: /project/display-content/chapters/1c87bc86-d667-4eca-b18f-fa55a8b34a0a
-        value: 1c87bc86-d667-4eca-b18f-fa55a8b34a0a
-    spoilerNotes: Life on Dianthos goes extinct
-    title: entry24
-  id: 85f9cd96-6a69-4802-ad28-ac643ea4989b
-- extraFields:
-    categorySwitch: true
-    name: Episode 8
-    order: 8
-    title: entry25
-  id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+  title: entry11
+  type: folder
 - extraFields:
     name: Biosporepha
     order: 6
     parentDoc:
-      value:
-        _id: ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
-        label: Episode 3
-        type: chapters
-        url: /project/display-content/chapters/ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
-        value: ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
-    title: entry26
+      id: ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
+      label: Episode 3
+      type: folder
+      url: /project/display-content/chapters/ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
   id: 9dae1661-0bf4-44c0-bed7-165332103546
-- extraFields:
-    name: Underdog
-    order: 12
-    parentDoc:
-      value:
-        _id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-        label: Episode 8
-        type: chapters
-        url: /project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-        value: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
-    title: entry27
-  id: 9ffed4df-823a-4a7d-ab0a-4cb977396dc2
+  title: entry12
+  type: chapters
 - extraFields:
     categorySwitch: true
     name: Episode 7
     order: 7
-    title: entry28
   id: a3e42c7e-29be-44ff-8dff-7f2453385959
-- extraFields:
-    name: Dianthos
-    order: 4
-    parentDoc:
-      value:
-        _id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        label: Episode 1
-        type: chapters
-        url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-    title: entry29
-  id: b325635a-b66e-4f6d-a5d2-aec2755b5367
-- extraFields:
-    categorySwitch: true
-    name: Episode 16
-    order: 16
-    title: entry30
-  id: b6de8343-5f26-47cf-b036-4054e68e9425
+  title: entry13
+  type: folder
 - extraFields:
     content: "<h2>TODO\r</h2><h3>General\r</h3><div>[X] Time\r</div><div>[X] Name\
       \ age\r</div><h3>Geography\r</h3><div>&nbsp;[X] List of biomes\r</div><div>[\
@@ -409,111 +221,290 @@
     name: Euphony
     order: 7
     parentDoc:
-      value:
-        _id: ea2ddbf1-e09f-4ab4-8382-019481b65c91
-        label: Episode 4
-        type: chapters
-        url: /project/display-content/chapters/ea2ddbf1-e09f-4ab4-8382-019481b65c91
-        value: ea2ddbf1-e09f-4ab4-8382-019481b65c91
-    title: entry31
+      id: ea2ddbf1-e09f-4ab4-8382-019481b65c91
+      label: Episode 4
+      type: folder
+      url: /project/display-content/chapters/ea2ddbf1-e09f-4ab4-8382-019481b65c91
   id: c5ab159d-9312-4dab-9716-0cba271911fd
+  title: entry14
+  type: chapters
+- extraFields:
+    categorySwitch: true
+    name: Episode 8
+    order: 8
+  id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+  title: entry15
+  type: folder
+- extraFields:
+    categorySwitch: true
+    name: Episode 9
+    order: 9
+  id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
+  title: entry16
+  type: folder
+- extraFields:
+    name: Cacophony
+    order: 9
+    parentDoc:
+      id: 5aa804ad-b998-45f7-88a5-4c615e03293f
+      label: Episode 6
+      type: folder
+      url: /project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f
+  id: 4868714b-d3ae-481b-bb39-d70f1bbedf88
+  title: entry17
+  type: chapters
+- extraFields:
+    name: Era of the Archons
+    order: 10
+    parentDoc:
+      id: 5aa804ad-b998-45f7-88a5-4c615e03293f
+      label: Episode 6
+      type: folder
+      url: /project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f
+  id: 0a61fead-2419-452b-b381-55c906ea72c6
+  title: entry18
+  type: chapters
+- extraFields:
+    categorySwitch: true
+    name: Episode 10
+    order: 10
+  id: 21bb9f35-5560-44ec-9441-346b241ae59c
+  title: entry19
+  type: folder
+- extraFields:
+    categorySwitch: true
+    name: Episode 11
+    order: 11
+  id: 1e2c54d3-36ec-48a7-8715-79fbc730203f
+  title: entry20
+  type: folder
+- extraFields:
+    name: Deliquescence
+    order: 11
+    parentDoc:
+      id: a3e42c7e-29be-44ff-8dff-7f2453385959
+      label: Episode 7
+      type: folder
+      url: /project/display-content/chapters/a3e42c7e-29be-44ff-8dff-7f2453385959
+  id: 25357c1c-0b19-447e-887a-27d4ca4a01e0
+  title: entry21
+  type: chapters
+- extraFields:
+    name: Underdog
+    order: 12
+    parentDoc:
+      id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+      label: Episode 8
+      type: folder
+      url: /project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+  id: 9ffed4df-823a-4a7d-ab0a-4cb977396dc2
+  title: entry22
+  type: chapters
 - extraFields:
     categorySwitch: true
     name: Episode 12
     order: 12
-    title: entry32
   id: c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
+  title: entry23
+  type: folder
 - extraFields:
     categorySwitch: true
-    name: Episode 3
-    order: 3
-    title: entry33
-  id: ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b
+    name: Episode 13
+    order: 13
+  id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
+  title: entry24
+  type: folder
 - extraFields:
-    categorySwitch: true
-    name: Episode 5
-    order: 5
-    title: entry34
-  id: dc80db75-be38-4539-952b-6417e6e109d6
-- extraFields:
-    content: Pre-universe&nbsp;
-    name: Amplituhedron
-    order: 1
+    name: Hubris
+    order: 13
     parentDoc:
-      value:
-        _id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        label: Episode 1
-        type: chapters
-        url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-    title: entry35
-  id: dce31e88-c8d6-4804-b583-028892e8f490
-- extraFields:
-    name: Onto land
-    parentDoc:
-      value:
-        _id: dc80db75-be38-4539-952b-6417e6e109d6
-        label: Episode 5
-        type: chapters
-        url: /project/display-content/chapters/dc80db75-be38-4539-952b-6417e6e109d6
-        value: dc80db75-be38-4539-952b-6417e6e109d6
-    title: entry36
-  id: e9f5e844-fc7b-490a-a983-efaf67d8c370
+      id: 9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+      label: Episode 8
+      type: folder
+      url: /project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb
+  id: 8017922e-f0a3-4f54-aedf-f658be3f261f
+  title: entry25
+  type: chapters
 - extraFields:
     categorySwitch: true
-    name: Episode 4
-    order: 4
-    title: entry37
-  id: ea2ddbf1-e09f-4ab4-8382-019481b65c91
+    name: Episode 14
+    order: 14
+  id: 3e0c72d5-7478-45e2-aca2-26d8811fa7fa
+  title: entry26
+  type: folder
 - extraFields:
     name: Exponential
     order: 14
     parentDoc:
-      value:
-        _id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-        label: Episode 9
-        type: chapters
-        url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
-        value: 3b4519ad-f19f-4804-a90c-fd125ef8db12
-    title: entry38
+      id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
+      label: Episode 9
+      type: folder
+      url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
   id: ef9d5dd2-95ed-4177-9933-992bba03b843
+  title: entry27
+  type: chapters
 - extraFields:
     categorySwitch: true
-    name: Episode 1
-    order: 1
-    title: entry39
-  id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
+    name: Episode 15
+    order: 15
+  id: 1c87bc86-d667-4eca-b18f-fa55a8b34a0a
+  title: entry28
+  type: folder
 - extraFields:
-    name: Universe
-    order: 2
+    name: Neoarchons
+    order: 15
     parentDoc:
-      value:
-        _id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        label: Episode 1
-        type: chapters
-        url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-    spoilerNotes: "A summary of what the universe is from the perspective of different\
-      \ things.\r<div>&nbsp;Light - instantaneous existence but distance traveled\
-      \ = far\r</div><div>&nbsp;Virtual particles - instantaneous existence but distance\
-      \ traveled = not much\r</div><div>&nbsp;Bacteria - single area, a few days\r\
-      </div><div>&nbsp;Organism - single planet, a few years\r</div><div>&nbsp;Galaxies,\
-      \ travel, space, time, quantum foam, black holes, fine tuning\r</div><div><br></div>"
-    title: entry40
-  id: f6b74db8-68e2-41ed-aa2d-1caa24bf5c67
+      id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
+      label: Episode 9
+      type: folder
+      url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
+  id: 7a5fbf65-4439-4776-98f1-b0b590f2d981
+  title: entry29
+  type: chapters
 - extraFields:
-    name: Solar system
-    order: 3
+    name: At capacity
+    order: 16
     parentDoc:
-      value:
-        _id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        id: f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-        label: Episode 1
-        type: chapters
-        url: /project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d
-    spoilerNotes: "&nbsp;A summary of the solar system from start to Dianthos.\r<div>Star\
-      \ formation caused by rogue black hole.\r</div><div>&nbsp;Formation after periodic\
-      \ elements may exist\r</div><div>&nbsp;Stages: dust cloud, spinning, to planets.\r\
-      </div><div>Cycles. Procession, wobble, spin, rotation, nutation, etc\r</div><div><br></div>"
-    title: entry41
-  id: fa3606b3-37b3-4d7c-89b4-348b37e1a142
+      id: 3b4519ad-f19f-4804-a90c-fd125ef8db12
+      label: Episode 9
+      type: folder
+      url: /project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12
+  id: 4c5fcde2-c096-4c49-b2c4-80a0401748e4
+  title: entry30
+  type: chapters
+- extraFields:
+    categorySwitch: true
+    name: Episode 16
+    order: 16
+  id: b6de8343-5f26-47cf-b036-4054e68e9425
+  title: entry31
+  type: folder
+- extraFields:
+    name: Efflorescence
+    order: 17
+    parentDoc:
+      id: 21bb9f35-5560-44ec-9441-346b241ae59c
+      label: Episode 10
+      type: folder
+      url: /project/display-content/chapters/21bb9f35-5560-44ec-9441-346b241ae59c
+    spoilerNotes: "the period or state of flowering\r<div>Water with dissolved salts\
+      \ rise through rock (capillary action) and evaporate, leaving salt - analogy\
+      \ to moth dust, moths use scales to escape - analogy to magic as fairy dust\r\
+      </div><div>Opposite of hygroscopic/deliquescence\r</div><div>&nbsp;Dianthos\
+      \ means the bloom of a god. This chapter starts that process\r</div><div>&nbsp;Industrial\
+      \ technology, and hundreds of cultures, balanced spirituality\r</div><div><br></div>"
+  id: 0fe3b554-783e-4701-ab0d-ff5360f7a988
+  title: entry32
+  type: chapters
+- extraFields:
+    name: Halcyon
+    order: 18
+    parentDoc:
+      id: 1e2c54d3-36ec-48a7-8715-79fbc730203f
+      label: Episode 11
+      type: folder
+      url: /project/display-content/chapters/1e2c54d3-36ec-48a7-8715-79fbc730203f
+    spoilerNotes: "&nbsp;Equilibrium where life and the ecosystem become one. Deer\
+      \ and wolf graph of life\r<div>&nbsp;Culture and technology boom\r</div><div>&nbsp;Approaching\
+      \ maximum consciousness of the highest life\r</div><div><br></div>"
+  id: 466d3c28-45f1-4b72-a686-9aaa09c560ae
+  title: entry33
+  type: chapters
+- extraFields:
+    name: Solar eclipse
+    order: 19
+    parentDoc:
+      id: c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
+      label: Episode 12
+      type: folder
+      url: /project/display-content/chapters/c8a64c94-90ed-4121-bc7c-3457a7c9ee7d
+    spoilerNotes: "&nbsp;God flies into the sun\r<div>&nbsp;Reader knows not why\r\
+      </div><div>&nbsp;From here the planet is all downhill\r</div><div><br></div>"
+  id: 0f0f3cfa-dbe5-41e3-866b-857ea5547f1b
+  title: entry34
+  type: chapters
+- extraFields:
+    name: Escarpment
+    order: 20
+    parentDoc:
+      id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
+      label: Episode 13
+      type: folder
+      url: /project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9
+    spoilerNotes: Progress drops off a cliff
+  id: 76196c14-f0b1-4c36-ba3c-5546e603ef61
+  title: entry35
+  type: chapters
+- extraFields:
+    name: Failure to launch
+    order: 21
+    parentDoc:
+      id: 4861ddc6-0d47-496a-8e65-54f1bb7fddc9
+      label: Episode 13
+      type: folder
+      url: /project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9
+    spoilerNotes: "&nbsp;New generation does not thrive like their ancestors - shift\
+      \ in paradigm/worldview\r<div><br></div>"
+  id: 56475a84-a39b-4638-ac86-b9de026b6c56
+  title: entry36
+  type: chapters
+- extraFields:
+    name: Flowers for Algernon
+    order: 22
+    parentDoc:
+      id: 3e0c72d5-7478-45e2-aca2-26d8811fa7fa
+      label: Episode 14
+      type: folder
+      url: /project/display-content/chapters/3e0c72d5-7478-45e2-aca2-26d8811fa7fa
+    spoilerNotes: "&nbsp;Allusion to a story about a retarded man becoming genius\
+      \ and then becoming retarded again\r<div><br></div>"
+  id: 75b1af2d-45a5-4b49-83a1-790e0288ff09
+  title: entry37
+  type: chapters
+- extraFields:
+    name: Lapse
+    order: 23
+    parentDoc:
+      id: 1c87bc86-d667-4eca-b18f-fa55a8b34a0a
+      label: Episode 15
+      type: folder
+      url: /project/display-content/chapters/1c87bc86-d667-4eca-b18f-fa55a8b34a0a
+    spoilerNotes: Life on Dianthos goes extinct
+  id: 85f9cd96-6a69-4802-ad28-ac643ea4989b
+  title: entry38
+  type: chapters
+- extraFields:
+    name: Starforge Crucible
+    order: 24
+    parentDoc:
+      id: b6de8343-5f26-47cf-b036-4054e68e9425
+      label: Episode 16
+      type: folder
+      url: /project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425
+    spoilerNotes: '&nbsp;The sun, containing the larval god, goes neutron star mode'
+  id: 3be97ba6-9e02-4884-8f26-2bf4247de83a
+  title: entry39
+  type: chapters
+- extraFields:
+    name: Pandora's Cradle
+    order: 25
+    parentDoc:
+      id: b6de8343-5f26-47cf-b036-4054e68e9425
+      label: Episode 16
+      type: folder
+      url: /project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425
+    spoilerNotes: The neutron star that would normally become a black hole, hatches
+      after tens of billions of years
+  id: 5b2e13ae-b833-4221-9686-c5d7e551592a
+  title: entry40
+  type: chapters
+- extraFields:
+    name: Onto land
+    parentDoc:
+      id: dc80db75-be38-4539-952b-6417e6e109d6
+      label: Episode 5
+      type: folder
+      url: /project/display-content/chapters/dc80db75-be38-4539-952b-6417e6e109d6
+  id: e9f5e844-fc7b-490a-a983-efaf67d8c370
+  title: entry41
+  type: chapters

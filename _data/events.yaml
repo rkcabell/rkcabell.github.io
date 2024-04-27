@@ -1,24 +1,8 @@
 - extraFields:
-    categorySwitch: true
-    name: Eras Timeline
-    title: entry1
-  id: 06900598-529a-4b1f-8dac-d8d715134f3e
-- extraFields:
-    name: Drainage
-    order: 6
-    parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry2
-  id: 102d9e2a-f065-4739-a46d-2872e5212adf
-- extraFields:
     name: Tidal Planet
     order: 1
     pairedEvents:
+      addedValues: []
       value:
       - _id: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
         pairedField: pairedEvents
@@ -26,246 +10,13 @@
         url: /project/display-content/events/3f1b135d-3956-4ee4-9e9a-9764cb509d3d
         value: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
     parentDoc:
-      value:
-        _id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        label: Eras Timeline
-        type: events
-        url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
-        value: 06900598-529a-4b1f-8dac-d8d715134f3e
-    title: entry3
+      id: 06900598-529a-4b1f-8dac-d8d715134f3e
+      label: Eras Timeline
+      type: folder
+      url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
   id: 10d397d8-8a80-485e-b2be-39e23343fe55
-- extraFields:
-    description: The universe starts as a high dimensional state, much higher than
-      the 4 we commonly think of. However, when folded along many axes, one can distinguish
-      a world where three dimensions is possible when looking down the time dimension
-      in a linear fashion. This is where one of many universes can be found.
-    name: Pre-ovum
-    parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry4
-  id: 170100c0-6e4d-4daf-8b8f-6e9c8a491013
-- extraFields:
-    description: Because of increased levels of oxygen released by biological life,
-      the ocean was saturated with the poisonous gas. This caused cycles of boom and
-      doom where microscopic life flourished when anoxic and died off in oxygenated
-      conditions. This is shown by patterns of iron banding in rocks. Overall the
-      average temperature of the planet decreased as ozone was added to the atmosphere
-    eventType:
-    - Tragedy
-    name: Oxygen Freeze
-    order: 4
-    otherNames:
-    - type: title
-      value: Inertia Event
-    title: entry5
-  id: 2ef19827-80dc-4405-a601-8b1ca1df9bf2
-- extraFields:
-    name: Inert
-    order: 3
-    pairedEvents:
-      value:
-      - _id: a528b849-4cf6-4da7-ae0c-3e837f5f8786
-        pairedField: pairedEvents
-        type: events
-        url: /project/display-content/events/a528b849-4cf6-4da7-ae0c-3e837f5f8786
-        value: a528b849-4cf6-4da7-ae0c-3e837f5f8786
-    parentDoc:
-      value:
-        _id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        label: Eras Timeline
-        type: events
-        url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
-        value: 06900598-529a-4b1f-8dac-d8d715134f3e
-    title: entry6
-  id: 3ad896d4-c40e-4006-b912-cf1999ea3828
-- extraFields:
-    description: While Dianthos was tidally locked, one side of the rocky body was
-      always facing the hot star. It continued to be bombarded with rocks from the
-      solar nebula as dust and rock agglutinated into larger bodies. One significantly
-      large rock named ____ was large enough to slam this planet into a completely
-      different orbital ring around the sun. It drifted for millions of years from
-      its original position in the solar system to its final resting place at 1.38
-      AU from the sun, making it the second planet in order from closest to farthest.
-    endDate: Hadean beginning
-    eventType:
-    - Natural occurance
-    - Unique
-    name: Impact Event
-    order: 2
-    pairedEvents:
-      addedValues:
-      - pairedId: 10d397d8-8a80-485e-b2be-39e23343fe55
-      - pairedId: 5198646d-e51b-4cc6-b20f-ebf79b5537db
-      value:
-      - _id: 10d397d8-8a80-485e-b2be-39e23343fe55
-        id: 10d397d8-8a80-485e-b2be-39e23343fe55
-        label: Tidal Planet
-        pairedField: pairedEvents
-        type: events
-        url: /project/display-content/events/10d397d8-8a80-485e-b2be-39e23343fe55
-      - _id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
-        id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
-        label: Hadean
-        pairedField: pairedEvents
-        type: events
-        url: /project/display-content/events/5198646d-e51b-4cc6-b20f-ebf79b5537db
-    pairedMyths:
-      addedValues:
-      - pairedId: 48aede7e-f931-4496-826b-692b2a5aca00
-        value: Planet and asteroid composition and physics
-      - pairedId: 5de4887e-e55f-4975-a6d8-83b444aa238d
-        value: Rotational speed and orbital goldilocks zone
-      - pairedId: 99952176-6790-4cbd-ae36-62cf5e160b37
-        value: shockwave behavior and law of heat transfer
-      value:
-      - _id: 48aede7e-f931-4496-826b-692b2a5aca00
-        id: 48aede7e-f931-4496-826b-692b2a5aca00
-        label: Matter/Antimatter
-        pairedField: pairedEvents
-        type: myths
-        url: /project/display-content/myths/48aede7e-f931-4496-826b-692b2a5aca00
-      - _id: 5de4887e-e55f-4975-a6d8-83b444aa238d
-        id: 5de4887e-e55f-4975-a6d8-83b444aa238d
-        label: Math/Abstraction
-        pairedField: pairedEvents
-        type: myths
-        url: /project/display-content/myths/5de4887e-e55f-4975-a6d8-83b444aa238d
-      - _id: 99952176-6790-4cbd-ae36-62cf5e160b37
-        id: 99952176-6790-4cbd-ae36-62cf5e160b37
-        label: Temperature/Pressure
-        pairedField: pairedEvents
-        type: myths
-        url: /project/display-content/myths/99952176-6790-4cbd-ae36-62cf5e160b37
-    startDate: Tidal Planet end
-    title: entry7
-  id: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
-- extraFields:
-    name: Biosporepha
-    order: 4
-    pairedEvents:
-      value:
-      - _id: c34fc579-e369-48d1-a502-a1c57e3499fd
-        pairedField: pairedEvents
-        type: events
-        url: /project/display-content/events/c34fc579-e369-48d1-a502-a1c57e3499fd
-        value: c34fc579-e369-48d1-a502-a1c57e3499fd
-    parentDoc:
-      value:
-        _id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        label: Eras Timeline
-        type: events
-        url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
-        value: 06900598-529a-4b1f-8dac-d8d715134f3e
-    title: entry8
-  id: 4242ed2e-79d3-4927-85cf-d361bc960eab
-- extraFields:
-    name: White hole
-    order: 2
-    parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry9
-  id: 429fe052-ba25-43c2-a30a-fa1f2ee639a2
-- extraFields:
-    name: Superexpansion
-    order: 3
-    parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry10
-  id: 4dde36dc-ad8c-43ea-82c0-637164ddce07
-- extraFields:
-    name: Hadean
-    order: 2
-    pairedEvents:
-      value:
-      - _id: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
-        pairedField: pairedEvents
-        type: events
-        url: /project/display-content/events/3f1b135d-3956-4ee4-9e9a-9764cb509d3d
-        value: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
-    parentDoc:
-      value:
-        _id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        label: Eras Timeline
-        type: events
-        url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
-    title: entry11
-  id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
-- extraFields:
-    title: entry12
-  id: 96606f9e-100d-4b34-887e-f777ab4c2907
-- extraFields:
-    name: Euphonic
-    order: 5
-    parentDoc:
-      value:
-        _id: 06900598-529a-4b1f-8dac-d8d715134f3e
-        label: Eras Timeline
-        type: events
-        url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
-        value: 06900598-529a-4b1f-8dac-d8d715134f3e
-    title: entry13
-  id: 9a1721dc-9e48-4b9c-a5b8-047f11d1f906
-- extraFields:
-    title: entry14
-  id: 9d5eb206-01c8-4e63-9e29-b302f9971cdc
-- extraFields:
-    description: After the universe is flipped inside out with all matter being placed
-      into black holes, the universe rescales itself to the size of the largest matter
-      existent. Because of acceleration faster than light speed, it fractures into
-      an infinite number of universes each the size of a handful of quarks. Gluons
-      decay into smaller particles and the extreme mass to space ratio causes opaqueness,
-      then symmetry. This lasts for as long as the universe can stay stable. This
-      universe is a ratio of size smaller than the old universe. Each universe born
-      from the expansion of spacetime is a harmonic resonance below that of the original
-      universe. Unstable universes collapse immediately and continue dropping in scale
-      compared to the original like a water droplet merges with a still pond.
-    name: Harmonic series
-    order: 7
-    pairedEvents:
-      addedValues:
-      - pairedId: a034c290-a8dc-4c23-bde3-e6c8e06ddee9
-    pairedMyths:
-      addedValues:
-      - pairedId: f69bb563-0615-483d-9b26-5e5706570578
-      - pairedId: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
-      value:
-      - _id: f69bb563-0615-483d-9b26-5e5706570578
-        id: f69bb563-0615-483d-9b26-5e5706570578
-        label: Subspace/Chaos
-        pairedField: pairedEvents
-        type: myths
-        url: /project/display-content/myths/f69bb563-0615-483d-9b26-5e5706570578
-      - _id: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
-        id: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
-        label: Space/Time
-        pairedField: pairedEvents
-        type: myths
-        url: /project/display-content/myths/f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
-    parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry15
-  id: 9efcfaba-04ce-42cb-a4c0-42c871ed5aa7
+  title: entry1
+  type: events
 - extraFields:
     description: 'The universe begins in a symmetrical state of matter and antimatter,
       spacetime and gravity are not possible in this state. There is no time, opacity,
@@ -287,21 +38,143 @@
     name: Ovum
     order: 1
     pairedEvents:
+      addedValues: []
       isSilent: true
+      value: []
     parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry16
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
   id: a034c290-a8dc-4c23-bde3-e6c8e06ddee9
+  title: entry2
+  type: events
 - extraFields:
-    categorySwitch: true
-    name: Universe Timeline
-    title: entry17
-  id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+    description: While Dianthos was tidally locked, one side of the rocky body was
+      always facing the hot star. It continued to be bombarded with rocks from the
+      solar nebula as dust and rock agglutinated into larger bodies. One significantly
+      large rock named ____ was large enough to slam this planet into a completely
+      different orbital ring around the sun. It drifted for millions of years from
+      its original position in the solar system to its final resting place at 1.38
+      AU from the sun, making it the second planet in order from closest to farthest.
+    endDate: Hadean beginning
+    eventType:
+    - Natural occurance
+    - Unique
+    name: Impact Event
+    order: 2
+    pairedEvents:
+      addedValues:
+      - pairedId: 10d397d8-8a80-485e-b2be-39e23343fe55
+        value: ''
+      - pairedId: 5198646d-e51b-4cc6-b20f-ebf79b5537db
+        value: ''
+      isSilent: false
+      value:
+      - _id: 10d397d8-8a80-485e-b2be-39e23343fe55
+        id: 10d397d8-8a80-485e-b2be-39e23343fe55
+        label: Tidal Planet
+        pairedField: pairedEvents
+        type: events
+        url: /project/display-content/events/10d397d8-8a80-485e-b2be-39e23343fe55
+      - _id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
+        id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
+        label: Hadean
+        pairedField: pairedEvents
+        type: events
+        url: /project/display-content/events/5198646d-e51b-4cc6-b20f-ebf79b5537db
+    pairedMyths:
+      addedValues:
+      - pairedId: 48aede7e-f931-4496-826b-692b2a5aca00
+        value: Planet and asteroid composition and physics
+      - pairedId: 5de4887e-e55f-4975-a6d8-83b444aa238d
+        value: Rotational speed and orbital goldilocks zone
+      - pairedId: 99952176-6790-4cbd-ae36-62cf5e160b37
+        value: shockwave behavior and law of heat transfer
+      isSilent: false
+      value:
+      - _id: 48aede7e-f931-4496-826b-692b2a5aca00
+        id: 48aede7e-f931-4496-826b-692b2a5aca00
+        label: Matter/Antimatter
+        pairedField: pairedEvents
+        type: myths
+        url: /project/display-content/myths/48aede7e-f931-4496-826b-692b2a5aca00
+      - _id: 5de4887e-e55f-4975-a6d8-83b444aa238d
+        id: 5de4887e-e55f-4975-a6d8-83b444aa238d
+        label: Math/Abstraction
+        pairedField: pairedEvents
+        type: myths
+        url: /project/display-content/myths/5de4887e-e55f-4975-a6d8-83b444aa238d
+      - _id: 99952176-6790-4cbd-ae36-62cf5e160b37
+        id: 99952176-6790-4cbd-ae36-62cf5e160b37
+        label: Temperature/Pressure
+        pairedField: pairedEvents
+        type: myths
+        url: /project/display-content/myths/99952176-6790-4cbd-ae36-62cf5e160b37
+    startDate: Tidal Planet end
+  id: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
+  title: entry3
+  type: events
+- extraFields:
+    name: White hole
+    order: 2
+    parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: 429fe052-ba25-43c2-a30a-fa1f2ee639a2
+  title: entry4
+  type: events
+- extraFields:
+    name: Hadean
+    order: 2
+    pairedEvents:
+      addedValues: []
+      value:
+      - _id: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
+        pairedField: pairedEvents
+        type: events
+        url: /project/display-content/events/3f1b135d-3956-4ee4-9e9a-9764cb509d3d
+        value: 3f1b135d-3956-4ee4-9e9a-9764cb509d3d
+    parentDoc:
+      id: 06900598-529a-4b1f-8dac-d8d715134f3e
+      label: Eras Timeline
+      type: folder
+      url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
+  id: 5198646d-e51b-4cc6-b20f-ebf79b5537db
+  title: entry5
+  type: events
+- extraFields:
+    name: Inert
+    order: 3
+    pairedEvents:
+      addedValues: []
+      value:
+      - _id: a528b849-4cf6-4da7-ae0c-3e837f5f8786
+        pairedField: pairedEvents
+        type: events
+        url: /project/display-content/events/a528b849-4cf6-4da7-ae0c-3e837f5f8786
+        value: a528b849-4cf6-4da7-ae0c-3e837f5f8786
+    parentDoc:
+      id: 06900598-529a-4b1f-8dac-d8d715134f3e
+      label: Eras Timeline
+      type: folder
+      url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
+  id: 3ad896d4-c40e-4006-b912-cf1999ea3828
+  title: entry6
+  type: events
+- extraFields:
+    name: Superexpansion
+    order: 3
+    parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: 4dde36dc-ad8c-43ea-82c0-637164ddce07
+  title: entry7
+  type: events
 - extraFields:
     description: The event that kickstarted the formation of life from minerals. Spontaneous
       formation of amino acids by organic compounds. Carbon, nitrogen, phosphorus,
@@ -312,6 +185,8 @@
     pairedEvents:
       addedValues:
       - pairedId: 3ad896d4-c40e-4006-b912-cf1999ea3828
+        value: ''
+      isSilent: false
       value:
       - _id: 3ad896d4-c40e-4006-b912-cf1999ea3828
         id: 3ad896d4-c40e-4006-b912-cf1999ea3828
@@ -322,7 +197,10 @@
     pairedMyths:
       addedValues:
       - pairedId: 99b95c54-c689-46b3-b29d-660a357c0a61
+        value: ''
       - pairedId: 959c34d9-0f7c-45da-abb9-f7e8ba984caf
+        value: ''
+      isSilent: false
       value:
       - _id: 99b95c54-c689-46b3-b29d-660a357c0a61
         id: 99b95c54-c689-46b3-b29d-660a357c0a61
@@ -332,20 +210,78 @@
         url: /project/display-content/myths/99b95c54-c689-46b3-b29d-660a357c0a61
     spoilerNotes: 'On earth: only right handed carbohydrates and left-handed amino
       acids'
-    title: entry18
   id: a528b849-4cf6-4da7-ae0c-3e837f5f8786
+  title: entry8
+  type: events
+- extraFields:
+    description: Because of increased levels of oxygen released by biological life,
+      the ocean was saturated with the poisonous gas. This caused cycles of boom and
+      doom where microscopic life flourished when anoxic and died off in oxygenated
+      conditions. This is shown by patterns of iron banding in rocks. Overall the
+      average temperature of the planet decreased as ozone was added to the atmosphere
+    eventType:
+    - Tragedy
+    name: Oxygen Freeze
+    order: 4
+    otherNames:
+    - affix: ''
+      type: title
+      value: Inertia Event
+  id: 2ef19827-80dc-4405-a601-8b1ca1df9bf2
+  title: entry9
+  type: events
+- extraFields:
+    name: Biosporepha
+    order: 4
+    pairedEvents:
+      addedValues: []
+      value:
+      - _id: c34fc579-e369-48d1-a502-a1c57e3499fd
+        pairedField: pairedEvents
+        type: events
+        url: /project/display-content/events/c34fc579-e369-48d1-a502-a1c57e3499fd
+        value: c34fc579-e369-48d1-a502-a1c57e3499fd
+    parentDoc:
+      id: 06900598-529a-4b1f-8dac-d8d715134f3e
+      label: Eras Timeline
+      type: folder
+      url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
+  id: 4242ed2e-79d3-4927-85cf-d361bc960eab
+  title: entry10
+  type: events
+- extraFields:
+    name: Easing
+    order: 4
+    parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: d5d38586-a074-4b35-89ce-ff4830c8d604
+  title: entry11
+  type: events
+- extraFields:
+    name: Euphonic
+    order: 5
+    parentDoc:
+      id: 06900598-529a-4b1f-8dac-d8d715134f3e
+      label: Eras Timeline
+      type: folder
+      url: /project/display-content/events/06900598-529a-4b1f-8dac-d8d715134f3e
+  id: 9a1721dc-9e48-4b9c-a5b8-047f11d1f906
+  title: entry12
+  type: events
 - extraFields:
     name: Acceleration
     order: 5
     parentDoc:
-      value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry19
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
   id: bfc5f5d0-c9bb-43a1-ac66-b773c776f330
+  title: entry13
+  type: events
 - extraFields:
     description: Natural progression of single-celled life that provides the atmosphere
       with oxygen. Once the waters had collected enough oxygen, iron began to precipitate
@@ -360,6 +296,8 @@
     pairedEvents:
       addedValues:
       - pairedId: 4242ed2e-79d3-4927-85cf-d361bc960eab
+        value: ''
+      isSilent: false
       value:
       - _id: 4242ed2e-79d3-4927-85cf-d361bc960eab
         id: 4242ed2e-79d3-4927-85cf-d361bc960eab
@@ -367,17 +305,90 @@
         pairedField: pairedEvents
         type: events
         url: /project/display-content/events/4242ed2e-79d3-4927-85cf-d361bc960eab
-    title: entry20
   id: c34fc579-e369-48d1-a502-a1c57e3499fd
+  title: entry14
+  type: events
 - extraFields:
-    name: Easing
-    order: 4
+    name: Drainage
+    order: 6
     parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: 102d9e2a-f065-4739-a46d-2872e5212adf
+  title: entry15
+  type: events
+- extraFields:
+    description: After the universe is flipped inside out with all matter being placed
+      into black holes, the universe rescales itself to the size of the largest matter
+      existent. Because of acceleration faster than light speed, it fractures into
+      an infinite number of universes each the size of a handful of quarks. Gluons
+      decay into smaller particles and the extreme mass to space ratio causes opaqueness,
+      then symmetry. This lasts for as long as the universe can stay stable. This
+      universe is a ratio of size smaller than the old universe. Each universe born
+      from the expansion of spacetime is a harmonic resonance below that of the original
+      universe. Unstable universes collapse immediately and continue dropping in scale
+      compared to the original like a water droplet merges with a still pond.
+    name: Harmonic series
+    order: 7
+    pairedEvents:
+      addedValues:
+      - pairedId: a034c290-a8dc-4c23-bde3-e6c8e06ddee9
+        value: ''
+      isSilent: false
+      value: []
+    pairedMyths:
+      addedValues:
+      - pairedId: f69bb563-0615-483d-9b26-5e5706570578
+        value: ''
+      - pairedId: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
+        value: ''
+      isSilent: false
       value:
-        _id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        label: Universe Timeline
-        type: events
-        url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-        value: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
-    title: entry21
-  id: d5d38586-a074-4b35-89ce-ff4830c8d604
+      - _id: f69bb563-0615-483d-9b26-5e5706570578
+        id: f69bb563-0615-483d-9b26-5e5706570578
+        label: Subspace/Chaos
+        pairedField: pairedEvents
+        type: myths
+        url: /project/display-content/myths/f69bb563-0615-483d-9b26-5e5706570578
+      - _id: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
+        id: f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
+        label: Space/Time
+        pairedField: pairedEvents
+        type: myths
+        url: /project/display-content/myths/f86f01b2-e157-42ca-8cdb-d1625ad0e9a8
+    parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: 9efcfaba-04ce-42cb-a4c0-42c871ed5aa7
+  title: entry16
+  type: events
+- extraFields:
+    categorySwitch: true
+    name: Eras Timeline
+  id: 06900598-529a-4b1f-8dac-d8d715134f3e
+  title: entry17
+  type: folder
+- extraFields:
+    description: The universe starts as a high dimensional state, much higher than
+      the 4 we commonly think of. However, when folded along many axes, one can distinguish
+      a world where three dimensions is possible when looking down the time dimension
+      in a linear fashion. This is where one of many universes can be found.
+    name: Pre-ovum
+    parentDoc:
+      id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+      label: Universe Timeline
+      type: folder
+      url: /project/display-content/events/a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  id: 170100c0-6e4d-4daf-8b8f-6e9c8a491013
+  title: entry18
+  type: events
+- extraFields:
+    categorySwitch: true
+    name: Universe Timeline
+  id: a4fa46f9-74c2-4fb2-9f15-d1163f06e5fb
+  title: entry21
+  type: folder

@@ -1,3409 +1,9 @@
 [
     {
-        "_id": "0a61fead-2419-452b-b381-55c906ea72c6",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry1"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Era of the Archons"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "value": "5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "label": "Episode 6",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 10
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "0f0f3cfa-dbe5-41e3-866b-857ea5547f1b",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry2"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Solar eclipse"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
-                        "value": "c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
-                        "label": "Episode 12",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 19
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "&nbsp;God flies into the sun\r<div>&nbsp;Reader knows not why\r</div><div>&nbsp;From here the planet is all downhill\r</div><div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "0fe3b554-783e-4701-ab0d-ff5360f7a988",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry3"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Efflorescence"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "21bb9f35-5560-44ec-9441-346b241ae59c",
-                        "value": "21bb9f35-5560-44ec-9441-346b241ae59c",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/21bb9f35-5560-44ec-9441-346b241ae59c",
-                        "label": "Episode 10",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 17
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "the period or state of flowering\r<div>Water with dissolved salts rise through rock (capillary action) and evaporate, leaving salt - analogy to moth dust, moths use scales to escape - analogy to magic as fairy dust\r</div><div>Opposite of hygroscopic/deliquescence\r</div><div>&nbsp;Dianthos means the bloom of a god. This chapter starts that process\r</div><div>&nbsp;Industrial technology, and hundreds of cultures, balanced spirituality\r</div><div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry4"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 2"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 2
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": "Contains chapter 5: Biopoesis"
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "1c32ef61-2d36-4997-bd80-98edda45caa3",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry5"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Biopoesis"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
-                        "id": "15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
-                        "type": "chapters",
-                        "url": "/project/display-content/chapters/15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
-                        "label": "Episode 2",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 5
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": "<div><br></div><div><br></div><div><img src=\"file:///C:\\Users\\Rynan\\Desktop\\Dianthos\\youtube_assets\\Phylogenetic Tree Micro.png\"></div><div><br></div><div><br></div>"
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "Origin of life\r<div>&nbsp;Bacterial mats\r</div><div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry6"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 15"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 15
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "1e2c54d3-36ec-48a7-8715-79fbc730203f",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry7"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 11"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 11
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "21bb9f35-5560-44ec-9441-346b241ae59c",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry8"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 10"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 10
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "25357c1c-0b19-447e-887a-27d4ca4a01e0",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry9"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Deliquescence"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "a3e42c7e-29be-44ff-8dff-7f2453385959",
-                        "value": "a3e42c7e-29be-44ff-8dff-7f2453385959",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/a3e42c7e-29be-44ff-8dff-7f2453385959",
-                        "label": "Episode 7",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 11
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry10"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 9"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": false
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 9
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "3be97ba6-9e02-4884-8f26-2bf4247de83a",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry11"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Starforge Crucible"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "value": "b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "label": "Episode 16",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 24
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "&nbsp;The sun, containing the larval god, goes neutron star mode"
-            }
-        ]
-    },
-    {
-        "_id": "3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry12"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 14"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 14
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "466d3c28-45f1-4b72-a686-9aaa09c560ae",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry13"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Halcyon"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "1e2c54d3-36ec-48a7-8715-79fbc730203f",
-                        "value": "1e2c54d3-36ec-48a7-8715-79fbc730203f",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/1e2c54d3-36ec-48a7-8715-79fbc730203f",
-                        "label": "Episode 11",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 18
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "&nbsp;Equilibrium where life and the ecosystem become one. Deer and wolf graph of life\r<div>&nbsp;Culture and technology boom\r</div><div>&nbsp;Approaching maximum consciousness of the highest life\r</div><div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry14"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 13"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 13
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "4868714b-d3ae-481b-bb39-d70f1bbedf88",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry15"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Cacophony"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "value": "5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f",
-                        "label": "Episode 6",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 9
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "4c5fcde2-c096-4c49-b2c4-80a0401748e4",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry16"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "At capacity"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "value": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "label": "Episode 9",
-                        "pairedField": "",
-                        "isDead": false
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 16
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "56475a84-a39b-4638-ac86-b9de026b6c56",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry17"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Failure to launch"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "value": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "label": "Episode 13",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 21
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "&nbsp;New generation does not thrive like their ancestors - shift in paradigm/worldview\r<div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry18"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 6"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 6
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "5b2e13ae-b833-4221-9686-c5d7e551592a",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry19"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Pandora's Cradle"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "value": "b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425",
-                        "label": "Episode 16",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 25
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "The neutron star that would normally become a black hole, hatches after tens of billions of years"
-            }
-        ]
-    },
-    {
-        "_id": "75b1af2d-45a5-4b49-83a1-790e0288ff09",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry20"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Flowers for Algernon"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
-                        "value": "3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
-                        "label": "Episode 14",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 22
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "&nbsp;Allusion to a story about a retarded man becoming genius and then becoming retarded again\r<div><br></div>"
-            }
-        ]
-    },
-    {
-        "_id": "76196c14-f0b1-4c36-ba3c-5546e603ef61",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry21"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Escarpment"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "value": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
-                        "label": "Episode 13",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 20
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "Progress drops off a cliff"
-            }
-        ]
-    },
-    {
-        "_id": "7a5fbf65-4439-4776-98f1-b0b590f2d981",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry22"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Neoarchons"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "value": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "label": "Episode 9",
-                        "pairedField": "",
-                        "isDead": false
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 15
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "8017922e-f0a3-4f54-aedf-f658be3f261f",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry23"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Hubris"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "value": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "label": "Episode 8",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 13
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "85f9cd96-6a69-4802-ad28-ac643ea4989b",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry24"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Lapse"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
-                        "value": "1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
-                        "label": "Episode 15",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 23
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": "Life on Dianthos goes extinct"
-            }
-        ]
-    },
-    {
-        "_id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry25"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 8"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 8
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "9dae1661-0bf4-44c0-bed7-165332103546",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry26"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Biosporepha"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
-                        "value": "ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
-                        "label": "Episode 3",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 6
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "9ffed4df-823a-4a7d-ab0a-4cb977396dc2",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry27"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Underdog"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "value": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
-                        "label": "Episode 8",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 12
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "a3e42c7e-29be-44ff-8dff-7f2453385959",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry28"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 7"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 7
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "b325635a-b66e-4f6d-a5d2-aec2755b5367",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry29"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Dianthos"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "type": "chapters",
-                        "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "label": "Episode 1",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 4
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "b6de8343-5f26-47cf-b036-4054e68e9425",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry30"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 16"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 16
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "c5ab159d-9312-4dab-9716-0cba271911fd",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry31"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Euphony"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "ea2ddbf1-e09f-4ab4-8382-019481b65c91",
-                        "value": "ea2ddbf1-e09f-4ab4-8382-019481b65c91",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/ea2ddbf1-e09f-4ab4-8382-019481b65c91",
-                        "label": "Episode 4",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 7
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": "<h2>TODO\r</h2><h3>General\r</h3><div>[X] Time\r</div><div>[X] Name age\r</div><h3>Geography\r</h3><div>&nbsp;[X] List of biomes\r</div><div>[  ] Put Dianthos map to full projection\r</div><div>[  ] List changes in atmosphere and water composition\r</div><div>[  ] Clearly define sea level\r</div><div>[  ] Label this age’s map\r</div><h3>Mythology\r</h3><div>&nbsp;[X] Outline full story\r</div><div>[  ] Determine Gods\r</div><div>[  ] Choose disaster separating time zones\r</div><div>[  ] Outline part 4 story\r</div><div>[  ] Verify story includes all parts: General, Time, Geography, Taxonomy, Mythology\r</div><div>[  ] Write part 4 story\r</div><h3>Taxonomy\r</h3><div>&nbsp;[X] Describe all clades\r</div><div>&nbsp;[  ] Invent fish\r</div><div>[  ] New clades\r</div><h3>Reality\r</h3><div>&nbsp;[X] Clay sculpture of organisms\r</div><div>&nbsp;[  ] Wood sculpture of organisms\r</div><div>\r</div><h2>Time\r</h2><div>64-hour rotations\r</div><div>32-hour days &amp; 32-hour nights\r</div><div>8-day weeks\r</div><div>60-week years\r</div><div>+5 days (+320 hours)\r</div><div>484.86 days per year\r</div><div>31,031.031 hours per year\r</div><h2>\rEarth Inspirations\r</h2><div>Chitin - arthropoda\r</div><div>Graptolite\r</div><div>Echinoderms\r</div><div>Muscles\r</div><div>Nerves = Mycelium\r</div><div>Villi → tuning fork\r</div><div>Trees\r</div><div>Backbones\r</div><div>Arandaspis\r</div><div>Spikes\r</div><div>Lobes\r</div><div>Eyes\r</div><div>Sexual reproduction\r</div><div>Cephalization\r</div><div>Post-caudal fins\r</div><div>Giant Tube Worms\r</div><div>\r</div><h2>Notes\r</h2><div>One food web per biome\r</div><div>Biome in one area has some niche diff habitals as same biome in another area\r</div><div>Use tuning forks as microvilli/cilia\r</div><div>This age is separated from previous because of competition\r</div><div>Inter-body Communication is done chemically and vibrationally\r</div><div>&nbsp;Future → Electrochemicals, Radiation, and Magnetism\r</div><div>Intra-body communication: need for speed\r</div><div>Need some replacement for nerves\r</div><div>Need some type of insulating sheath (myelin) for nerves if they are electric\r</div><div>\r</div><div>Split age into early and late\r</div><div>&nbsp;Early - Ediacaran. Competition. Base body plans for all future\r</div><div>&nbsp;Late - Mature ecosystems\r</div><div>\r</div><div>Thin layer between boundaries creates colorful lines. Bubble in wand, air/vacuum between glass slides.\r</div><div>&nbsp;Caused by constructive and destructive light interference\r</div><div>\r</div><div>Evolution of bilateral\r</div><div>&nbsp;Line → Spiral → Alternating → true bilateral → extrudes two from one { ← | | → }\r</div><div>\r</div><div>Acidic water causes iron to leach. Dissolved oxygen turns Fe2+ into Fe3+ which precipitates out and forms layers in rock causing banding in rocks. This is a cycle that repeats.\r</div><div>\r</div><div>Water composition story:\r</div><div>Acidic water causes organisms to create their own alkaline solutions for internal homeostasis. They surrounded themselves with a layer of alkaline liquid around their skin. At a critical point, vast swathes of these organisms die and cause build up of carbonates to precipitate into rocks. This is a repeating cycle that goes on for dozens of millions of years. During a tectonic event, worldwide tons of this material is dissolved into the water raising the pH by 0.5 every hundred years, causing a major extinction event.\r</div><div>\r</div><div>ChatGPT:\r</div><div>In Dianthos's ancient oceans, teeming with life adapted to acidic conditions, organisms developed a unique survival mechanism: they produced their own solutions for internal homeostasis,and surrounded their skin with a layer of alkaline liquid, combating the corrosive nature of their environment. Zinc ions also helped their internal fluids to be inert to sulfide compounds. This biochemical innovation was widespread, marking a golden age of biodiversity in the planet’s harsh waters.\r</div><div>However, this golden age had an expiration date. The relentless production of alkaline substances led to an unforeseen consequence: upon the death of these organisms, their remains—rich in carbonates—accumulated on the ocean floor. Over dozens of millions of years, this resulted in vast deposits of carbonate compounds, locked away in the sediment.\r</div><div>The planet's restless nature eventually turned the tide of life. A cataclysmic tectonic event, stirring the very foundations of Dianthos, caused these ancient, carbonate-rich deposits to dissolve into the ocean waters on a global scale. This dissolution process initiated a slow but irreversible transformation of the planet’s oceans, raising the pH by 0.5 every hundred years or so.\r</div><div>As the waters grew less acidic, the delicate balance that had allowed life to flourish under acidic conditions was undone. Ecosystems that had taken millions of years to evolve were decimated, leading to a major extinction event. New niches emerged, favoring organisms that could thrive in the shifting chemical seascape, laying the groundwork for a new era of evolution on Dianthos.\r</div><div>\r</div><div>\r</div><h2>Materials\r</h2><div>Buckminsterfullerene\r</div><div>Spherical form of carbon\r</div><div>one of the largest objects exhibiting spherical symmetry\r</div><div>high stability and an ability to behave both as semiconductors and superconductors under different conditions\r</div><div>Behave like ball bearings\r</div><div>The optical absorption properties of C60 match the solar spectrum in a way that suggests that C60-based films could be useful for photovoltaic applications. Because of its high electric affinity it is one of the most common electron acceptors used in donor/acceptor based solar cells. Conversion efficiencies up to 5.7% have been reported in C60–polymer cells\r</div><div>soluble in non oxygenated organic solvents such as toluene and carbon disulfide. The solutions are purple, magenta, or green\r</div><div>Carbon nanotube fullerenes - very strong very tiny\r</div><div>Bismuth Pyrochlore\r</div><div>Possible superconductor\r</div><div>ultra-high energy storage density capacitors (around 90 J/cm3 with very low energy loss below 3%) using bismuth pyrochlore-based dielectric film material with high reliability \r</div><div>These pyrochlore ceramic films can endure voltage strength up to ∼900 V\r</div><div>\r</div><div>Zinc ions prevent oxygen in hemoglobin from reacting with sulfides\r</div><div>thiotrophic (sulfide-oxidizing) bacteria\r</div><div>Thermophoresis is the transport force that occurs due to the presence of a temperature gradient\r</div><div>\r</div><div>Crystal evolution\r</div><div>&nbsp;Unit cell fills the lattice space without overlapping or voids (Basic level biome)\r</div><div>&nbsp;If arbitrary translations were allowed, one could make a primitive cell half the size of the true one, and translate twice as often\r</div><div><br></div>"
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry32"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 12"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 12
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry33"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 3"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 3
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "dc80db75-be38-4539-952b-6417e6e109d6",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry34"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 5"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 5
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
         "_id": "dce31e88-c8d6-4804-b583-028892e8f490",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry1",
+        "type": "chapters",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry35"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Amplituhedron"
@@ -3411,434 +11,30 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "type": "chapters",
-                        "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "label": "Episode 1",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "label": "Episode 1"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": false
             },
             {
                 "id": "order",
                 "value": 1
             },
             {
-                "id": "tags",
-                "value": []
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
                 "id": "content",
                 "value": "Pre-universe&nbsp;"
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "e9f5e844-fc7b-490a-a983-efaf67d8c370",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry36"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Onto land"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "dc80db75-be38-4539-952b-6417e6e109d6",
-                        "value": "dc80db75-be38-4539-952b-6417e6e109d6",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/dc80db75-be38-4539-952b-6417e6e109d6",
-                        "label": "Episode 5",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "ea2ddbf1-e09f-4ab4-8382-019481b65c91",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry37"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Episode 4"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": true
-            },
-            {
-                "id": "order",
-                "value": 4
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
-            }
-        ]
-    },
-    {
-        "_id": "ef9d5dd2-95ed-4177-9933-992bba03b843",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry38"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
-            {
-                "id": "name",
-                "value": "Exponential"
-            },
-            {
-                "id": "parentDoc",
-                "value": {
-                    "value": {
-                        "_id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "value": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "type": "chapters",
-                        "disable": false,
-                        "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
-                        "label": "Episode 9",
-                        "pairedField": "",
-                        "isDead": false
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
-                }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": 14
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry2",
+        "type": "folder",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry39"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Episode 1"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
             },
             {
                 "id": "categorySwitch",
@@ -3847,62 +43,37 @@
             {
                 "id": "order",
                 "value": 1
+            }
+        ]
+    },
+    {
+        "_id": "15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
+        "title": "entry3",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 2"
             },
             {
-                "id": "tags",
-                "value": ""
+                "id": "categorySwitch",
+                "value": true
             },
             {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
+                "id": "order",
+                "value": 2
             },
             {
                 "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
+                "value": "Contains chapter 5: Biopoesis"
             }
         ]
     },
     {
         "_id": "f6b74db8-68e2-41ed-aa2d-1caa24bf5c67",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry4",
+        "type": "chapters",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry40"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Universe"
@@ -3910,84 +81,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "type": "chapters",
-                        "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "label": "Episode 1",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "label": "Episode 1"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
             },
             {
                 "id": "order",
                 "value": 2
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
             },
             {
                 "id": "spoilerNotes",
@@ -3996,18 +98,29 @@
         ]
     },
     {
-        "_id": "fa3606b3-37b3-4d7c-89b4-348b37e1a142",
-        "name": "Unnamed Event",
-        "type": "event",
+        "_id": "ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
+        "title": "entry5",
+        "type": "folder",
         "extraFields": [
             {
-                "id": "title",
-                "value": "entry41"
+                "id": "name",
+                "value": "Episode 3"
             },
             {
-                "id": "breakDocumentSettings",
-                "value": ""
+                "id": "categorySwitch",
+                "value": true
             },
+            {
+                "id": "order",
+                "value": 3
+            }
+        ]
+    },
+    {
+        "_id": "fa3606b3-37b3-4d7c-89b4-348b37e1a142",
+        "title": "entry6",
+        "type": "chapters",
+        "extraFields": [
             {
                 "id": "name",
                 "value": "Solar system"
@@ -4015,88 +128,838 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "type": "chapters",
-                        "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
-                        "label": "Episode 1",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "label": "Episode 1"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
             },
             {
                 "id": "order",
                 "value": 3
             },
             {
-                "id": "tags",
-                "value": ""
+                "id": "spoilerNotes",
+                "value": "&nbsp;A summary of the solar system from start to Dianthos.\r<div>Star formation caused by rogue black hole.\r</div><div>&nbsp;Formation after periodic elements may exist\r</div><div>&nbsp;Stages: dust cloud, spinning, to planets.\r</div><div>Cycles. Procession, wobble, spin, rotation, nutation, etc\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "b325635a-b66e-4f6d-a5d2-aec2755b5367",
+        "title": "entry7",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Dianthos"
             },
             {
-                "id": "docTemplate",
-                "value": ""
+                "id": "parentDoc",
+                "value": {
+                    "id": "f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/f2d1d27a-80a7-4df7-85b7-ab1c00c1309d",
+                    "label": "Episode 1"
+                }
             },
             {
-                "id": "extraClasses",
-                "value": ""
+                "id": "order",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "_id": "ea2ddbf1-e09f-4ab4-8382-019481b65c91",
+        "title": "entry8",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 4"
             },
             {
-                "id": "otherNames",
-                "value": ""
+                "id": "categorySwitch",
+                "value": true
             },
             {
-                "id": "categoryDescription",
-                "value": ""
+                "id": "order",
+                "value": 4
+            }
+        ]
+    },
+    {
+        "_id": "1c32ef61-2d36-4997-bd80-98edda45caa3",
+        "title": "entry9",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Biopoesis"
             },
             {
-                "id": "breakBasic",
-                "value": ""
+                "id": "parentDoc",
+                "value": {
+                    "id": "15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/15562d2a-a270-4c93-8b42-ee57bdcf9f7d",
+                    "label": "Episode 2"
+                }
             },
             {
-                "id": "pairedConnectedNotes",
-                "value": ""
+                "id": "order",
+                "value": 5
             },
             {
                 "id": "content",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
+                "value": "<div><br></div><div><br></div><div><img src=\"file:///C:\\Users\\Rynan\\Desktop\\Dianthos\\youtube_assets\\Phylogenetic Tree Micro.png\"></div><div><br></div><div><br></div>"
             },
             {
                 "id": "spoilerNotes",
-                "value": "&nbsp;A summary of the solar system from start to Dianthos.\r<div>Star formation caused by rogue black hole.\r</div><div>&nbsp;Formation after periodic elements may exist\r</div><div>&nbsp;Stages: dust cloud, spinning, to planets.\r</div><div>Cycles. Procession, wobble, spin, rotation, nutation, etc\r</div><div><br></div>"
+                "value": "Origin of life\r<div>&nbsp;Bacterial mats\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "dc80db75-be38-4539-952b-6417e6e109d6",
+        "title": "entry10",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 5"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "_id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
+        "title": "entry11",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 6"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "_id": "9dae1661-0bf4-44c0-bed7-165332103546",
+        "title": "entry12",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Biosporepha"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/ccf5ff6a-ad2b-4e9d-8aff-8284d2665b7b",
+                    "label": "Episode 3"
+                }
+            },
+            {
+                "id": "order",
+                "value": 6
+            }
+        ]
+    },
+    {
+        "_id": "a3e42c7e-29be-44ff-8dff-7f2453385959",
+        "title": "entry13",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 7"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 7
+            }
+        ]
+    },
+    {
+        "_id": "c5ab159d-9312-4dab-9716-0cba271911fd",
+        "title": "entry14",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Euphony"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "ea2ddbf1-e09f-4ab4-8382-019481b65c91",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/ea2ddbf1-e09f-4ab4-8382-019481b65c91",
+                    "label": "Episode 4"
+                }
+            },
+            {
+                "id": "order",
+                "value": 7
+            },
+            {
+                "id": "content",
+                "value": "<h2>TODO\r</h2><h3>General\r</h3><div>[X] Time\r</div><div>[X] Name age\r</div><h3>Geography\r</h3><div>&nbsp;[X] List of biomes\r</div><div>[  ] Put Dianthos map to full projection\r</div><div>[  ] List changes in atmosphere and water composition\r</div><div>[  ] Clearly define sea level\r</div><div>[  ] Label this age’s map\r</div><h3>Mythology\r</h3><div>&nbsp;[X] Outline full story\r</div><div>[  ] Determine Gods\r</div><div>[  ] Choose disaster separating time zones\r</div><div>[  ] Outline part 4 story\r</div><div>[  ] Verify story includes all parts: General, Time, Geography, Taxonomy, Mythology\r</div><div>[  ] Write part 4 story\r</div><h3>Taxonomy\r</h3><div>&nbsp;[X] Describe all clades\r</div><div>&nbsp;[  ] Invent fish\r</div><div>[  ] New clades\r</div><h3>Reality\r</h3><div>&nbsp;[X] Clay sculpture of organisms\r</div><div>&nbsp;[  ] Wood sculpture of organisms\r</div><div>\r</div><h2>Time\r</h2><div>64-hour rotations\r</div><div>32-hour days &amp; 32-hour nights\r</div><div>8-day weeks\r</div><div>60-week years\r</div><div>+5 days (+320 hours)\r</div><div>484.86 days per year\r</div><div>31,031.031 hours per year\r</div><h2>\rEarth Inspirations\r</h2><div>Chitin - arthropoda\r</div><div>Graptolite\r</div><div>Echinoderms\r</div><div>Muscles\r</div><div>Nerves = Mycelium\r</div><div>Villi → tuning fork\r</div><div>Trees\r</div><div>Backbones\r</div><div>Arandaspis\r</div><div>Spikes\r</div><div>Lobes\r</div><div>Eyes\r</div><div>Sexual reproduction\r</div><div>Cephalization\r</div><div>Post-caudal fins\r</div><div>Giant Tube Worms\r</div><div>\r</div><h2>Notes\r</h2><div>One food web per biome\r</div><div>Biome in one area has some niche diff habitals as same biome in another area\r</div><div>Use tuning forks as microvilli/cilia\r</div><div>This age is separated from previous because of competition\r</div><div>Inter-body Communication is done chemically and vibrationally\r</div><div>&nbsp;Future → Electrochemicals, Radiation, and Magnetism\r</div><div>Intra-body communication: need for speed\r</div><div>Need some replacement for nerves\r</div><div>Need some type of insulating sheath (myelin) for nerves if they are electric\r</div><div>\r</div><div>Split age into early and late\r</div><div>&nbsp;Early - Ediacaran. Competition. Base body plans for all future\r</div><div>&nbsp;Late - Mature ecosystems\r</div><div>\r</div><div>Thin layer between boundaries creates colorful lines. Bubble in wand, air/vacuum between glass slides.\r</div><div>&nbsp;Caused by constructive and destructive light interference\r</div><div>\r</div><div>Evolution of bilateral\r</div><div>&nbsp;Line → Spiral → Alternating → true bilateral → extrudes two from one { ← | | → }\r</div><div>\r</div><div>Acidic water causes iron to leach. Dissolved oxygen turns Fe2+ into Fe3+ which precipitates out and forms layers in rock causing banding in rocks. This is a cycle that repeats.\r</div><div>\r</div><div>Water composition story:\r</div><div>Acidic water causes organisms to create their own alkaline solutions for internal homeostasis. They surrounded themselves with a layer of alkaline liquid around their skin. At a critical point, vast swathes of these organisms die and cause build up of carbonates to precipitate into rocks. This is a repeating cycle that goes on for dozens of millions of years. During a tectonic event, worldwide tons of this material is dissolved into the water raising the pH by 0.5 every hundred years, causing a major extinction event.\r</div><div>\r</div><div>ChatGPT:\r</div><div>In Dianthos's ancient oceans, teeming with life adapted to acidic conditions, organisms developed a unique survival mechanism: they produced their own solutions for internal homeostasis,and surrounded their skin with a layer of alkaline liquid, combating the corrosive nature of their environment. Zinc ions also helped their internal fluids to be inert to sulfide compounds. This biochemical innovation was widespread, marking a golden age of biodiversity in the planet’s harsh waters.\r</div><div>However, this golden age had an expiration date. The relentless production of alkaline substances led to an unforeseen consequence: upon the death of these organisms, their remains—rich in carbonates—accumulated on the ocean floor. Over dozens of millions of years, this resulted in vast deposits of carbonate compounds, locked away in the sediment.\r</div><div>The planet's restless nature eventually turned the tide of life. A cataclysmic tectonic event, stirring the very foundations of Dianthos, caused these ancient, carbonate-rich deposits to dissolve into the ocean waters on a global scale. This dissolution process initiated a slow but irreversible transformation of the planet’s oceans, raising the pH by 0.5 every hundred years or so.\r</div><div>As the waters grew less acidic, the delicate balance that had allowed life to flourish under acidic conditions was undone. Ecosystems that had taken millions of years to evolve were decimated, leading to a major extinction event. New niches emerged, favoring organisms that could thrive in the shifting chemical seascape, laying the groundwork for a new era of evolution on Dianthos.\r</div><div>\r</div><div>\r</div><h2>Materials\r</h2><div>Buckminsterfullerene\r</div><div>Spherical form of carbon\r</div><div>one of the largest objects exhibiting spherical symmetry\r</div><div>high stability and an ability to behave both as semiconductors and superconductors under different conditions\r</div><div>Behave like ball bearings\r</div><div>The optical absorption properties of C60 match the solar spectrum in a way that suggests that C60-based films could be useful for photovoltaic applications. Because of its high electric affinity it is one of the most common electron acceptors used in donor/acceptor based solar cells. Conversion efficiencies up to 5.7% have been reported in C60–polymer cells\r</div><div>soluble in non oxygenated organic solvents such as toluene and carbon disulfide. The solutions are purple, magenta, or green\r</div><div>Carbon nanotube fullerenes - very strong very tiny\r</div><div>Bismuth Pyrochlore\r</div><div>Possible superconductor\r</div><div>ultra-high energy storage density capacitors (around 90 J/cm3 with very low energy loss below 3%) using bismuth pyrochlore-based dielectric film material with high reliability \r</div><div>These pyrochlore ceramic films can endure voltage strength up to ∼900 V\r</div><div>\r</div><div>Zinc ions prevent oxygen in hemoglobin from reacting with sulfides\r</div><div>thiotrophic (sulfide-oxidizing) bacteria\r</div><div>Thermophoresis is the transport force that occurs due to the presence of a temperature gradient\r</div><div>\r</div><div>Crystal evolution\r</div><div>&nbsp;Unit cell fills the lattice space without overlapping or voids (Basic level biome)\r</div><div>&nbsp;If arbitrary translations were allowed, one could make a primitive cell half the size of the true one, and translate twice as often\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
+        "title": "entry15",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 8"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 8
+            }
+        ]
+    },
+    {
+        "_id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
+        "title": "entry16",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 9"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "_id": "4868714b-d3ae-481b-bb39-d70f1bbedf88",
+        "title": "entry17",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Cacophony"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f",
+                    "label": "Episode 6"
+                }
+            },
+            {
+                "id": "order",
+                "value": 9
+            }
+        ]
+    },
+    {
+        "_id": "0a61fead-2419-452b-b381-55c906ea72c6",
+        "title": "entry18",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Era of the Archons"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "5aa804ad-b998-45f7-88a5-4c615e03293f",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/5aa804ad-b998-45f7-88a5-4c615e03293f",
+                    "label": "Episode 6"
+                }
+            },
+            {
+                "id": "order",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "_id": "21bb9f35-5560-44ec-9441-346b241ae59c",
+        "title": "entry19",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 10"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "_id": "1e2c54d3-36ec-48a7-8715-79fbc730203f",
+        "title": "entry20",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 11"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 11
+            }
+        ]
+    },
+    {
+        "_id": "25357c1c-0b19-447e-887a-27d4ca4a01e0",
+        "title": "entry21",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Deliquescence"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "a3e42c7e-29be-44ff-8dff-7f2453385959",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/a3e42c7e-29be-44ff-8dff-7f2453385959",
+                    "label": "Episode 7"
+                }
+            },
+            {
+                "id": "order",
+                "value": 11
+            }
+        ]
+    },
+    {
+        "_id": "9ffed4df-823a-4a7d-ab0a-4cb977396dc2",
+        "title": "entry22",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Underdog"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
+                    "label": "Episode 8"
+                }
+            },
+            {
+                "id": "order",
+                "value": 12
+            }
+        ]
+    },
+    {
+        "_id": "c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
+        "title": "entry23",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 12"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 12
+            }
+        ]
+    },
+    {
+        "_id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
+        "title": "entry24",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 13"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "_id": "8017922e-f0a3-4f54-aedf-f658be3f261f",
+        "title": "entry25",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Hubris"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/9701aff1-d1c8-4ebe-b756-a3d2625c75eb",
+                    "label": "Episode 8"
+                }
+            },
+            {
+                "id": "order",
+                "value": 13
+            }
+        ]
+    },
+    {
+        "_id": "3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
+        "title": "entry26",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 14"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "_id": "ef9d5dd2-95ed-4177-9933-992bba03b843",
+        "title": "entry27",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Exponential"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "label": "Episode 9"
+                }
+            },
+            {
+                "id": "order",
+                "value": 14
+            }
+        ]
+    },
+    {
+        "_id": "1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
+        "title": "entry28",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 15"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "_id": "7a5fbf65-4439-4776-98f1-b0b590f2d981",
+        "title": "entry29",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Neoarchons"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "label": "Episode 9"
+                }
+            },
+            {
+                "id": "order",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "_id": "4c5fcde2-c096-4c49-b2c4-80a0401748e4",
+        "title": "entry30",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "At capacity"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/3b4519ad-f19f-4804-a90c-fd125ef8db12",
+                    "label": "Episode 9"
+                }
+            },
+            {
+                "id": "order",
+                "value": 16
+            }
+        ]
+    },
+    {
+        "_id": "b6de8343-5f26-47cf-b036-4054e68e9425",
+        "title": "entry31",
+        "type": "folder",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Episode 16"
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": 16
+            }
+        ]
+    },
+    {
+        "_id": "0fe3b554-783e-4701-ab0d-ff5360f7a988",
+        "title": "entry32",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Efflorescence"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "21bb9f35-5560-44ec-9441-346b241ae59c",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/21bb9f35-5560-44ec-9441-346b241ae59c",
+                    "label": "Episode 10"
+                }
+            },
+            {
+                "id": "order",
+                "value": 17
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "the period or state of flowering\r<div>Water with dissolved salts rise through rock (capillary action) and evaporate, leaving salt - analogy to moth dust, moths use scales to escape - analogy to magic as fairy dust\r</div><div>Opposite of hygroscopic/deliquescence\r</div><div>&nbsp;Dianthos means the bloom of a god. This chapter starts that process\r</div><div>&nbsp;Industrial technology, and hundreds of cultures, balanced spirituality\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "466d3c28-45f1-4b72-a686-9aaa09c560ae",
+        "title": "entry33",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Halcyon"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "1e2c54d3-36ec-48a7-8715-79fbc730203f",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/1e2c54d3-36ec-48a7-8715-79fbc730203f",
+                    "label": "Episode 11"
+                }
+            },
+            {
+                "id": "order",
+                "value": 18
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "&nbsp;Equilibrium where life and the ecosystem become one. Deer and wolf graph of life\r<div>&nbsp;Culture and technology boom\r</div><div>&nbsp;Approaching maximum consciousness of the highest life\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "0f0f3cfa-dbe5-41e3-866b-857ea5547f1b",
+        "title": "entry34",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Solar eclipse"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/c8a64c94-90ed-4121-bc7c-3457a7c9ee7d",
+                    "label": "Episode 12"
+                }
+            },
+            {
+                "id": "order",
+                "value": 19
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "&nbsp;God flies into the sun\r<div>&nbsp;Reader knows not why\r</div><div>&nbsp;From here the planet is all downhill\r</div><div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "76196c14-f0b1-4c36-ba3c-5546e603ef61",
+        "title": "entry35",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Escarpment"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
+                    "label": "Episode 13"
+                }
+            },
+            {
+                "id": "order",
+                "value": 20
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "Progress drops off a cliff"
+            }
+        ]
+    },
+    {
+        "_id": "56475a84-a39b-4638-ac86-b9de026b6c56",
+        "title": "entry36",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Failure to launch"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/4861ddc6-0d47-496a-8e65-54f1bb7fddc9",
+                    "label": "Episode 13"
+                }
+            },
+            {
+                "id": "order",
+                "value": 21
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "&nbsp;New generation does not thrive like their ancestors - shift in paradigm/worldview\r<div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "75b1af2d-45a5-4b49-83a1-790e0288ff09",
+        "title": "entry37",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Flowers for Algernon"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/3e0c72d5-7478-45e2-aca2-26d8811fa7fa",
+                    "label": "Episode 14"
+                }
+            },
+            {
+                "id": "order",
+                "value": 22
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "&nbsp;Allusion to a story about a retarded man becoming genius and then becoming retarded again\r<div><br></div>"
+            }
+        ]
+    },
+    {
+        "_id": "85f9cd96-6a69-4802-ad28-ac643ea4989b",
+        "title": "entry38",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Lapse"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/1c87bc86-d667-4eca-b18f-fa55a8b34a0a",
+                    "label": "Episode 15"
+                }
+            },
+            {
+                "id": "order",
+                "value": 23
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "Life on Dianthos goes extinct"
+            }
+        ]
+    },
+    {
+        "_id": "3be97ba6-9e02-4884-8f26-2bf4247de83a",
+        "title": "entry39",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Starforge Crucible"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "b6de8343-5f26-47cf-b036-4054e68e9425",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425",
+                    "label": "Episode 16"
+                }
+            },
+            {
+                "id": "order",
+                "value": 24
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "&nbsp;The sun, containing the larval god, goes neutron star mode"
+            }
+        ]
+    },
+    {
+        "_id": "5b2e13ae-b833-4221-9686-c5d7e551592a",
+        "title": "entry40",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Pandora's Cradle"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "b6de8343-5f26-47cf-b036-4054e68e9425",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/b6de8343-5f26-47cf-b036-4054e68e9425",
+                    "label": "Episode 16"
+                }
+            },
+            {
+                "id": "order",
+                "value": 25
+            },
+            {
+                "id": "spoilerNotes",
+                "value": "The neutron star that would normally become a black hole, hatches after tens of billions of years"
+            }
+        ]
+    },
+    {
+        "_id": "e9f5e844-fc7b-490a-a983-efaf67d8c370",
+        "title": "entry41",
+        "type": "chapters",
+        "extraFields": [
+            {
+                "id": "name",
+                "value": "Onto land"
+            },
+            {
+                "id": "parentDoc",
+                "value": {
+                    "id": "dc80db75-be38-4539-952b-6417e6e109d6",
+                    "type": "folder",
+                    "url": "/project/display-content/chapters/dc80db75-be38-4539-952b-6417e6e109d6",
+                    "label": "Episode 5"
+                }
             }
         ]
     }

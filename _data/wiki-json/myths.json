@@ -1,17 +1,9 @@
 [
     {
         "_id": "464eab21-b218-4295-9cdd-4762b893f9bd",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry1",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry1"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Light/Darkness"
@@ -19,101 +11,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "Ruler of photons, electromagnetism, and electrons. Feynman's bae. When it lacks awareness in areas, they become dark and inert or non-magnetic. Cannot experience neutral matter."
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
             },
             {
                 "id": "pairedConnectedLocations",
@@ -129,90 +35,14 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedEvents",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "48aede7e-f931-4496-826b-692b2a5aca00",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry2",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry2"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Matter/Antimatter"
@@ -220,101 +50,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "The particles generated by this God's entropy are meant to annihilate. The corruption of this God threw things out of balance and started a matter universe. Antimatter has equal mass to matter counterpart. Excess matter over antimatter levels creates the emergent gravity."
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
             },
             {
                 "id": "pairedConnectedLocations",
@@ -345,86 +89,14 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "5de4887e-e55f-4975-a6d8-83b444aa238d",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry3",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry3"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Harmony/Dissonance"
@@ -432,105 +104,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "Altruism and predation. Balance of stresses and dopamine. Chemical reactions, and the order of things. Defines disordered and healthy connections"
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
             },
             {
                 "id": "pairedEvents",
@@ -546,86 +128,14 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "959c34d9-0f7c-45da-abb9-f7e8ba984caf",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry4",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry4"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Consciousness/Unbeing"
@@ -633,105 +143,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "Controls the mind at current fraction, solves fine-tuning by experiencing existence in superposition throughout multiple universes. Collapses superpositions"
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
             },
             {
                 "id": "pairedEvents",
@@ -740,86 +160,14 @@
                     "addedValues": [],
                     "isSilent": true
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "99952176-6790-4cbd-ae36-62cf5e160b37",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry5",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry5"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Temperature/Pressure"
@@ -827,101 +175,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "Rules the domain of ice and brimstone. Also pressure and vacuum. Pressure through medium can be construed as sound. Governs the ocean and sky. Works together with other gods like Light to make nuclear fusion possible"
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
             },
             {
                 "id": "pairedConnectedLocations",
@@ -952,86 +214,14 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "99b95c54-c689-46b3-b29d-660a357c0a61",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry6",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry6"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Growth/Decay"
@@ -1039,105 +229,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "God of life. Controls gender and works up strategies to develop body over lifespan and pass on own genetics.<br><br>Characteristics: Greedy, Selfish, Altrusitic, Driven"
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
             },
             {
                 "id": "pairedEvents",
@@ -1153,261 +253,33 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry7",
+        "type": "folder",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry7"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Gods"
-            },
-            {
-                "id": "parentDoc",
-                "value": ""
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
             },
             {
                 "id": "categorySwitch",
                 "value": true
             },
             {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
                 "id": "categoryDescription",
                 "value": "Each god has two aspects that are equal and opposite. Everything under these categories are controlled by their respective God"
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
-            },
-            {
-                "id": "description",
-                "value": ""
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
-            },
-            {
-                "id": "pairedEvents",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "f69bb563-0615-483d-9b26-5e5706570578",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry8",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry8"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Subspace/Chaos"
@@ -1415,105 +287,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "The rules of subspace (below planck length) are unpredictable and live in chaos. This is a sea that encapsulates everything outside of the universe. This god is immune to probability"
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
             },
             {
                 "id": "pairedEvents",
@@ -1529,86 +311,14 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "f86f01b2-e157-42ca-8cdb-d1625ad0e9a8",
-        "name": "Unnamed Event",
-        "type": "event",
+        "title": "entry9",
+        "type": "myths",
         "extraFields": [
-            {
-                "id": "title",
-                "value": "entry9"
-            },
-            {
-                "id": "breakDocumentSettings",
-                "value": ""
-            },
             {
                 "id": "name",
                 "value": "Space/Time"
@@ -1616,105 +326,15 @@
             {
                 "id": "parentDoc",
                 "value": {
-                    "value": {
-                        "_id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "value": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "type": "myths",
-                        "disable": false,
-                        "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
-                        "label": "Gods",
-                        "pairedField": "",
-                        "isDead": ""
-                    },
-                    "addedValues": {
-                        "pairedId": "",
-                        "value": ""
-                    }
+                    "id": "af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "type": "folder",
+                    "url": "/project/display-content/myths/af63ab47-96ba-4c32-8d64-cf1db08245f0",
+                    "label": "Gods"
                 }
-            },
-            {
-                "id": "documentColor",
-                "value": ""
-            },
-            {
-                "id": "documentBackgroundColor",
-                "value": ""
-            },
-            {
-                "id": "finishedSwitch",
-                "value": ""
-            },
-            {
-                "id": "minorSwitch",
-                "value": ""
-            },
-            {
-                "id": "deadSwitch",
-                "value": ""
-            },
-            {
-                "id": "categorySwitch",
-                "value": ""
-            },
-            {
-                "id": "order",
-                "value": ""
-            },
-            {
-                "id": "tags",
-                "value": ""
-            },
-            {
-                "id": "docTemplate",
-                "value": ""
-            },
-            {
-                "id": "extraClasses",
-                "value": ""
-            },
-            {
-                "id": "otherNames",
-                "value": ""
-            },
-            {
-                "id": "categoryDescription",
-                "value": ""
-            },
-            {
-                "id": "breakBasic",
-                "value": ""
             },
             {
                 "id": "description",
                 "value": "Spacetime exists as one field and does not include gravity. Born from the destruction of the amplithedron. Time is not necessarily linear as electrons can move in either direction. Electrons may not have a specific position as it smears. Time units range from planck units to infinity."
-            },
-            {
-                "id": "traditions",
-                "value": ""
-            },
-            {
-                "id": "breakStory",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedNotes",
-                "value": ""
-            },
-            {
-                "id": "pairedOtherMyths",
-                "value": ""
-            },
-            {
-                "id": "breakWorld",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedCharacter",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedLocations",
-                "value": ""
             },
             {
                 "id": "pairedEvents",
@@ -1730,82 +350,13 @@
                     ],
                     "addedValues": []
                 }
-            },
-            {
-                "id": "pairedConnectedRaces",
-                "value": ""
-            },
-            {
-                "id": "pairedCultures",
-                "value": ""
-            },
-            {
-                "id": "breakGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedPolGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedOtherGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedRelGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedMagicGroups",
-                "value": ""
-            },
-            {
-                "id": "pairedConnectedTechGroups",
-                "value": ""
-            },
-            {
-                "id": "breakDetails",
-                "value": ""
-            },
-            {
-                "id": "pairedSkills",
-                "value": ""
-            },
-            {
-                "id": "pairedItems",
-                "value": ""
-            },
-            {
-                "id": "pairedProfessions",
-                "value": ""
-            },
-            {
-                "id": "pairedConditions",
-                "value": ""
-            },
-            {
-                "id": "pairedResources",
-                "value": ""
-            },
-            {
-                "id": "breakSpoilers",
-                "value": ""
-            },
-            {
-                "id": "spoilerNotes",
-                "value": ""
             }
         ]
     },
     {
         "_id": "fb8ac866-ea2d-4ab1-9241-5896030b248b",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry10"
-            }
-        ]
+        "title": "entry10",
+        "type": "notype",
+        "extraFields": []
     }
 ]

@@ -1,13 +1,8 @@
 [
     {
         "_id": "projectSetup",
-        "name": "Unnamed Event",
-        "type": "event",
-        "extraFields": [
-            {
-                "id": "title",
-                "value": "entry1"
-            }
-        ]
+        "title": "entry1",
+        "type": "notype",
+        "extraFields": []
     }
 ]

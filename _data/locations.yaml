@@ -1,129 +1,23 @@
 - extraFields:
-    description: Photic and dark
-    locationType: Body of water
-    name: Polar Water
-    parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry1
-  id: 026ae277-9951-4f09-bd86-c5b8df0f5813
-- extraFields:
     description: Rocky planet closest to the sun
     documentColor: '#9e9e9e'
     name: Aleris
     order: 1
     parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry2
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
   id: 066a110f-f3c8-4ee8-8170-cf5484228251
+  title: entry1
+  type: locations
 - extraFields:
     categorySwitch: true
-    name: Epipelagic
-    parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry3
-  id: 0a228d9b-21bf-4818-a1a0-e1f077229f09
-- extraFields:
-    description: "<h2>GALACTIC CHARACTERISTICS</h2><div><span style=\"letter-spacing:\
-      \ 0.025em;\">Galactic Radius\t57000\tly</span></div>Galactic Habitable Zone\t\
-      26790 - 34200\tly<h2>STELLAR NEIGHBOURHOOD&nbsp;</h2><div>Location\t28940\t\
-      ly\r</div><div>Radius\t10\tly\r</div><div>Stellar Density\t0.004\tstars/ly³</div><h2>Stellar\
-      \ Mass Objects in Stellar Neighborhood</h2><div>TYPE\tCLASS\tNUMBER\r</div><div>Main\
-      \ Sequence Stars\tO\t0\r</div><div>&nbsp;B\t0\r</div><div>&nbsp;A\t0\r</div><div>&nbsp;F\t\
-      0\r</div><div>&nbsp;G\t1\r</div><div>&nbsp;K\t2\r</div><div>&nbsp;M\t12\r</div><div>White\
-      \ Dwarfs\tD\t2\r</div><div>Brown Dwarfs\tL/T/Y\t7\r</div><div>Other Stellar\
-      \ Mass Objects\t-\t0</div><div>Total Stellar Mass Objects in Stellar Neighborhood\t\
-      \t24</div><h2>Stars Systems in Stellar Neighborhood</h2><div>TYPE\t\tNUMBER\r\
-      </div><div>Single Star Systems\t\t11\r</div><div>Binary Star Systems\t\t5\r\
-      </div><div>Triple Star Systems\t\t1\r</div><div>≥ Quadruple Star Systems\t\t\
-      0\r</div><div>\t\t\r</div><div>Total Star Systems in Stellar Neighbourhood\t\
-      \t17</div><div><br></div><h2>Star System Coordinate Generator</h2><div>Home\
-      \ Star System\t(0, 0, 0)\r\t\t\t\t\t\r</div><div>STAR SYSTEM NAME\tCOORDINATES\
-      \ (x, y, z)&nbsp; ##### DISTANCE FROM HOME\t\r</div><div>Home Star System\t\
-      (0, 0, 0) ##### 0\tly\r</div><div>Star System 1\t(-0.86, 4.45, -7.04)#####&nbsp;\
-      \ 8.37\tly\r</div><div>Star System 2\t(6.82, -2.77, 2.87) ##### 7.90\tly\r</div><div>Star\
-      \ System 3\t(-0.79, -5.49, 5.56) #####&nbsp; &nbsp;7.86\tly\r</div><div>Star\
-      \ System 4\t(-1.79, -7.85, 2.09) #####&nbsp; &nbsp;8.32\tly\r</div><div>Star\
-      \ System 5\t(4.35, -0.04, 8.89) #####&nbsp; &nbsp;9.90\tly\r</div><div>Star\
-      \ System 6\t(-0.53, -4.81, -5.43) #####7.27\tly\r</div><div>Star System 7\t\
-      (4.12, -4.85, -4.57) #####&nbsp; &nbsp;7.83\tly\r</div><div>Star System 8\t\
-      (-5.65, 6.36, -2.31) #####8.82\tly\r</div><div>Star System 9\t(-4.37, 8.14,\
-      \ 2.53) ##### 9.58\tly\r</div><div>Star System 10\t(-4.55, -7.4, 3.96) #####9.55\t\
-      ly\r</div><div>Star System 11\t(0.68, -0.66, -9.11) #####9.16\tly\r</div><div>Star\
-      \ System 12\t(6.09, -3.61, -0.76) #####7.12\tly\r</div><div>Star System 13\t\
-      (2.23, 0.01, -8.52) ##### 8.81\tly\r</div><div>Star System 14\t(8.73, 4.11,\
-      \ 0.15) ##### 9.65\tly\r</div><div>Star System 15\t(-5.25, -3.5, -5.91) #####\
-      \ 8.64\tly\r</div><div>Star System 16\t(-0.79, -2.95, 2.25) ##### 3.79\tly</div>"
-    documentBackgroundColor: '#9f65d6'
-    name: Galaxy
-    title: entry4
-  id: 0cc89a58-0fd7-4cc1-a5a3-fb6a51a8a4b7
-- extraFields:
-    description: "Mass\t0.88\tMEarth&nbsp; &nbsp; Undecided\r<div>CMF\t35\t%&nbsp;\
-      \ &nbsp; Undecided\r</div><div>Density\t5.435\tg/cm³&nbsp;</div><div>Radius\t\
-      0.963\tREarth&nbsp;</div><div>Gravity\t0.950\tg&nbsp;</div><div>Escape Velocity\t\
-      0.956\tVEarth&nbsp;</div><div>Axial Tilt\t18\tº Undecided\r</div><div>Rotation\
-      \ Direction\tPrograde&nbsp;</div><div>Tropics\t0 - 18\tº N/S&nbsp;</div><div>Polar\
-      \ Circles\t72 - 90\tº N/S&nbsp;</div><div>Rotation Period\t24\tEarth hrs\tℹ️\t\
-      \t\tUndecided\r</div><div>Albedo (Bond)\t0.6&nbsp;</div><div>Greenhouse Effect\t\
-      6.9&nbsp;</div><div>Surface Temperature (Avg.)\t9\tºC&nbsp;</div><div>Stefan\
-      \ Boltzman Constant\t0.000056703\terg*cm^-2*s^-1*K^-4\t\t\t\t\r</div><div>Luminosity\t\
-      7.71253E+33\terg/s\t\t\t\t\r</div><div>Distance to Star\t27676000000000\tcm\t\
-      \t\t\t\r</div><div>T_Greenhouse\t4.03029\t\t\t\t\t\r</div><div>X\t1.04038E+18\t\
-      \t\t\t\t\r</div><div>T_eff\t193.8847474\t\t\t\t\t\r</div><div>T_eq\t5684524146\t\
-      \t\t\t\t\r</div><div>T_sur\t6316137940\t\t\t\t\t\r</div><div>T_Kel\t282\t\t\t\
-      \t\t\r</div><div>T_Earth\t0.9825783972\t\t\t\t\t\r</div><div>\t\t\t\t\t\t\r\
-      </div><div>Distance to Horizon\t\t\t\t\t\t\r</div><div>Height of Observer\t\
-      1.75\tm&nbsp; &nbsp; Undecided\r</div><div>Horizon Distance\t4.633\tkm&nbsp;\
-      \ &nbsp;</div><div><br></div><div>TERRESTRIAL PLANET ORBITAL CHARACTERISTICS\t\
-      \t\r</div><div>\t\t\r</div><div>Semi-Major axis\t1.85\tAU Undecided\r&nbsp;</div><div>Eccentricity\t\
-      0.0167\t\r Undecided\r</div><div>Perihelion\t1.819\tAU\r</div><div>Aphelion\t\
-      1.881\tAU\r</div><div>Orbital Period\t2.307\tEarth yrs\r</div><div>&nbsp;842.486\t\
-      Earth days\r</div><div>Inclination\t0\tº\r Undecided\r</div><div>Orbital direction\t\
-      Prograde&nbsp;</div><div><br></div><div>TERRESTRIAL PLANET ATMOSPHERIC CHARACTERISTICS\t\
-      \t\r</div><div>\t\t\r</div><div>Atmospheric Pressure &amp; Composition\t\t\r\
-      </div><div>\t\t\r</div><div>Atmospheric Pressure\t1\tatm\r Undecided</div><div>\t\
-      \t\r</div><div>GAS&nbsp; %&nbsp; PP (atm)&nbsp;</div><div>Oxygen (O2)\t20.95\t\
-      0.2095 \rUndecided</div><div>Carbon Dioxide (CO2)\t0.04\t0.0004\r Undecided</div><div>Argon\
-      \ (Ar)\t0.93\t0.0093 \rUndecided&nbsp;</div><div>Nitrogen (N2)\t78.08\t0.7808\r\
-      \ Undecided</div><div><br></div><div>Atmospheric Density\t1.251\tkg/m³</div>"
-    documentColor: '#bf6839'
-    name: Borethae
-    order: 3
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry5
-  id: 0f890c50-0926-426a-bcd7-d626bc3b1d3b
-- extraFields:
-    name: Fumarole Field
-    parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry6
-  id: 1acf3734-ba71-4712-81a1-22e94465da78
+    name: Biopoesic Era
+    order: 1
+  id: 59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
+  title: entry2
+  type: folder
 - extraFields:
     description: "<h2>TERRESTRIAL PLANET PHYSICAL CHARACTERISTICS</h2><div>Mass\t\
       1.45\tMEarth\n</div><div>Core Mass Fraction 36\t%\n</div><div>Density\t6.011\t\
@@ -202,28 +96,212 @@
     name: Dianthos
     order: 2
     parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry7
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
   id: 1ee69d95-429e-4a53-9d9e-04caf78045c6
+  title: entry3
+  type: locations
+- extraFields:
+    categorySwitch: true
+    name: Biosporephic Era
+    order: 2
+  id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+  title: entry4
+  type: folder
+- extraFields:
+    description: "Mass\t0.88\tMEarth&nbsp; &nbsp; Undecided\r<div>CMF\t35\t%&nbsp;\
+      \ &nbsp; Undecided\r</div><div>Density\t5.435\tg/cm³&nbsp;</div><div>Radius\t\
+      0.963\tREarth&nbsp;</div><div>Gravity\t0.950\tg&nbsp;</div><div>Escape Velocity\t\
+      0.956\tVEarth&nbsp;</div><div>Axial Tilt\t18\tº Undecided\r</div><div>Rotation\
+      \ Direction\tPrograde&nbsp;</div><div>Tropics\t0 - 18\tº N/S&nbsp;</div><div>Polar\
+      \ Circles\t72 - 90\tº N/S&nbsp;</div><div>Rotation Period\t24\tEarth hrs\tℹ️\t\
+      \t\tUndecided\r</div><div>Albedo (Bond)\t0.6&nbsp;</div><div>Greenhouse Effect\t\
+      6.9&nbsp;</div><div>Surface Temperature (Avg.)\t9\tºC&nbsp;</div><div>Stefan\
+      \ Boltzman Constant\t0.000056703\terg*cm^-2*s^-1*K^-4\t\t\t\t\r</div><div>Luminosity\t\
+      7.71253E+33\terg/s\t\t\t\t\r</div><div>Distance to Star\t27676000000000\tcm\t\
+      \t\t\t\r</div><div>T_Greenhouse\t4.03029\t\t\t\t\t\r</div><div>X\t1.04038E+18\t\
+      \t\t\t\t\r</div><div>T_eff\t193.8847474\t\t\t\t\t\r</div><div>T_eq\t5684524146\t\
+      \t\t\t\t\r</div><div>T_sur\t6316137940\t\t\t\t\t\r</div><div>T_Kel\t282\t\t\t\
+      \t\t\r</div><div>T_Earth\t0.9825783972\t\t\t\t\t\r</div><div>\t\t\t\t\t\t\r\
+      </div><div>Distance to Horizon\t\t\t\t\t\t\r</div><div>Height of Observer\t\
+      1.75\tm&nbsp; &nbsp; Undecided\r</div><div>Horizon Distance\t4.633\tkm&nbsp;\
+      \ &nbsp;</div><div><br></div><div>TERRESTRIAL PLANET ORBITAL CHARACTERISTICS\t\
+      \t\r</div><div>\t\t\r</div><div>Semi-Major axis\t1.85\tAU Undecided\r&nbsp;</div><div>Eccentricity\t\
+      0.0167\t\r Undecided\r</div><div>Perihelion\t1.819\tAU\r</div><div>Aphelion\t\
+      1.881\tAU\r</div><div>Orbital Period\t2.307\tEarth yrs\r</div><div>&nbsp;842.486\t\
+      Earth days\r</div><div>Inclination\t0\tº\r Undecided\r</div><div>Orbital direction\t\
+      Prograde&nbsp;</div><div><br></div><div>TERRESTRIAL PLANET ATMOSPHERIC CHARACTERISTICS\t\
+      \t\r</div><div>\t\t\r</div><div>Atmospheric Pressure &amp; Composition\t\t\r\
+      </div><div>\t\t\r</div><div>Atmospheric Pressure\t1\tatm\r Undecided</div><div>\t\
+      \t\r</div><div>GAS&nbsp; %&nbsp; PP (atm)&nbsp;</div><div>Oxygen (O2)\t20.95\t\
+      0.2095 \rUndecided</div><div>Carbon Dioxide (CO2)\t0.04\t0.0004\r Undecided</div><div>Argon\
+      \ (Ar)\t0.93\t0.0093 \rUndecided&nbsp;</div><div>Nitrogen (N2)\t78.08\t0.7808\r\
+      \ Undecided</div><div><br></div><div>Atmospheric Density\t1.251\tkg/m³</div>"
+    documentColor: '#bf6839'
+    name: Borethae
+    order: 3
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: 0f890c50-0926-426a-bcd7-d626bc3b1d3b
+  title: entry5
+  type: locations
+- extraFields:
+    categorySwitch: true
+    name: Euphonic Era
+    order: 3
+  id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+  title: entry6
+  type: folder
+- extraFields:
+    description: Planet that lives at the 3.45 AU gravitational nook
+    name: Paratirus
+    order: 4
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: 889509b0-d3fa-4094-9960-25ade23e1cea
+  title: entry7
+  type: locations
+- extraFields:
+    description: 6.28 AU range and reaches to the other belt entry
+    name: Asteroid belt inner limit
+    order: 5
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: 5439af3f-85cf-446d-be95-26234142c65b
+  title: entry8
+  type: locations
+- extraFields:
+    description: 13.05 AU living in the 8th orbit from the sun. Period of 43.22 Earth
+      years
+    name: The Collector
+    order: 6
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: a5c374ed-c3f2-4eae-8ea7-abc56d41b572
+  title: entry9
+  type: locations
+- extraFields:
+    description: At 23.57 AU, this is the outer range for the systems asteriod belt
+    name: Asteroid belt outer limit
+    order: 7
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: af720a7f-b2a8-4fce-a7f1-b163f711e0fe
+  title: entry10
+  type: locations
+- extraFields:
+    description: 'Frozen gas giant along for the ride at orbital nook #10 at 51.45
+      AU from the sun'
+    locationType: Planet
+    name: Skall
+    order: 8
+    parentDoc:
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+  id: c05ca672-eee4-4fc0-925e-7ed6baf0aa32
+  title: entry11
+  type: locations
 - extraFields:
     description: What is left of the presolar nebula. Remaining dust and ice at the
       67.42-81.67 AU range
     name: Debris Disk
     order: 9
     parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry8
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
   id: 20c13c16-169c-49f1-a21c-eb10f580c269
+  title: entry12
+  type: locations
+- extraFields:
+    description: Photic and dark
+    locationType: Body of water
+    name: Polar Water
+    parentDoc:
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+  id: 026ae277-9951-4f09-bd86-c5b8df0f5813
+  title: entry13
+  type: locations
+- extraFields:
+    categorySwitch: true
+    name: Epipelagic
+    parentDoc:
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+  id: 0a228d9b-21bf-4818-a1a0-e1f077229f09
+  title: entry14
+  type: folder
+- extraFields:
+    description: "<h2>GALACTIC CHARACTERISTICS</h2><div><span style=\"letter-spacing:\
+      \ 0.025em;\">Galactic Radius\t57000\tly</span></div>Galactic Habitable Zone\t\
+      26790 - 34200\tly<h2>STELLAR NEIGHBOURHOOD&nbsp;</h2><div>Location\t28940\t\
+      ly\r</div><div>Radius\t10\tly\r</div><div>Stellar Density\t0.004\tstars/ly³</div><h2>Stellar\
+      \ Mass Objects in Stellar Neighborhood</h2><div>TYPE\tCLASS\tNUMBER\r</div><div>Main\
+      \ Sequence Stars\tO\t0\r</div><div>&nbsp;B\t0\r</div><div>&nbsp;A\t0\r</div><div>&nbsp;F\t\
+      0\r</div><div>&nbsp;G\t1\r</div><div>&nbsp;K\t2\r</div><div>&nbsp;M\t12\r</div><div>White\
+      \ Dwarfs\tD\t2\r</div><div>Brown Dwarfs\tL/T/Y\t7\r</div><div>Other Stellar\
+      \ Mass Objects\t-\t0</div><div>Total Stellar Mass Objects in Stellar Neighborhood\t\
+      \t24</div><h2>Stars Systems in Stellar Neighborhood</h2><div>TYPE\t\tNUMBER\r\
+      </div><div>Single Star Systems\t\t11\r</div><div>Binary Star Systems\t\t5\r\
+      </div><div>Triple Star Systems\t\t1\r</div><div>≥ Quadruple Star Systems\t\t\
+      0\r</div><div>\t\t\r</div><div>Total Star Systems in Stellar Neighbourhood\t\
+      \t17</div><div><br></div><h2>Star System Coordinate Generator</h2><div>Home\
+      \ Star System\t(0, 0, 0)\r\t\t\t\t\t\r</div><div>STAR SYSTEM NAME\tCOORDINATES\
+      \ (x, y, z)&nbsp; ##### DISTANCE FROM HOME\t\r</div><div>Home Star System\t\
+      (0, 0, 0) ##### 0\tly\r</div><div>Star System 1\t(-0.86, 4.45, -7.04)#####&nbsp;\
+      \ 8.37\tly\r</div><div>Star System 2\t(6.82, -2.77, 2.87) ##### 7.90\tly\r</div><div>Star\
+      \ System 3\t(-0.79, -5.49, 5.56) #####&nbsp; &nbsp;7.86\tly\r</div><div>Star\
+      \ System 4\t(-1.79, -7.85, 2.09) #####&nbsp; &nbsp;8.32\tly\r</div><div>Star\
+      \ System 5\t(4.35, -0.04, 8.89) #####&nbsp; &nbsp;9.90\tly\r</div><div>Star\
+      \ System 6\t(-0.53, -4.81, -5.43) #####7.27\tly\r</div><div>Star System 7\t\
+      (4.12, -4.85, -4.57) #####&nbsp; &nbsp;7.83\tly\r</div><div>Star System 8\t\
+      (-5.65, 6.36, -2.31) #####8.82\tly\r</div><div>Star System 9\t(-4.37, 8.14,\
+      \ 2.53) ##### 9.58\tly\r</div><div>Star System 10\t(-4.55, -7.4, 3.96) #####9.55\t\
+      ly\r</div><div>Star System 11\t(0.68, -0.66, -9.11) #####9.16\tly\r</div><div>Star\
+      \ System 12\t(6.09, -3.61, -0.76) #####7.12\tly\r</div><div>Star System 13\t\
+      (2.23, 0.01, -8.52) ##### 8.81\tly\r</div><div>Star System 14\t(8.73, 4.11,\
+      \ 0.15) ##### 9.65\tly\r</div><div>Star System 15\t(-5.25, -3.5, -5.91) #####\
+      \ 8.64\tly\r</div><div>Star System 16\t(-0.79, -2.95, 2.25) ##### 3.79\tly</div>"
+    documentBackgroundColor: '#9f65d6'
+    name: Galaxy
+  id: 0cc89a58-0fd7-4cc1-a5a3-fb6a51a8a4b7
+  title: entry15
+  type: locations
+- extraFields:
+    name: Fumarole Field
+    parentDoc:
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+  id: 1acf3734-ba71-4712-81a1-22e94465da78
+  title: entry16
+  type: locations
 - extraFields:
     description: "Class: F6.3V&nbsp;<div>Mass: 1.190\tMsol</div><div>Current Age:\
       \ 2.613\tGyr</div><div>Maximum Age: 5.934\tGyr</div><div>Radius: 1.104\tRsol\
@@ -238,8 +316,12 @@
     pairedConnectedMyths:
       addedValues:
       - pairedId: 464eab21-b218-4295-9cdd-4762b893f9bd
+        value: ''
       - pairedId: 99952176-6790-4cbd-ae36-62cf5e160b37
+        value: ''
       - pairedId: 48aede7e-f931-4496-826b-692b2a5aca00
+        value: ''
+      isSilent: false
       value:
       - _id: 464eab21-b218-4295-9cdd-4762b893f9bd
         id: 464eab21-b218-4295-9cdd-4762b893f9bd
@@ -260,71 +342,48 @@
         type: myths
         url: /project/display-content/myths/48aede7e-f931-4496-826b-692b2a5aca00
     parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
     size: 1467.44 km radius
     tags:
     - star
-    title: entry9
   id: 2bb65c75-b108-4007-932c-aed6b2bf5f93
+  title: entry17
+  type: locations
 - extraFields:
     name: Hydrothermal Forest
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry10
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: 34175906-4d8d-4765-bbf9-d6cee3586e7e
-- extraFields:
-    description: 6.28 AU range and reaches to the other belt entry
-    name: Asteroid belt inner limit
-    order: 5
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry11
-  id: 5439af3f-85cf-446d-be95-26234142c65b
-- extraFields:
-    categorySwitch: true
-    name: Biopoesic Era
-    order: 1
-    title: entry12
-  id: 59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
+  title: entry18
+  type: locations
 - extraFields:
     categorySwitch: true
     name: Abyssal
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry13
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: 5a0e687a-f2f8-43a9-ada2-06273d3e3843
+  title: entry19
+  type: folder
 - extraFields:
     categorySwitch: true
     name: Open water
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry14
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: 6620c36d-95c3-4a51-8b49-31c1fab8620f
+  title: entry20
+  type: folder
 - extraFields:
     description: "Star Mass\t1.19\tMsol\r<div>Star Luminosity\t2.005\tLsol\r</div><div>Star\
       \ Radius\t1.104\tRsol\r</div><div>Star Density\t0.884\tDsol\r</div><div>Habitable\
@@ -345,222 +404,143 @@
     documentColor: '#702fb5'
     name: Planetary system
     parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry15
+      id: d2291b69-8281-472d-ae75-4bfb06be17d9
+      label: Solar System
+      type: folder
+      url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
   id: 6be76154-7372-4d95-8662-54e0be9134f4
+  title: entry21
+  type: locations
 - extraFields:
     name: Staccato beach
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry16
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: 838d0011-1262-4d8c-a31e-a578d44453dd
-- extraFields:
-    description: Planet that lives at the 3.45 AU gravitational nook
-    name: Paratirus
-    order: 4
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry17
-  id: 889509b0-d3fa-4094-9960-25ade23e1cea
+  title: entry22
+  type: locations
 - extraFields:
     categorySwitch: true
     name: Mesopelagic
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry18
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: 8aba31d5-1e06-4256-bee3-2cfd7d8dcd5a
+  title: entry23
+  type: folder
 - extraFields:
     categorySwitch: true
     name: Sublittoral
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry19
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: 9c98ac3c-3f75-4fe1-a1a2-7828709f55c2
-- extraFields:
-    description: 13.05 AU living in the 8th orbit from the sun. Period of 43.22 Earth
-      years
-    name: The Collector
-    order: 6
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry20
-  id: a5c374ed-c3f2-4eae-8ea7-abc56d41b572
+  title: entry24
+  type: folder
 - extraFields:
     name: Informe Womb
     parentDoc:
-      value:
-        _id: 59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
-        label: Biopoesic Era
-        type: locations
-        url: /project/display-content/locations/59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
-        value: 59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
-    title: entry21
+      id: 59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
+      label: Biopoesic Era
+      type: folder
+      url: /project/display-content/locations/59088c0d-f0e5-4ed8-97bb-ea049ca84d0c
   id: aa22f9ce-7f80-4110-bc39-848f27797ed7
-- extraFields:
-    description: At 23.57 AU, this is the outer range for the systems asteriod belt
-    name: Asteroid belt outer limit
-    order: 7
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry22
-  id: af720a7f-b2a8-4fce-a7f1-b163f711e0fe
+  title: entry25
+  type: locations
 - extraFields:
     description: Photic and Dark
     locationType: Body of water
     name: Tropical Water
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry23
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: b1ea0ce9-12dd-4631-9dd2-baed57437305
-- extraFields:
-    categorySwitch: true
-    name: Biosporephic Era
-    order: 2
-    title: entry24
-  id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+  title: entry26
+  type: locations
 - extraFields:
     name: Smooth Coast
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry25
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: b51eb4bf-a40d-4736-900d-38b542a6dacc
+  title: entry27
+  type: locations
 - extraFields:
     name: Wet Expanse
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry26
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: b6909335-c1fe-4a83-abf3-d2b4ff655f58
-- extraFields:
-    description: 'Frozen gas giant along for the ride at orbital nook #10 at 51.45
-      AU from the sun'
-    locationType: Planet
-    name: Skall
-    order: 8
-    parentDoc:
-      value:
-        _id: d2291b69-8281-472d-ae75-4bfb06be17d9
-        label: Solar System
-        type: locations
-        url: /project/display-content/locations/d2291b69-8281-472d-ae75-4bfb06be17d9
-        value: d2291b69-8281-472d-ae75-4bfb06be17d9
-    title: entry27
-  id: c05ca672-eee4-4fc0-925e-7ed6baf0aa32
+  title: entry28
+  type: locations
 - extraFields:
     categorySwitch: true
     name: Polar
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry28
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: c56b9d05-f005-4c7a-8535-7d38efbd5654
+  title: entry29
+  type: folder
 - extraFields:
     categorySwitch: true
     documentBackgroundColor: '#583585'
     name: Solar System
-    title: entry29
   id: d2291b69-8281-472d-ae75-4bfb06be17d9
+  title: entry30
+  type: folder
 - extraFields:
     name: Moon
     parentDoc:
-      value:
-        _id: 1ee69d95-429e-4a53-9d9e-04caf78045c6
-        label: Dianthos
-        type: locations
-        url: /project/display-content/locations/1ee69d95-429e-4a53-9d9e-04caf78045c6
-        value: 1ee69d95-429e-4a53-9d9e-04caf78045c6
-    title: entry30
+      id: 1ee69d95-429e-4a53-9d9e-04caf78045c6
+      label: Dianthos
+      type: folder
+      url: /project/display-content/locations/1ee69d95-429e-4a53-9d9e-04caf78045c6
   id: d50f0145-3f85-4f5a-9ba4-02ae72613c33
+  title: entry31
+  type: locations
 - extraFields:
     categorySwitch: true
     name: Freshwater
     parentDoc:
-      value:
-        _id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        label: Euphonic Era
-        type: locations
-        url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-        value: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
-    title: entry31
+      id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+      label: Euphonic Era
+      type: folder
+      url: /project/display-content/locations/f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
   id: db9d749e-38ea-4caf-b6de-24d91fb08b75
+  title: entry32
+  type: folder
 - extraFields:
     name: Jagged Coast
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry32
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: e3a3ff88-2abc-4a81-b0f2-193965ede689
+  title: entry33
+  type: locations
 - extraFields:
     name: Desert
     parentDoc:
-      value:
-        _id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        label: Biosporephic Era
-        type: locations
-        url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-        value: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
-    title: entry33
+      id: b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
+      label: Biosporephic Era
+      type: folder
+      url: /project/display-content/locations/b2d7cb4d-e200-4f9a-bd5a-37907b4de88c
   id: f062aedb-790a-4fea-8273-051dc9c55b28
-- extraFields:
-    categorySwitch: true
-    name: Euphonic Era
-    order: 3
-    title: entry34
-  id: f38bd750-5ed9-4cbf-9025-51df4eaa7eb8
+  title: entry34
+  type: locations
