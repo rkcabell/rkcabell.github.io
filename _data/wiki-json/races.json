@@ -1,0 +1,520 @@
+[
+    {
+        "_id": "3c30ca6c-e59e-448f-afc0-6d8d44152ba9",
+        "name": "Unnamed Event",
+        "type": "event",
+        "extraFields": [
+            {
+                "id": "title",
+                "value": "entry1"
+            },
+            {
+                "id": "breakDocumentSettings",
+                "value": ""
+            },
+            {
+                "id": "name",
+                "value": "Biosporepha"
+            },
+            {
+                "id": "parentDoc",
+                "value": ""
+            },
+            {
+                "id": "documentColor",
+                "value": ""
+            },
+            {
+                "id": "documentBackgroundColor",
+                "value": ""
+            },
+            {
+                "id": "finishedSwitch",
+                "value": ""
+            },
+            {
+                "id": "minorSwitch",
+                "value": ""
+            },
+            {
+                "id": "deadSwitch",
+                "value": ""
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": ""
+            },
+            {
+                "id": "tags",
+                "value": ""
+            },
+            {
+                "id": "docTemplate",
+                "value": ""
+            },
+            {
+                "id": "extraClasses",
+                "value": ""
+            },
+            {
+                "id": "otherNames",
+                "value": ""
+            },
+            {
+                "id": "categoryDescription",
+                "value": ""
+            },
+            {
+                "id": "breakBasic",
+                "value": ""
+            },
+            {
+                "id": "relatedRaces",
+                "value": ""
+            },
+            {
+                "id": "evolvedIntoRaces",
+                "value": ""
+            },
+            {
+                "id": "evolvedFromRaces",
+                "value": ""
+            },
+            {
+                "id": "memberCount",
+                "value": ""
+            },
+            {
+                "id": "age",
+                "value": ""
+            },
+            {
+                "id": "ageAdult",
+                "value": ""
+            },
+            {
+                "id": "ageOldest",
+                "value": ""
+            },
+            {
+                "id": "height",
+                "value": ""
+            },
+            {
+                "id": "weight",
+                "value": ""
+            },
+            {
+                "id": "beingType",
+                "value": ""
+            },
+            {
+                "id": "sentience",
+                "value": ""
+            },
+            {
+                "id": "pairedCharacter",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedPlaces",
+                "value": ""
+            },
+            {
+                "id": "relatedCultures",
+                "value": ""
+            },
+            {
+                "id": "localCurrencies",
+                "value": ""
+            },
+            {
+                "id": "localLanguages",
+                "value": ""
+            },
+            {
+                "id": "pairedSkills",
+                "value": ""
+            },
+            {
+                "id": "commonProfessions",
+                "value": ""
+            },
+            {
+                "id": "pairedProducedFromResources",
+                "value": ""
+            },
+            {
+                "id": "pairedUsedResourcesResources",
+                "value": ""
+            },
+            {
+                "id": "statsList",
+                "value": ""
+            },
+            {
+                "id": "strengths",
+                "value": ""
+            },
+            {
+                "id": "weaknesses",
+                "value": ""
+            },
+            {
+                "id": "traits",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsPositive",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsNegative",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsOther",
+                "value": ""
+            },
+            {
+                "id": "commonNames",
+                "value": ""
+            },
+            {
+                "id": "commonFamilyNames",
+                "value": ""
+            },
+            {
+                "id": "description",
+                "value": ""
+            },
+            {
+                "id": "traditions",
+                "value": ""
+            },
+            {
+                "id": "breakNotes",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedNotes",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedMyths",
+                "value": ""
+            },
+            {
+                "id": "breakOther",
+                "value": ""
+            },
+            {
+                "id": "connectedEvents",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedItems",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedResources",
+                "value": ""
+            },
+            {
+                "id": "breakPolitics",
+                "value": ""
+            },
+            {
+                "id": "commonInPoliticalGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInOtherGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInReligiousGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInMagicGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInTechGroups",
+                "value": ""
+            },
+            {
+                "id": "breakSpoilers",
+                "value": ""
+            },
+            {
+                "id": "spoilerNotes",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "_id": "645e5046-6868-4be0-bb66-e923141a6593",
+        "name": "Unnamed Event",
+        "type": "event",
+        "extraFields": [
+            {
+                "id": "title",
+                "value": "entry2"
+            },
+            {
+                "id": "breakDocumentSettings",
+                "value": ""
+            },
+            {
+                "id": "name",
+                "value": "Biopoesis"
+            },
+            {
+                "id": "parentDoc",
+                "value": ""
+            },
+            {
+                "id": "documentColor",
+                "value": ""
+            },
+            {
+                "id": "documentBackgroundColor",
+                "value": ""
+            },
+            {
+                "id": "finishedSwitch",
+                "value": ""
+            },
+            {
+                "id": "minorSwitch",
+                "value": ""
+            },
+            {
+                "id": "deadSwitch",
+                "value": ""
+            },
+            {
+                "id": "categorySwitch",
+                "value": true
+            },
+            {
+                "id": "order",
+                "value": ""
+            },
+            {
+                "id": "tags",
+                "value": ""
+            },
+            {
+                "id": "docTemplate",
+                "value": ""
+            },
+            {
+                "id": "extraClasses",
+                "value": ""
+            },
+            {
+                "id": "otherNames",
+                "value": ""
+            },
+            {
+                "id": "categoryDescription",
+                "value": ""
+            },
+            {
+                "id": "breakBasic",
+                "value": ""
+            },
+            {
+                "id": "relatedRaces",
+                "value": ""
+            },
+            {
+                "id": "evolvedIntoRaces",
+                "value": ""
+            },
+            {
+                "id": "evolvedFromRaces",
+                "value": ""
+            },
+            {
+                "id": "memberCount",
+                "value": ""
+            },
+            {
+                "id": "age",
+                "value": ""
+            },
+            {
+                "id": "ageAdult",
+                "value": ""
+            },
+            {
+                "id": "ageOldest",
+                "value": ""
+            },
+            {
+                "id": "height",
+                "value": ""
+            },
+            {
+                "id": "weight",
+                "value": ""
+            },
+            {
+                "id": "beingType",
+                "value": ""
+            },
+            {
+                "id": "sentience",
+                "value": ""
+            },
+            {
+                "id": "pairedCharacter",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedPlaces",
+                "value": ""
+            },
+            {
+                "id": "relatedCultures",
+                "value": ""
+            },
+            {
+                "id": "localCurrencies",
+                "value": ""
+            },
+            {
+                "id": "localLanguages",
+                "value": ""
+            },
+            {
+                "id": "pairedSkills",
+                "value": ""
+            },
+            {
+                "id": "commonProfessions",
+                "value": ""
+            },
+            {
+                "id": "pairedProducedFromResources",
+                "value": ""
+            },
+            {
+                "id": "pairedUsedResourcesResources",
+                "value": ""
+            },
+            {
+                "id": "statsList",
+                "value": ""
+            },
+            {
+                "id": "strengths",
+                "value": ""
+            },
+            {
+                "id": "weaknesses",
+                "value": ""
+            },
+            {
+                "id": "traits",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsPositive",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsNegative",
+                "value": ""
+            },
+            {
+                "id": "pairedConditionsOther",
+                "value": ""
+            },
+            {
+                "id": "commonNames",
+                "value": ""
+            },
+            {
+                "id": "commonFamilyNames",
+                "value": ""
+            },
+            {
+                "id": "description",
+                "value": ""
+            },
+            {
+                "id": "traditions",
+                "value": ""
+            },
+            {
+                "id": "breakNotes",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedNotes",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedMyths",
+                "value": ""
+            },
+            {
+                "id": "breakOther",
+                "value": ""
+            },
+            {
+                "id": "connectedEvents",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedItems",
+                "value": ""
+            },
+            {
+                "id": "pairedConnectedResources",
+                "value": ""
+            },
+            {
+                "id": "breakPolitics",
+                "value": ""
+            },
+            {
+                "id": "commonInPoliticalGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInOtherGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInReligiousGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInMagicGroups",
+                "value": ""
+            },
+            {
+                "id": "commonInTechGroups",
+                "value": ""
+            },
+            {
+                "id": "breakSpoilers",
+                "value": ""
+            },
+            {
+                "id": "spoilerNotes",
+                "value": ""
+            }
+        ]
+    }
+]

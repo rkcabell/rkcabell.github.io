@@ -1,0 +1,60 @@
+- extraFields:
+    title: entry1
+  id: chapters
+- extraFields:
+    title: entry2
+  id: characters
+- extraFields:
+    title: entry3
+  id: conditions
+- extraFields:
+    title: entry4
+  id: culture
+- extraFields:
+    title: entry5
+  id: currencies
+- extraFields:
+    title: entry6
+  id: events
+- extraFields:
+    title: entry7
+  id: guilds
+- extraFields:
+    title: entry8
+  id: items
+- extraFields:
+    title: entry9
+  id: languages
+- extraFields:
+    title: entry10
+  id: locations
+- extraFields:
+    title: entry11
+  id: loreNotes
+- extraFields:
+    title: entry12
+  id: magic
+- extraFields:
+    title: entry13
+  id: myths
+- extraFields:
+    title: entry14
+  id: politicalGroups
+- extraFields:
+    title: entry15
+  id: professions
+- extraFields:
+    title: entry16
+  id: races
+- extraFields:
+    title: entry17
+  id: religions
+- extraFields:
+    title: entry18
+  id: resources
+- extraFields:
+    title: entry19
+  id: skills
+- extraFields:
+    title: entry20
+  id: tech

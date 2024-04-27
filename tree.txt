@@ -6,9 +6,77 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── _config.yml
 ├── _data//
 │   ├── art-gallery.yml
+│   ├── blueprints.yaml
 │   ├── cat-gallery.yml
+│   ├── chapters.yaml
+│   ├── characters.yaml
+│   ├── conditions.yaml
+│   ├── culture.yaml
+│   ├── currencies.yaml
+│   ├── dianthos//
+│   │   ├── blueprints.txt
+│   │   ├── chapters.txt
+│   │   ├── characters.txt
+│   │   ├── conditions.txt
+│   │   ├── culture.txt
+│   │   ├── currencies.txt
+│   │   ├── events.txt
+│   │   ├── guilds.txt
+│   │   ├── items.txt
+│   │   ├── languages.txt
+│   │   ├── locations.txt
+│   │   ├── loreNotes.txt
+│   │   ├── magic.txt
+│   │   ├── myths.txt
+│   │   ├── politicalGroups.txt
+│   │   ├── professions.txt
+│   │   ├── project-data.txt
+│   │   ├── races.txt
+│   │   ├── religions.txt
+│   │   ├── resources.txt
+│   │   ├── skills.txt
+│   │   ├── tech.txt
+│   ├── events.yaml
+│   ├── guilds.yaml
+│   ├── items.yaml
+│   ├── languages.yaml
+│   ├── locations.yaml
+│   ├── loreNotes.yaml
+│   ├── magic.yaml
+│   ├── myths.yaml
 │   ├── navigation.yml
+│   ├── politicalGroups.yaml
+│   ├── professions.yaml
+│   ├── project-data.yaml
 │   ├── projects.yml
+│   ├── races.yaml
+│   ├── religions.yaml
+│   ├── resources.yaml
+│   ├── skills.yaml
+│   ├── tech.yaml
+│   ├── wiki-json//
+│   │   ├── blueprints.json
+│   │   ├── chapters.json
+│   │   ├── characters.json
+│   │   ├── conditions.json
+│   │   ├── culture.json
+│   │   ├── currencies.json
+│   │   ├── events.json
+│   │   ├── guilds.json
+│   │   ├── items.json
+│   │   ├── languages.json
+│   │   ├── locations.json
+│   │   ├── loreNotes.json
+│   │   ├── magic.json
+│   │   ├── myths.json
+│   │   ├── politicalGroups.json
+│   │   ├── professions.json
+│   │   ├── project-data.json
+│   │   ├── races.json
+│   │   ├── religions.json
+│   │   ├── resources.json
+│   │   ├── skills.json
+│   │   ├── tech.json
 ├── _includes//
 │   ├── footer-custom.html
 │   ├── head-custom-google-analytics.html
@@ -355,6 +423,7 @@ Directory structure of /c/Users/Rynan/Documents/Github/rkcabell/rkcabell.github.
 ├── scripts//
 │   ├── generate_tree.sh*
 │   ├── populate_galleries.py
+│   ├── process_wiki.py
 │   ├── randomize_cats.py
 │   ├── rename_files.py
 │   ├── thumbify.bat

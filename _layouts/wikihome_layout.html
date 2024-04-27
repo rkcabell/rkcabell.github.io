@@ -2,6 +2,24 @@
 layout: basewiki_layout
 ---
 
-
-
-  {{ content }}
+<div class="myths">
+  {% for myth in site.data.myths %}
+    <div class="myth">
+      <h2>{{ myth.extraFields.name }}</h2>
+      <p>{{ myth.extraFields.description | newline_to_br }}</p>
+      <h3>Connected Locations:</h3>
+      <ul>
+      {% for location in myth.extraFields.pairedConnectedLocations.value %}
+        <li><a href="{{ location.url }}">{{ location.value }}</a></li>
+      {% endfor %}
+      </ul>
+      <h3>Connected Events:</h3>
+      <ul>
+      {% for event in myth.extraFields.pairedEvents.value %}
+        <li><a href="{{ event.url }}">{{ event.value }}</a></li>
+      {% endfor %}
+      </ul>
+      <h4>Part of: <a href="{{ myth.extraFields.parentDoc.value.url }}">{{ myth.extraFields.parentDoc.value.label }}</a></h4>
+    </div>
+  {% endfor %}
+  </div>
