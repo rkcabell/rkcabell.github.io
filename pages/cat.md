@@ -5,7 +5,7 @@ description: Pictures of my cat Pico de Gallo
 moniker: Cat
 slug: cat
 permalink: /cat.html
-categories: [root, gallery]
+categories: [root, gallery, personal]
 heading: 'Nicknames include: Pico, Pipo, Pito, Peepee, Fungus'
 gallery: cat-gallery
 order: 4

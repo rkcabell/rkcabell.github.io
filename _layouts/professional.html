@@ -32,7 +32,9 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"> -->
     <link rel="stylesheet" href="/assets/css/style.css?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c">
 
-
+    {% seo %}
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> -->
+    {% include head-custom.html %}
 
     <!-- You can set your favicon here -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
@@ -55,15 +57,7 @@
         <h2 class="project-tagline">Software Developer</h2>
         <!----------------------------------------------------------[ BUTTONS ]---------------------------------------------------------->
 
-        <a class="btn" href="/resume.html" title="resume">Resume</a>
-        <a class="btn" href="/projects.html" title="personal projects">Projects</a>
-        <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
-            title="github UwU">GitHub</a>
-        <a class="btn" href="/cat.html" title="cat pics :3">Cat</a>
-        <a class="btn" href="/art.html" title="artwork">Art</a>
-        <a class="btn" href="/world.html" title="worldbuilding">Worldbuilding</a>
-        <a class="btn" href="https://www.youtube.com/@fracturedinfinities" title="youtube channel xD" target="_blank"
-            rel="noopener noreferrer">Youtube</a>
+        {% include navigation.html %}
 
 
     </header>
@@ -105,14 +99,11 @@
             <!-- Grid Section -->
             <section class="grid-section">
                 <!-- Each of these links represents a placeholder for a grid item -->
-                <a href="/art" class="grid-item">
+                <a href="/projects" class="grid-item">
                     <img src="/assets/images/cymatocyst.png" alt="image of cymatocyst alien"
                         title=" cymatocyst artwork">
                 </a>
-                <a href="/world" class="grid-item" title="dianthos in part 3">
-                    <img src="/assets/images/world_age2_small.png" alt="image of alien earthlike planet Dianthos">
-                </a>
-                <a href="https://www.youtube.com/@fracturedinfinities" class="grid-item" title="Youtube channel"
+                <a href="/projects" class="grid-item" title="Youtube channel"
                     target="_blank" rel="noopener noreferrer">
                     <img src="/assets/images/icon_1024_yt.png" alt="image of fracturedinfinities youtube logo">
                 </a>
@@ -123,11 +114,6 @@
                     </video>
 
                 </a>
-                <a href="#" class="grid-item"></a>
-                <a href="#" class="grid-item"></a>
-                <a href="#" class="grid-item"></a>
-                <a href="#" class="grid-item"></a>
-                <a href="#" class="grid-item"></a>
             </section>
 
 

@@ -5,7 +5,7 @@ description: Pictures of my artwork
 moniker: Art
 slug: art
 permalink: /art.html
-categories: [root, gallery, protected]
+categories: [root, gallery, protected, personal]
 heading: 'Browse my sketches, clay works, and others'
 gallery: art-gallery
 order: 3

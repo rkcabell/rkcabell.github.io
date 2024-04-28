@@ -4,8 +4,8 @@ title: Projects
 moniker: Projects
 description: My personal projects
 slug: projects
-permalink: /professional/projects.html
-categories: [root, project, professional]
+permalink: /projects.html
+categories: [root, project, personal]
 order: 3
 ---
 

@@ -4,9 +4,9 @@ title: Resume
 description: Click to download
 moniker: Resume
 slug: resume
-permalink: /resume.html
-categories: [root]
-order: 1
+permalink: /professional/resume.html
+categories: [root, professional]
+order: 2
 ---
 
 This resume has been censored

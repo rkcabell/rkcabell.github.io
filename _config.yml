@@ -3,7 +3,7 @@ description: Professional Software Developer
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
-categories: [root, world, gallery, project, protected]
+categories: [root, world, gallery, project, protected, professional, homepage]
 collections_dir: wiki
 collections:
   chapters:

@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <!-- <link rel="stylesheet"
-        href="/assets/css/style.scss?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c"> -->
+        href="{{ './assets/css/style.scss?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c'  | relative_url }}"> -->
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
     <!-- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"> -->
     <link rel="stylesheet" href="/assets/css/style.css?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c">
@@ -55,61 +55,7 @@
         <h2 class="project-tagline">Software Developer</h2>
         <!----------------------------------------------------------[ BUTTONS ]---------------------------------------------------------->
 
-        <!-- <link rel="stylesheet" href="/assets/css/style.css?v=9ebc38a5981796d9472a934f0c2a270ce61eaa0c"> -->
-<!-- <nav >
-  <a class="btn" href="index.html" title="resume">Home</a>
-  <a class="btn" href="resume.html" title="resume">Resume</a>
-  <a class="btn" href="projects.html" title="personal projects">Projects</a>
-  <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
-    title="github UwU">GitHub</a>
-  <a class="btn" href="/cat.html" title="cat pics :3">Cat</a>
-  <a class="btn" href="/art.html" title="artwork">Art</a>
-  <a class="btn" href="/world.html" title="worldbuilding">Worldbuilding</a>
-  <a class="btn" href="https://www.youtube.com/@fracturedinfinities" title="youtube channel xD" target="_blank"
-    rel="noopener noreferrer">Youtube</a>
-</nav> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-<nav>
-  
-  
-    <!-- Display root category pages -->
-    
-      
-      
-      
-      
-      <a class="btn" href="/projects.html" title="Projects">Projects</a> 
-      
-      
-      <a class="btn" href="/art.html" title="Artwork">Art</a> 
-      
-      
-      <a class="btn" href="/cat.html" title="Cat">Cat</a> 
-      
-      
-      <a class="btn" href="/world.html" title="Dianthos">Worldbuilding</a> 
-      
-      
-        <a class="btn btn-special" href="/professional.html" title="Home">Professional Site</a>
-      
-    
-  
-
-
-
-</nav>
+        {% include navigation.html %}
         <!-- <a class="btn" href="/resume.html" title="resume">Resume</a>
         <a class="btn" href="/projects.html" title="personal projects">Projects</a>
         <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
