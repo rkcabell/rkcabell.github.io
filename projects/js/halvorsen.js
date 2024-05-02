@@ -19,7 +19,7 @@ let pauseclicks = 0
 let fc = 0
 
 function setup () {
-  createCanvas(1250, 1000, WEBGL)
+  createCanvas(800, 600, WEBGL)
   background(200)
   colorMode(HSB)
   camera(200, -200, 500, 0, 0, 0, 0, 1, 0)

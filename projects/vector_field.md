@@ -4,8 +4,10 @@ title: Vector Field
 moniker: Vector
 description: ~Gravitational~
 permalink: /projects/vector_field.html
-categories: [project]
+categories: [project, inproject]
 ---
+<title>Vector Field Simulation</title>
+Work In Progress - translating python to js
 
 <label for="vectorField">Vector Field:</label>
 <select id="vectorField">
@@ -23,7 +25,7 @@ categories: [project]
 <input type="range" id="thetaValue" min="0" max="360" step="1" value="0">
 
 <!-- <script src="/assets/js/vectors.js"></script> -->
-<script src="/assets/js/vector2.js"></script>
+<script src="js/vectors.js"></script>
 
 <script>
     document.getElementById('kValue').addEventListener('input', function(e) {
@@ -40,3 +42,10 @@ document.getElementById('vectorField').addEventListener('change', function(e) {
     redraw();
 });
 </script>
+
+<div class="video-container">
+  <video width="752" height="980" controls>
+    <source src="/assets/videos/VectorField_vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

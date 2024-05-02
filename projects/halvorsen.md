@@ -4,8 +4,10 @@ title: Halvorsen Simulation
 moniker: Halvorsen
 description: ~Attractive~
 permalink: /projects/halvorsen.html
-categories: [project]
+categories: [project, inproject]
 ---
+
+<title>Halvorsen Simulation</title>
 
 ## Controls
 
@@ -37,4 +39,4 @@ categories: [project]
 
 ## Canvas
 
-<script src="/assets/js/halvorsen.js"></script>
+<script src="js/halvorsen.js"></script>

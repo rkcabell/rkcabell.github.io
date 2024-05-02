@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: project_layout
 title: Projects
 moniker: Projects
 description: My personal projects
 slug: projects
 permalink: /professional/projects.html
+# permalink: /projects.html
 categories: [root, project, professional]
 order: 3
 ---

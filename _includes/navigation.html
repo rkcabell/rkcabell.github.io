@@ -16,11 +16,13 @@
 {% assign professional_pages = "" %}
 
 {% for page in site.pages %}
-  {% if page.categories contains "professional" %}
-    {% assign professional_pages = professional_pages | append: page.url | append: "," %}
-  {% endif %}
-  {% if page.categories contains "personal" %}
-    {% assign personal_pages = personal_pages | append: page.url | append: "," %}
+  {% if page.categories contains "root" %}
+    {% if page.categories contains "professional" %}
+      {% assign professional_pages = professional_pages | append: page.url | append: "," %}
+    {% endif %}
+    {% if page.categories contains "personal" %}
+      {% assign personal_pages = personal_pages | append: page.url | append: "," %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -32,48 +34,46 @@
 
 
 <nav>
-  
-  {% if page.categories contains 'professional' %}
-  <!-- Display only professional pages -->
-    {% assign sorted_pages = professional_pages | sort: "order" %}
-      {% for item in sorted_pages %}
-      {% if item.permalink != page.permalink %}
-      <a class="btn" href="{{ item.permalink }}" title="{{item.title}}">{{ item.moniker | default: item.title }}</a> {% endif %}
-      {% endfor %}
-      <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
-              title="Github">GitHub
-              <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
-                <g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
-                  <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
-                </g>
-              </svg>
-        </a>
-      <a class="btn" href="https://www.linkedin.com/in/rkcabell/" target="_blank" rel="noopener noreferrer"
-              title="LinkedIn">LinkedIn
-              <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
-                <g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
-                  <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
-                </g>
-              </svg>
-        </a>
+    {% if page.categories contains 'professional' %}
+    <!-- Display only professional pages -->
+      {% assign sorted_pages = professional_pages | sort: "order" %}
+        {% for item in sorted_pages %}
+        {% if item.permalink != page.permalink %}
+        <a class="btn" href="{{ item.permalink }}" title="{{item.title}}">{{ item.moniker | default: item.title }}</a> {% endif %}
+        {% endfor %}
+        <a class="btn" href="https://github.com/rkcabell/" target="_blank" rel="noopener noreferrer"
+                title="Github">GitHub
+                <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+                  <g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+                    <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+                  </g>
+                </svg>
+          </a>
+        <a class="btn" href="https://www.linkedin.com/in/rkcabell/" target="_blank" rel="noopener noreferrer"
+                title="LinkedIn">LinkedIn
+                <svg width="24px" height="24px" viewBox="0 0 24 24" style="cursor:pointer">
+                  <g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline>
+                    <path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path>
+                  </g>
+                </svg>
+          </a>
+          {% if page.categories contains 'homepage' %}
+            <a class="btn btn-special-red" href="/index.html" title="Personal">Personal Site</a>
+          {% endif %}
+      {% else %}
+      <!-- Display root category pages -->
+      {% assign sorted_pages = personal_pages | sort: "order" %}
+        {% for item in sorted_pages %}
+        {% if item.permalink != page.permalink %}
+        <a class="btn" href="{{ item.permalink }}" title="{{item.title}}">{{ item.moniker | default: item.title }}</a> {% endif %}
+        {% endfor %}
         {% if page.categories contains 'homepage' %}
-          <a class="btn btn-special-red" href="/index.html" title="Personal">Personal Site</a>
+          <a class="btn btn-special" href="/professional.html" title="Home">Professional Site</a>
         {% endif %}
-    {% else %}
-    <!-- Display root category pages -->
-    {% assign sorted_pages = personal_pages | sort: "order" %}
-      {% for item in sorted_pages %}
-      {% if item.permalink != page.permalink %}
-      <a class="btn" href="{{ item.permalink }}" title="{{item.title}}">{{ item.moniker | default: item.title }}</a> {% endif %}
-      {% endfor %}
-      {% if page.categories contains 'homepage' %}
-        <a class="btn btn-special" href="/professional.html" title="Home">Professional Site</a>
+      
       {% endif %}
-    
-  {% endif %}
-
 
 
 </nav>
