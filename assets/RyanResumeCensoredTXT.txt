@@ -1,63 +1,67 @@
+%==== Header ====%
 Ryan Cabell
 Cary, NC
-example@email.com
+cabell.ryan@gmail.com
 (919)-555-8815
 LinkedIn: linkedin.com/in/rkcabell
 Github: github.com/rkcabell
-Website: rkcabell.github.io
+Website: rkcabell.github.io/professional.html
 
 %==== Experience ====%
-Experience
-Blackberry QNX  Cary, NC
-Software Developer in Test  Jun 2022 - Mar 2024
-     Authored automated testing scripts using PyTest to evaluate and validate the capabilities of WiFi chips
-	 Developed and maintained scripts in Bash and Python on Linux and QNX systems to automate processes and reduce downtime by 4 hours a week
-	 Led WFA Precertification testing across 11 different testbeds, including FlexTrack and QuickTrack, to ensure product compliance and performance
-	 Oversaw and maintained QNX OS image deployment on various boards and on diverse SDP and BSP combinations through continuous integration & continuous development (CI/CD)
-     Completed rigorous testing on a variety of hardware setups to pass QNX SDP 8.0 through testing cycles to product release
-     Implemented database schema for streamlined storage of test results in BlackFishDB, significantly improving data retrieval efficiency across project teams
-     Collaborated in the creation of Quality Management System (QMS) test plans test plans and test specifications, and managed comprehensive documentation on Confluence
+Blackberry QNX
+Cary, NC
+Software Developer in Test
+Jun 2022 - Mar 2024
+Authored automated testing scripts using PyTest to evaluate and validate the capabilities of WiFi chips
+Developed and maintained scripts in Bash and Python on POSIX systems to automate processes and reduce downtime by 4 hours a week
+Led WFA Precertification testing across 11 different testbeds, including FlexTrack and QuickTrack, to ensure product compliance and performance
+Oversaw and maintained QNX OS microkernel image deployment on aarch and ARM architectures and on diverse SDP and BSP combinations through continuous integration \& continuous development (CI/CD)
+Completed rigorous testing on a variety of hardware setups to pass QNX SDP 8.0 through testing cycles to product release
+Implemented database schema for streamlined storage of test results in BlackFishDB, significantly improving data retrieval efficiency across project teams
+Collaborated in the creation of Quality Management System (QMS) test plans test plans and test specifications, and managed comprehensive documentation on Confluence
 
-UNCG  Greensboro, NC
-CS Lab Assistant  Jan 2020 - May 2020
-	 Tutored students on the fundamentals of computer science
-	 Developed a fair grading rubric with consistent approach to assignments and project work
-	 Explained any questions from students in emails after the grades were returned
+UNCG
+Greensboro, NC
+CS Lab Assistant
+Jan 2020 - May 2020
+Tutored students on the fundamentals of computer science
+Developed a fair grading rubric with consistent approach to assignments and project work
 
-Autobell Car Wash  Raleigh, NC
-Team Leader  Oct 2016 - Jul 2019
-
+Autobell Car Wash
+Raleigh, NC
+Team Leader
+Oct 2016 - Jul 2019
 
 %==== Education ====%
-Education
-University of North Carolina - Greensboro Greensboro, NC
-BS of Computer Science, minor in Mathematics    Aug 2019 - Dec 2021
+University of North Carolina - Greensboro
+Greensboro, NC
+BS of Computer Science, minor in Mathematics
+Aug 2019 - Dec 2021
 GPA: 3.55
 
-Wake Technical Community College Raleigh, NC
-Associates of Science  Aug 2017 - Jun 2019
-
-
+Wake Technical Community College
+Raleigh, NC
+Associates of Science
+Aug 2017 - Jun 2019
 
 %=========== Projects ===========%
-Projects
 Better Health — Senior Capstone project
-Dec 2021 
-Technologies used: Python, Flask, NoSQL, MongoDB, passlib, APIs
-     Spearheaded a team of four in developing a website aimed at empowering users to track and manage their nutritional intake, hydration, and explore healthy recipes
-	 Designed a robust database using MongoDB to store user profiles and settings safely with encrypted, salted, and hashed passwords.
-	 Engineered a seamless user authentication system utilizing Flask's web session and cookies packages
+Dec 2021
+Technologies used:Python, Flask, NoSQL, MongoDB, passlib, APIs
+Spearheaded a team of four in developing a website aimed at empowering users to track and manage their nutritional intake, hydration, and explore healthy recipes
+Designed a robust database using {\textbf{MongoDB}} to store user profiles and settings safely with encrypted, salted, and hashed passwords.
+Engineered a seamless user authentication system utilizing Flask's web session and cookies packages
 
-Craigslist web scraper — Personal project
+Craigslist web scraper - Personal project
 Dec 2020
 Technologies used: Java, JSoup, CSS, FXML
-	 Engineered a Java-based web scraping tool that navigates Craigslist ad pages, extracting pertinent information and organizing it for easy access and analysis.
-	 Integrated Jsoup library to  parse and extract data from Craigslist pages
-	 Adhered to ethical web scraping practices by complying with guidelines specified in /robots.txt, demonstrating a commitment to responsible and respectful software development.
+Engineered a Java-based web scraping tool that navigates Craigslist ad pages, extracting pertinent information and organizing it for easy access and analysis.
+Integrated Jsoup library to  parse and extract data from Craigslist pages
+Adhered to ethical web scraping practices by complying with guidelines specified in /robots.txt, demonstrating a commitment to responsible and respectful software development.
 
 %=========== Skills ===========%
-Skills
-    Languages: Python, Java, C#, C, Bash
-    Technologies: Git, SVN, PyTest, Jenkins, WFA Precert, QNX, Linux/Ubuntu, Windows, Networks, LaTeX
-	Tools: VS Code, BlackFishDB, Wireshark, Powershell, PuTTy, Meld, Jira, Confluence, Rufus
-	Soft Skills: Leadership, Teamwork, Documentation, Problem-Solving, Curiosity
+
+Languages: Python, Java, C\#, C, Bash
+Technologies: Git, SVN, PyTest, Jenkins, WFA Precert, QNX, Linux/Ubuntu, Windows, Networks, LaTeX
+Tools: VS Code, BlackFishDB, Wireshark, Powershell, PuTTy, Meld, Jira, Confluence, Rufus
+Soft Skills: Leadership, Teamwork, Documentation, Problem-Solving, Curiosity

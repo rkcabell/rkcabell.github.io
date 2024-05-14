@@ -8,10 +8,6 @@
     \textheight=10in
     \pagestyle{empty}
     \raggedright
-    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
-
-    %\renewcommand{\encodingdefault}{cg}
-%\renewcommand{\rmdefault}{lgrcmr}
 
 \def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
 
@@ -74,13 +70,9 @@
 \vspace*{-10pt}
 \begin{center}
 	{\Huge \scshape \textbf {Ryan Cabell}}\\
-	$\cdot$ Cary, NC $\cdot$ example@email.com $\cdot$ (919)-555-8815 $\cdot$\\$\cdot$LinkedIn: linkedin.com/in/rkcabell $\cdot$ Github: github.com/rkcabell $\cdot$ \\
+	$\cdot$ Cary, NC $\cdot$ cabell.ryan@gmail.com $\cdot$ (919)-555-8815 $\cdot$\\$\cdot$LinkedIn: linkedin.com/in/rkcabell $\cdot$ Github: github.com/rkcabell $\cdot$ \\
+ Website: rkcabell.github.io/professional.html
 \end{center}
-
-% %=========== Objective ===========%
-% \header{Objective}
-% Computer science graduate with interest in software development and machine learning. Great at working with a team and communication. Seeking a team to apply and hone skills in troubleshooting and software maintenance and development. Bringing abilities to learn new technologies quickly and in changing environments.
-% \vspace{2mm}
 
 
 %==== Experience ====%
@@ -90,9 +82,9 @@
 \textit{Software Developer in Test} \hfill Jun 2022 - Mar 2024\\
 \begin{itemize} \itemsep 1pt
     \item Authored automated testing scripts using PyTest to evaluate and validate the capabilities of WiFi chips
-	\item Developed and maintained scripts in Bash and Python on Linux and QNX systems to automate processes and reduce downtime by 4 hours a week
+	\item Developed and maintained scripts in Bash and Python on POSIX systems to automate processes and reduce downtime by 4 hours a week
 	\item Led WFA Precertification testing across 11 different testbeds, including FlexTrack and QuickTrack, to ensure product compliance and performance
-	\item Oversaw and maintained QNX OS image deployment on various boards and on diverse SDP and BSP combinations through continuous integration \& continuous development (CI/CD)
+	\item Oversaw and maintained QNX OS microkernel image deployment on aarch and ARM architectures and on diverse SDP and BSP combinations through continuous integration \& continuous development (CI/CD)
     \item Completed rigorous testing on a variety of hardware setups to pass QNX SDP 8.0 through testing cycles to product release
     % \item Implemented database schema for streamlined storage of test results in BlackFishDB, significantly improving data retrieval efficiency across project teams
     \item Collaborated in the creation of Quality Management System (QMS) test plans test plans and test specifications, and managed comprehensive documentation on Confluence
