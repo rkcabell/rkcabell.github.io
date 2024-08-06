@@ -11,5 +11,6 @@ Gemfile.lock
 /assets/images/selfie3.jpg
 /assets/images/selfie5.png
 /scripts/*
+/scripts/notion_token.txt
 # keep scripts folder by leaving gitkeep
 !/scripts/.gitkeep

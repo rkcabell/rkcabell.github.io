@@ -1,11 +1,15 @@
 <nav>
     {% if page.categories contains 'inproject' %}
-      <a class="btn" href="/professional/projects.html" title="Projects">Projects - Professional</a>
+      <a class="btn" href="/professional/projects.html" title="Projects">Projects</a>
     {% endif %}
 
-    {% if page.categories contains 'inproject' %}
-      <a class="btn" href="/projects.html" title="Projects">Projects - Personal</a>
+    {% if page.categories contains 'project' & 'professional' %}
+      <a class="btn" href="/professional/" title="Home">Home</a>
     {% endif %}
+    <!-- TODO block from prof -->
+    <!-- {% if page.categories contains 'inproject' %}
+      <a class="btn" href="/projects.html" title="Projects">Projects - Personal</a>
+    {% endif %} -->
 
 
 </nav>
