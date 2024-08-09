@@ -3,89 +3,314 @@
   imgSrc: "/assets/images/thumbnails/art1.png"
   date: "21 Apr 2024"
   link: "photo-detail.html?v=art1.png"
-                
+            
 - title: "Art02"
   imgSrc: "/assets/images/thumbnails/art2.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art2.png"
-                
+            
 - title: "Art03"
   imgSrc: "/assets/images/thumbnails/art3.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art3.png"
-                
+            
 - title: "Art04"
   imgSrc: "/assets/images/thumbnails/art4.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art4.png"
-                
+            
 - title: "Art05"
   imgSrc: "/assets/images/thumbnails/art5.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art5.png"
-                
+            
 - title: "Art06"
-  imgSrc: "/assets/images/thumbnails/art6.jpg"
-  date: "22 Apr 2024"
-  link: "photo-detail.html?v=art6.jpg"
-                
+  imgSrc: "/assets/images/thumbnails/art6.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art6.png"
+            
 - title: "Art07"
   imgSrc: "/assets/images/thumbnails/art7.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art7.png"
-                
+            
 - title: "Art08"
   imgSrc: "/assets/images/thumbnails/art8.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art8.png"
-                
+            
 - title: "Art09"
   imgSrc: "/assets/images/thumbnails/art9.png"
-  date: "22 Apr 2024"
+  date: "9 Aug 2024"
   link: "photo-detail.html?v=art9.png"
-                
+            
 - title: "Art10"
   imgSrc: "/assets/images/thumbnails/art10.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art10.png"
-                
+            
 - title: "Art11"
   imgSrc: "/assets/images/thumbnails/art11.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art11.png"
-                
+            
 - title: "Art12"
   imgSrc: "/assets/images/thumbnails/art12.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art12.png"
-                
+            
 - title: "Art13"
   imgSrc: "/assets/images/thumbnails/art13.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art13.png"
-                
+            
 - title: "Art14"
   imgSrc: "/assets/images/thumbnails/art14.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art14.png"
-                
+            
 - title: "Art15"
   imgSrc: "/assets/images/thumbnails/art15.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art15.png"
-                
+            
 - title: "Art16"
   imgSrc: "/assets/images/thumbnails/art16.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art16.png"
-                
+            
 - title: "Art17"
   imgSrc: "/assets/images/thumbnails/art17.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art17.png"
-                
+            
 - title: "Art18"
   imgSrc: "/assets/images/thumbnails/art18.png"
   date: "22 Apr 2024"
   link: "photo-detail.html?v=art18.png"
-                
+            
+- title: "Art19"
+  imgSrc: "/assets/images/thumbnails/art19.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art19.png"
+            
+- title: "Art20"
+  imgSrc: "/assets/images/thumbnails/art20.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art20.png"
+            
+- title: "Art21"
+  imgSrc: "/assets/images/thumbnails/art21.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art21.png"
+            
+- title: "Art22"
+  imgSrc: "/assets/images/thumbnails/art22.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art22.png"
+            
+- title: "Art23"
+  imgSrc: "/assets/images/thumbnails/art23.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art23.png"
+            
+- title: "Art24"
+  imgSrc: "/assets/images/thumbnails/art24.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art24.png"
+            
+- title: "Art25"
+  imgSrc: "/assets/images/thumbnails/art25.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art25.png"
+            
+- title: "Art26"
+  imgSrc: "/assets/images/thumbnails/art26.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art26.png"
+            
+- title: "Art27"
+  imgSrc: "/assets/images/thumbnails/art27.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art27.png"
+            
+- title: "Art28"
+  imgSrc: "/assets/images/thumbnails/art28.jpg"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art28.jpg"
+            
+- title: "Art29"
+  imgSrc: "/assets/images/thumbnails/art29.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art29.png"
+            
+- title: "Art30"
+  imgSrc: "/assets/images/thumbnails/art30.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art30.png"
+            
+- title: "Art31"
+  imgSrc: "/assets/images/thumbnails/art31.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art31.png"
+            
+- title: "Art32"
+  imgSrc: "/assets/images/thumbnails/art32.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art32.png"
+            
+- title: "Art33"
+  imgSrc: "/assets/images/thumbnails/art33.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art33.png"
+            
+- title: "Art34"
+  imgSrc: "/assets/images/thumbnails/art34.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art34.png"
+            
+- title: "Art35"
+  imgSrc: "/assets/images/thumbnails/art35.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art35.png"
+            
+- title: "Art36"
+  imgSrc: "/assets/images/thumbnails/art36.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art36.png"
+            
+- title: "Art37"
+  imgSrc: "/assets/images/thumbnails/art37.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art37.png"
+            
+- title: "Art38"
+  imgSrc: "/assets/images/thumbnails/art38.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art38.png"
+            
+- title: "Art39"
+  imgSrc: "/assets/images/thumbnails/art39.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art39.png"
+            
+- title: "Art40"
+  imgSrc: "/assets/images/thumbnails/art40.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art40.png"
+            
+- title: "Art41"
+  imgSrc: "/assets/images/thumbnails/art41.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art41.png"
+            
+- title: "Art42"
+  imgSrc: "/assets/images/thumbnails/art42.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art42.png"
+            
+- title: "Art43"
+  imgSrc: "/assets/images/thumbnails/art43.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art43.png"
+            
+- title: "Art44"
+  imgSrc: "/assets/images/thumbnails/art44.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art44.png"
+            
+- title: "Art45"
+  imgSrc: "/assets/images/thumbnails/art45.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art45.png"
+            
+- title: "Art46"
+  imgSrc: "/assets/images/thumbnails/art46.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art46.png"
+            
+- title: "Art47"
+  imgSrc: "/assets/images/thumbnails/art47.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art47.png"
+            
+- title: "Art48"
+  imgSrc: "/assets/images/thumbnails/art48.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art48.png"
+            
+- title: "Art49"
+  imgSrc: "/assets/images/thumbnails/art49.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art49.png"
+            
+- title: "Art50"
+  imgSrc: "/assets/images/thumbnails/art50.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art50.png"
+            
+- title: "Art51"
+  imgSrc: "/assets/images/thumbnails/art51.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art51.png"
+            
+- title: "Art52"
+  imgSrc: "/assets/images/thumbnails/art52.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art52.png"
+            
+- title: "Art53"
+  imgSrc: "/assets/images/thumbnails/art53.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art53.png"
+            
+- title: "Art54"
+  imgSrc: "/assets/images/thumbnails/art54.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art54.png"
+            
+- title: "Art55"
+  imgSrc: "/assets/images/thumbnails/art55.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art55.png"
+            
+- title: "Art56"
+  imgSrc: "/assets/images/thumbnails/art56.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art56.png"
+            
+- title: "Art57"
+  imgSrc: "/assets/images/thumbnails/art57.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art57.png"
+            
+- title: "Art58"
+  imgSrc: "/assets/images/thumbnails/art58.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art58.png"
+            
+- title: "Art59"
+  imgSrc: "/assets/images/thumbnails/art59.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art59.png"
+            
+- title: "Art60"
+  imgSrc: "/assets/images/thumbnails/art60.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art60.png"
+            
+- title: "Art61"
+  imgSrc: "/assets/images/thumbnails/art61.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art61.png"
+            
+- title: "Art62"
+  imgSrc: "/assets/images/thumbnails/art62.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art62.png"
+            
+- title: "Art63"
+  imgSrc: "/assets/images/thumbnails/art63.png"
+  date: "9 Aug 2024"
+  link: "photo-detail.html?v=art63.png"
+            

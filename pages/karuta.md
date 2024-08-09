@@ -17,4 +17,4 @@ protected: true
 <!-- # Karuta page -->
 <!-- pagination: true -->
 
-Collecting: Dungeon Meshi, Initial D, Re:Zero, Jujuitsu Kaisen, JoJo's Bizarre Adventure
+Collecting: Dungeon Meshi, Initial D, Re:Zero, Jujutsu Kaisen, JoJo's Bizarre Adventure
