@@ -1,10 +1,15 @@
+<script src="/scripts/clairvoyance.js"></script>
+
 <nav>
     {% if page.categories contains 'inproject' %}
       <a class="btn" href="/professional/projects.html" title="Projects">Projects</a>
     {% endif %}
 
-    {% if page.categories contains 'project' & 'professional' %}
-      <a class="btn" href="/professional.html" title="Home">Home</a>
+    {% if page.categories contains 'project' and page.categories contains 'professional' %}
+    <a class="btn" href="/professional.html" title="Home">Home</a>
+    {% endif %}
+    {% if page.categories contains 'project' and page.categories contains 'personal' %}
+      <a class="btn" href="/" title="Home">Home</a>
     {% endif %}
     <!-- TODO block from prof -->
     <!-- {% if page.categories contains 'inproject' %}

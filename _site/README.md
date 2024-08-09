@@ -30,4 +30,5 @@ Ryan: To execute local jekyll website
 
 ```yml
 bundle exec jekyll serve --livereload --trace --port 4001
+jekyll serve --livereload --incremental --port 4001
 ```
