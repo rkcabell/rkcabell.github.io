@@ -3,13 +3,19 @@
 ## How it works
 
 Professional visitors will be linked to rkcabell.github.io/professional.html
+
 Personal visitors will be linked to https://rkcabell.github.io/
 
 There is a link to the professional side from the personal side
+
 There is no way to enter the personal side from the professional side without changing the URL
+
 Either side can view the projects
+
 Personal users will have "?smrfhaoc" suffixed to the URL
+
 Professional users will have "?szosxzfarvay" suffixed to the URL
+
 This is a cipher with a keyword that helps me separate my visitors
 
 ### To locally execute local jekyll website
