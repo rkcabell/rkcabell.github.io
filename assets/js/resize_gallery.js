@@ -1,6 +1,7 @@
-var currentSize = 'med' // Default size
+// var currentSize = 'med' // Default size
 
 function resizeGallery (size) {
+  currentSize = size
   const galleryItems = document.querySelectorAll('.tm-format')
   const buttons = document.querySelectorAll('.size-btn')
 
@@ -55,4 +56,4 @@ function checkWindowSize () {
 // Listen for resize events
 window.addEventListener('resize', checkWindowSize)
 
-resizeGallery('med')
+resizeGallery(currentSize)

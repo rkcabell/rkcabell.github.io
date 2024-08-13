@@ -52,10 +52,10 @@
                     <button class="size-btn small mr-1" onclick="resizeGallery('small')" title="Small">
                         <img src="assets/images/default_img.jpg" alt="Small" class="icon-small">
                     </button>
-                    <button class="size-btn med active mr-1" onclick="resizeGallery('med')" title="Medium">
+                    <button class="size-btn med mr-1 active" onclick="resizeGallery('med')" title="Medium">
                         <img src="assets/images/default_img.jpg" alt="Medium" class="icon-medium">
                     </button>
-                    <button class="size-btn full" onclick="resizeGallery('full')" title="Full">
+                    <button class="size-btn full mr-1" onclick="resizeGallery('full')" title="Full">
                         <img src="assets/images/default_img.jpg" alt="Full" class="icon-full">
                     </button>
                 </div>
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="row tm-mb-90 tm-gallery" id="gallery">
-            <!-- Using jekyll categories -->
+            <!-- Using jekyll categories gallery, protected -->
             <!-- Only load the first 24 items initially -->
             {% if page.gallery %}
             {% assign gallery_items = site.data[page.gallery] %}
@@ -82,7 +82,7 @@
                     <figure class="effect-ming tm-format">
                         <!-- Check if the page is protected before adding the watermark -->
                         <div class="{% if page.protected %} watermarked {% endif %}">
-                            <img loading="lazy" src="{{ item.imgSrc | image_src_validate }}" alt="{{ item.title }}" class="img-fluid">
+                            <img loading="lazy" src="{{ item.imgSrc | image_src_validate }}" alt="{{ item.title }}" class=" img-fluid">
                         </div>
                         <figcaption class="d-flex align-items-center justify-content-center">
                             <h2>{{ item.title }}</h2>
@@ -115,6 +115,9 @@
     <!-- <script src="/assets/js/gallery_populate.js"></script> -->
 
     <script src="/projects/js/fslightbox.js"></script>
+    <script>
+        var currentSize = '{% if page.tags contains "cards" %}full{% else %}med{% endif %}';
+    </script>
     <script src="/assets/js/resize_gallery.js"></script>
     <script src="/assets/js/paginator.js" defer></script>
     <!-- <script src="/assets/js/watermark.js" defer></script> -->

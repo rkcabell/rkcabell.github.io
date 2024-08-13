@@ -9,7 +9,7 @@ categories: [root, gallery, protected, personal]
 heading: 'Browse my karuta display case'
 gallery: karuta-gallery
 order: 5
-tags: 
+tags: cards
 incremental: true
 protected: true
 ---
