@@ -19,6 +19,8 @@
 </head>
 
 <body id="default-bkg">
+    <div class="{{page.background}}"></div>
+    <div class="gallery-wrapper">
 
     <header class="page-header" role="banner">
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
@@ -122,6 +124,7 @@
     <script src="/assets/js/paginator.js" defer></script>
     <!-- <script src="/assets/js/watermark.js" defer></script> -->
     <!-- defer: script is meant to be executed after the document has been parsed, but before firing the DOMContentLoaded event -->
+</div>
 </body>
 
 </html>

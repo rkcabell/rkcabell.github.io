@@ -10,6 +10,7 @@ heading: 'Browse my karuta display case'
 gallery: karuta-gallery
 order: 5
 tags: cards
+background: bgkaruta
 incremental: true
 protected: true
 ---
