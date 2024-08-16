@@ -42,20 +42,9 @@ This is a cipher with a keyword that helps me separate my visitors
 
 ### Steps to creating a gallery page
 
-1. Duplicate the markdown file in /page/ directory
-2. Change front matter, and add +1 to 'order'
-3. Upload images to /images/xxxx_img/
-4. Create file xxxx-gallery.yml in \_data directory
-5. cd scripts
-6. run rename_files.py
-   6.1 Enter path from default directory (assets/images/xxxx_img)
-   6.2 Enter prefix to rename images to (will be used as mode later)
-7. Create a new thumbify.bat block (1=resize 2=watermark 3=nothing)
-8. Run thumbify.bat to move images to thumbnails folder
-9. Change variable 'modes' in populate_gallleries.py
-   9.1 Add a new function to method generate_document for added features
-10. run populate_galleries.py (set to take images from /assets/images/thumbnails)
-11.
+0. TODO: Lowercase
+1. run /scripts/new_gallery.py
+2. provide title for gallery (one word)
 
 ### HOW TO USE MARKDOWN
 
