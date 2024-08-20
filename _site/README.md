@@ -45,6 +45,8 @@ This is a cipher with a keyword that helps me separate my visitors
 0. TODO: Lowercase
 1. run /scripts/new_gallery.py
 2. provide title for gallery (one word)
+3. add image to folder
+4. continue with script
 
 ### HOW TO USE MARKDOWN
 
