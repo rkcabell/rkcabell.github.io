@@ -2318,3 +2318,176 @@ canvas {
 .site-footer-credits {
   color: #819198;
 }
+
+/*  _.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-._*/
+/*                             MODAL EMAIL MENU                     */
+/* "`--'""`-.__.-'""`--'""`-.__.-'""`--'""`-.__.-'""`--'""`-.__.-'" */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+}
+
+.modal-content {
+  background-color: #000;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  text-align: left;
+  display:block;
+}
+
+label::after {
+  content: " *"; /* Add the red asterisk after label */
+  color: red;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto; /* Adds scroll when content exceeds max height */
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #676767;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  
+}
+
+.cancel {
+  background-color: #703e3e;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+  position: relative; 
+}
+
+.cancel:hover {
+  background-color: #B22222;
+}
+
+
+.cancel span {
+  display: inline-block;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.cancel:hover span {
+  transform: scale(0); /* Shrinks the text to nothing */
+  opacity: 0; /* Fades out the text */
+}
+
+.cancel:after {
+  content: 'X'; /* The X that will appear */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0; /* Initially invisible */
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  font-weight: bold;
+  font-size: 24px; 
+}
+
+.cancel:hover:after {
+  transform: translate(-50%, -50%) scale(1); /* Grow the X */
+  opacity: 1; /* Fade in the X */
+}
+
+.send {
+  background-color: #3c6c47;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.send:hover {
+  background-color: #28a745;
+}
+
+.send span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.send span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.send:hover span {
+  padding-right: 25px;
+}
+
+.send:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/* Bot detection input field */
+.ohnohoney{
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
