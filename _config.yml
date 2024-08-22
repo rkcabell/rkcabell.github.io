@@ -1,6 +1,7 @@
 title: Ryan Cabell
 description: Professional Software Developer
 show_downloads: true
+baseurl: 
 google_analytics:
 theme: jekyll-theme-cayman
 categories: [root, world, gallery, project, protected, professional, homepage]
