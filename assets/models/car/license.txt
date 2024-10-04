@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fiat 124 Spider 2017
+* source:	https://sketchfab.com/3d-models/fiat-124-spider-2017-88251efee6cd476d95bb87449e0f8c37
+* author:	BadKarma™ (https://sketchfab.com/890244234)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fiat 124 Spider 2017" (https://sketchfab.com/3d-models/fiat-124-spider-2017-88251efee6cd476d95bb87449e0f8c37) by BadKarma™ (https://sketchfab.com/890244234) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
