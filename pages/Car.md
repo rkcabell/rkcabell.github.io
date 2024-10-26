@@ -26,11 +26,13 @@ protected: true
 }
 </script>
 
-<div id="heading">
+<div id="heading" >
       <h1>Fiat 124 Spider</h1>
       <div class="border"></div>
 </div>
-<div id="progress-container">
+<div id="progress-container" >
     <div id="progress">Spooling turbo...</div>
+    <div id="three-container" style="width: 53.33vw; height:30vw; margin: 0 auto 10vh; display: flex; justify-content: center; align-items: center; position: relative; top: 20px; min-width: 400px; min-height: 225px;">
+    <script type="module" src="assets/js/carmodel.js"></script>
+    
 </div>
-<script type="module" src="assets/js/carmodel.js"></script>
