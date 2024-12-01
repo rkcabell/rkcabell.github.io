@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <!-- <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="theme-color" content="#157878"> -->
+  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> -->
+  <link rel="stylesheet" href="{{ '/assets/css/resume.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body id="default-bkg">
+
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+      }}</h2>
+
+
+    {% if site.show_downloads %}
+    <a href="/assets/RyanResumeCensoredLatex.txt" class="btn btn-disabled" download>Download LaTeX</a>
+    <a href="/assets/RyanResumeCensoredPDF.pdf" class="btn" download>Download pdf</a>
+    <a href="/assets/RyanResumeCensoredTXT.txt" class="btn btn-disabled" download>Download txt</a>
+    {% endif %}
+    <div class="solo-btn-wrapper">
+      {% include navigation.html %}
+  </div>
+  </header>
+
+  <main id="main">
+
+    <div class="card-overlay-container">
+      <div id="Experience" class="full-width-box card" aria-hidden="true">
+        <h2> Experience </h2>
+      </div>
+      <div class="overlay" aria-hidden="true">
+        <!-- duplicate will go here -->
+      </div>
+    </div>
+
+    <div class="full-box">
+      <h2>Software Developer in Test</h2>
+      <p>
+        <strong>Blackberry QNX</strong><br>
+        Cary, NC<br>
+        Jun 2022 - Mar 2024
+      </p>
+    </div>
+
+
+
+    <div class="card-overlay-container">
+      <div id="Education" class="full-width-box card" aria-hidden="true">
+        <h2>Education</h2>
+      </div>
+      <div class="overlay" aria-hidden="true">
+        <!-- duplicate will go here -->
+      </div>
+    </div>
+
+    <div class="full-box">
+      <h3>Bachelor's in Computer Science, Minor in Mathematics </h3>
+      <p>
+        <strong>University of North Carolina at Greensboro</strong><br>
+        Graduated 2021
+      </p>
+      <h3>Associates of Science </h3>
+      <p>
+        <strong>Wake Technical Community College</strong><br>
+        Graduated 2019
+      </p>
+    </div>
+
+
+    <div class="card-overlay-container">
+      <div id="Projects" class="full-width-box card">
+        <h2>Projects</h2>
+      </div>
+      <div class="overlay" aria-hidden="true">
+        <!-- duplicate will go here -->
+      </div>
+    </div>
+
+    <div class="full-box">
+    </div>
+
+
+    <div class="card-overlay-container">
+      <div id="Skills" class="full-width-box card">
+        <h2>Skills</h2>
+      </div>
+      <div class="overlay" aria-hidden="true">
+        <!-- duplicate will go here -->
+      </div>
+    </div>
+
+    <div class="full-box">
+      <p>
+        <h3>Programming Languages</h3> Python, Java, C, Bash
+        <h3>Technologies</h3> Git, SVN, PyTest, Jenkins, WFA Precert, QNX, Linux/Ubuntu, Windows
+        <h3>Tools</h3> VS Code, BlackFishDB, Wireshark, Powershell, PuTTy, Meld, Jira, Confluence, Rufus
+        <h3>Soft Skills</h3> Leadership, Teamwork, Documentation, Problem-Solving, Curiosity
+     </p>
+    </div>
+
+
+  </main>
+
+
+  <script src="/assets/js/cursor-glow.js"></script>
+</body>
+
+
+
+</html>

@@ -1,10 +1,10 @@
 ---
-layout: resume_layout
-title: Resume
+layout: scroll_appear_layout
+title: Resume2
 description: Click to download
-moniker: Resume
-slug: resume
-permalink: /professional/resume.html
+moniker: Resume2
+slug: resume2
+permalink: /professional/resume2.html
 categories: [root, professional]
 order: 2
 ---
