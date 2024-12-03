@@ -16,6 +16,21 @@
 
 <body id="default-bkg">
 
+  <div id="darkroom" dev-disable>
+    
+    <!-- Option 1 -->
+    <!-- <button id="lightswitch">Turn On</button> -->
+
+    <!-- Option 2 -->
+    <input id="checkbox" type="checkbox" aria-label="Checkbox label" />
+    <label id="lightswitch" class="switch" for="checkbox">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="288" height="288" fill="currentColor">
+      <path d="M32 4c-7.7 0-14 6.3-14 14v10h-6c-2.2 0-4 1.8-4 4v24c0 2.2 1.8 4 4 4h36c2.2 0 4-1.8 4-4V32c0-2.2-1.8-4-4-4h-20V18c0-3.3 2.7-6 6-6s6 2.7 6 6v6h4V18c0-7.7-6.3-14-14-14zm-8 24v20c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V28H24zm12 8a4 4 0 110 8 4 4 0 010-8z" />
+      </svg>
+    </label>
+    
+  </div>
+
   <header class="page-header" role="banner">
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
@@ -35,15 +50,14 @@
   <main id="main">
 
     <div class="card-overlay-container">
-      <div id="Experience" class="full-width-box card" aria-hidden="true">
+      <div id="Experience" class="heading-box card carve" aria-hidden="true">
         <h2> Experience </h2>
       </div>
       <div class="overlay" aria-hidden="true">
-        <!-- duplicate will go here -->
       </div>
     </div>
 
-    <div class="full-box">
+    <div class="content-box">
       <h2>Software Developer in Test</h2>
       <p>
         <strong>Blackberry QNX</strong><br>
@@ -54,16 +68,11 @@
 
 
 
-    <div class="card-overlay-container">
-      <div id="Education" class="full-width-box card" aria-hidden="true">
-        <h2>Education</h2>
-      </div>
-      <div class="overlay" aria-hidden="true">
-        <!-- duplicate will go here -->
-      </div>
+    <div id="Education" class="heading-box card" aria-hidden="true">
+      <h2>Education</h2>
     </div>
 
-    <div class="full-box">
+    <div class="content-box">
       <h3>Bachelor's in Computer Science, Minor in Mathematics </h3>
       <p>
         <strong>University of North Carolina at Greensboro</strong><br>
@@ -78,20 +87,7 @@
 
 
     <div class="card-overlay-container">
-      <div id="Projects" class="full-width-box card">
-        <h2>Projects</h2>
-      </div>
-      <div class="overlay" aria-hidden="true">
-        <!-- duplicate will go here -->
-      </div>
-    </div>
-
-    <div class="full-box">
-    </div>
-
-
-    <div class="card-overlay-container">
-      <div id="Skills" class="full-width-box card">
+      <div id="Skills" class="heading-box card">
         <h2>Skills</h2>
       </div>
       <div class="overlay" aria-hidden="true">
@@ -99,7 +95,7 @@
       </div>
     </div>
 
-    <div class="full-box">
+    <div class="content-box">
       <p>
         <h3>Programming Languages</h3> Python, Java, C, Bash
         <h3>Technologies</h3> Git, SVN, PyTest, Jenkins, WFA Precert, QNX, Linux/Ubuntu, Windows
@@ -113,6 +109,10 @@
 
 
   <script src="/assets/js/cursor-glow.js"></script>
+  
+  <script src="/assets/js/lightswitch.js"></script>
+  
+
 </body>
 
 

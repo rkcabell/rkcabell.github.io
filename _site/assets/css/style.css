@@ -1054,18 +1054,6 @@ a:hover {
   text-overflow: ellipsis;
 }
 
-.btn-default {
-  
-}
-
-.btn-disabled {
-  pointer-events: none; 
-  opacity: 0.5; 
-  cursor: not-allowed; 
-  background-color:#a09c9c; 
-  border-color: #e0dede;
-}
-
 .btn-special {
   color: rgba(255, 255, 255, 0.9);
   background-color: rgba(0, 0, 255, 0.315);

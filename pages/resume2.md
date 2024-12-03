@@ -1,5 +1,5 @@
 ---
-layout: scroll_appear_layout
+layout: dynamic_resume_layout
 title: Resume2
 description: Click to download
 moniker: Resume2

@@ -920,11 +920,11 @@ main {
   }
 } */
 
-.full-box {
+.content-box {
   width: 100%;
   background-color: #f5f5dc;
   color: #000000;
-  padding: 20px;
+  padding: 1rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -933,16 +933,16 @@ main {
   margin-bottom: 20px;
 }
 
-.full-width-box {
+.heading-box {
   width: 100%;
   background-color: #f5f5dc;
   color: #ff7f00;
-  padding: 20px; 
+  padding: 1rem; 
   box-sizing: border-box; 
   display: flex; 
   align-items: center;
-  min-height: 100px;
   margin-bottom: 20px;
+  border-radius: 0.5rem;
 
   /* hover mask styling */
   .overlay & {
@@ -960,37 +960,15 @@ main {
   }
 }
 
-.heading-box {
-  width: 100%;
-  color: #ff7f00;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  min-height: 100px;
-  
-}
-#Experience {
+.heading-box.card {
   padding: 1rem;
-  border: 2px solid #333;
   border-radius: 0.5rem;
 }
 
-#Experience h2 {
-  margin-bottom: 0.5rem;
+.heading-box h2 {
   font-size: 1.5rem;
 }
 
-#Experience div {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #555;
-}
-/* @media (min-width: 768px) {
-  .pdf-viewer {
-    height: 120vh;
-  }
-} */
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -2124,6 +2102,9 @@ input, textarea {
   right: 0;
 }
 
+
+
+
 /* Bot detection input field */
 .ohnohoney{
   opacity: 0;
@@ -2134,6 +2115,110 @@ input, textarea {
   width: 0;
   z-index: -1;
 }
+
+
+#darkroom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333333; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 69; 
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+/* Lightswitch option 1: Button */
+
+
+/* #lightswitch {
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border: 2px solid #000000; 
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.lightswitch:active {
+  transform: scale(0.95);
+} */
+
+/* Lightswitch option 2: Power */
+#checkbox {
+  display: none;
+}
+
+/* removes red asterisk from label (svg of lock) */
+#lightswitch::before,
+#lightswitch::after {
+  content: none;
+}
+
+#lightswitch {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(99, 99, 99);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(126, 126, 126);
+  box-shadow: 0px 0px 3px rgb(2, 2, 2) inset;
+}
+#lightswitch svg {
+  width: 1.2em;
+}
+#lightswitch svg path {
+  fill: rgb(48, 48, 48);
+}
+
+/* Lights during checked */
+/*  */
+/* #checkbox:checked + #lightswitch {
+  box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(146, 180, 184);
+}
+#checkbox:checked + #lightswitch svg {
+  filter: drop-shadow(0px 0px 5px rgb(151, 243, 255));
+}
+#checkbox:checked + #lightswitch svg path {
+  fill: rgb(255, 255, 255);
+} */
+
+/* lights during hover */
+/*  */
+#lightswitch:hover {
+  box-shadow: 0px 0px 1px rgb(151, 243, 255) inset,
+    0px 0px 2px rgb(151, 243, 255) inset, 0px 0px 10px rgb(151, 243, 255) inset,
+    0px 0px 40px rgb(151, 243, 255), 0px 0px 100px rgb(151, 243, 255),
+    0px 0px 5px rgb(151, 243, 255);
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(146, 180, 184);
+}
+
+#lightswitch:hover svg {
+  filter: drop-shadow(0px 0px 5px rgb(151, 243, 255));
+}
+
+#lightswitch:hover svg path {
+  fill: rgb(255, 255, 255);
+}
+
 .card-overlay-container {
   position: relative;
 }
@@ -2164,19 +2249,19 @@ input, textarea {
   will-change: mask;
 }
 
-
 .card {
   /* max-width: 50ch; */
   border: 2px solid #333;
   padding: 3rem;
   border-radius: 0.5rem;
+  box-shadow: 0px 4px 6px rgba(255, 174, 74, 0.4);
+  transition: 400ms background-color ease, 400ms opacity ease;
 
   h2 {
     border: 0;
   }
 
   .overlay & {
-    /* rainbow background*/
     background: linear-gradient(
       45deg,
       rgba(255, 0, 0, 0.8),
@@ -2188,13 +2273,10 @@ input, textarea {
       rgba(255, 0, 0, 0.8)
     );
 
-    border-color: white;
     color: black;
-    /*
     > * {
       filter: invert(1);
     }
-    */
     h2 {
       text-shadow: 0 2px 2px black;
     }
@@ -2202,4 +2284,42 @@ input, textarea {
       background: black;
     }
   }
+
+  &.carve {
+    position: relative;
+    background: linear-gradient(
+      45deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 255, 0, 0.8),
+      rgba(0, 255, 0, 0.8),
+      rgba(0, 255, 255, 0.8),
+      rgba(0, 0, 255, 0.8),
+      rgba(255, 0, 255, 0.8),
+      rgba(255, 0, 0, 0.8)
+    );
+    clip-path: circle(80px at var(--x, 50%) var(--y, 50%));
+    opacity: var(--opacity, 1);
+    transition: clip-path 0.3s ease, opacity 0.3s ease;
+  }
 }
+
+  /* .overlay.carve & {
+    pointer-events: none;
+    background: radial-gradient(
+      circle at var(--x, 50%) var(--y, 50%),
+      rgba(137, 44, 44, 0.0) 80px,
+      transparent 80px
+    );
+    opacity: var(--opacity, 0);
+    mix-blend-mode: screen;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    clip-path: circle(80px at var(--x, 50%) var(--y, 50%));
+  }
+    h2 {
+      text-shadow: 0 2px 2px black;
+    }
+
+    button {
+      background: black;
+    } */
+  
