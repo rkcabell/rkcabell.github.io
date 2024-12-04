@@ -11,59 +11,34 @@ containers.forEach(container => {
     const clone = card.cloneNode(true)
     overlay.appendChild(clone)
   }
-})
 
-// Add a global pointermove listener to update the active overlay
-document.body.addEventListener('pointermove', e => {
-  containers.forEach(container => {
-    const overlay = container.querySelector('.overlay')
-    const card = container.querySelector('.card.carve')
-
+  container.addEventListener('mousemove', event => {
     const rect = container.getBoundingClientRect()
+    const x = event.clientX - rect.left
+    const y = event.clientY - rect.top
 
-    // if inside container
-    if (
-      e.clientX >= rect.left &&
-      e.clientX <= rect.right &&
-      e.clientY >= rect.top &&
-      e.clientY <= rect.bottom
-    ) {
-      const x = e.clientX - rect.left
-      const y = e.clientY - rect.top
+    if (overlay) {
       overlay.style.setProperty('--opacity', '1')
       overlay.style.setProperty('--x', `${x}px`)
       overlay.style.setProperty('--y', `${y}px`)
-      if (card) {
-        card.style = `--opacity: 0; --x: ${x}px; --y: ${y}px;`
-      }
-    } else {
-      overlay.style = `--opacity: 0;`
-      if (card) {
-        card.style.setProperty('--opacity', '1')
-        card.style.setProperty('--x', '50%')
-        card.style.setProperty('--y', '50%')
-      }
     }
-  })
-})
-document.querySelectorAll('.card-overlay-container').forEach(container => {
-  const card = container.querySelector('.card.carve')
 
-  if (card) {
-    container.addEventListener('mousemove', event => {
-      const rect = card.getBoundingClientRect()
-      const x = event.clientX - rect.left
-      const y = event.clientY - rect.top
-
-      // Update the carving position
+    if (card) {
+      card.style.setProperty('--opacity', '0')
       card.style.setProperty('--x', `${x}px`)
       card.style.setProperty('--y', `${y}px`)
-    })
+    }
+  })
 
-    container.addEventListener('mouseleave', () => {
-      // Reset carving when leaving the container
+  container.addEventListener('mouseleave', () => {
+    if (overlay) {
+      overlay.style.setProperty('--opacity', '0')
+    }
+
+    if (card) {
+      card.style.setProperty('--opacity', '1')
       card.style.setProperty('--x', '50%')
       card.style.setProperty('--y', '50%')
-    })
-  }
+    }
+  })
 })
