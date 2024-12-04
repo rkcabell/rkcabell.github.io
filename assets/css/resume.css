@@ -2116,6 +2116,15 @@ input, textarea {
   z-index: -1;
 }
 
+#default-bkg {
+  background-image: url('/assets/images/backgrounds/incandescent.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* color: white;
+  position:relative; */
+  /* height: 100vh;
+  margin: 0; */
+}
 
 #darkroom {
   position: fixed;
@@ -2256,6 +2265,8 @@ input, textarea {
   border-radius: 0.5rem;
   box-shadow: 0px 4px 6px rgba(255, 174, 74, 0.4);
   transition: 400ms background-color ease, 400ms opacity ease;
+  
+  
 
   h2 {
     border: 0;
@@ -2284,23 +2295,21 @@ input, textarea {
       background: black;
     }
   }
+}
 
-  &.carve {
-    position: relative;
-    background: linear-gradient(
-      45deg,
-      rgba(255, 0, 0, 0.8),
-      rgba(255, 255, 0, 0.8),
-      rgba(0, 255, 0, 0.8),
-      rgba(0, 255, 255, 0.8),
-      rgba(0, 0, 255, 0.8),
-      rgba(255, 0, 255, 0.8),
-      rgba(255, 0, 0, 0.8)
-    );
-    clip-path: circle(80px at var(--x, 50%) var(--y, 50%));
-    opacity: var(--opacity, 1);
-    transition: clip-path 0.3s ease, opacity 0.3s ease;
-  }
+.card.carve {
+  /* Applies the mask for carving */
+  -webkit-mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+  mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+
+  -webkit-mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+  mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+}
+.card.carve.exposed {
+  /* When fully exposed, the circle disappears */
+  clip-path: none;
 }
 
   /* .overlay.carve & {

@@ -46,3 +46,24 @@ document.body.addEventListener('pointermove', e => {
     }
   })
 })
+document.querySelectorAll('.card-overlay-container').forEach(container => {
+  const card = container.querySelector('.card.carve')
+
+  if (card) {
+    container.addEventListener('mousemove', event => {
+      const rect = card.getBoundingClientRect()
+      const x = event.clientX - rect.left
+      const y = event.clientY - rect.top
+
+      // Update the carving position
+      card.style.setProperty('--x', `${x}px`)
+      card.style.setProperty('--y', `${y}px`)
+    })
+
+    container.addEventListener('mouseleave', () => {
+      // Reset carving when leaving the container
+      card.style.setProperty('--x', '50%')
+      card.style.setProperty('--y', '50%')
+    })
+  }
+})
