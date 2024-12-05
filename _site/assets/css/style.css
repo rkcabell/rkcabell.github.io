@@ -9,11 +9,9 @@
 
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
+  /* text-size-adjust: 100%; */
 }
 
 html, body {
@@ -101,14 +99,14 @@ html, body {
   animation: fadeIn 2s ease-out ;
 }
 
-  @keyframes circleDown {
+  /* @keyframes circleDown {
     from {
       bg-position: 50% 0%; 
     }
     to {
       bg-position: 50% 65%; 
     }
-  }
+  } */
 
 @keyframes wiggle {
   0% {
@@ -2044,9 +2042,9 @@ canvas {
 }
 
 /* Styling for Firefox to make the dropdown arrow look consistent */
-#itemsPerPage::-ms-expand {
-  display: none; /* Removes the default arrow on Internet Explorer */
-}
+/* #itemsPerPage::-ms-expand {
+  display: none;
+} */
 
 /* Custom dropdown arrow styling for WebKit browsers */
 #itemsPerPage {cursor: pointer;

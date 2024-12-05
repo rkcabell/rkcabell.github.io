@@ -3,14 +3,8 @@ const containers = main.querySelectorAll('.card-overlay-container')
 
 // Set up each card-overlay pair
 containers.forEach(container => {
-  const card = container.querySelector('.heading-box')
-  const overlay = container.querySelector('.overlay')
-
-  if (card && overlay) {
-    // Clone the card content into the overlay
-    const clone = card.cloneNode(true)
-    overlay.appendChild(clone)
-  }
+  const card = container.querySelector('.card')
+  const overlay = container.querySelector('.textoverlay')
 
   container.addEventListener('mousemove', event => {
     const rect = container.getBoundingClientRect()
@@ -18,12 +12,12 @@ containers.forEach(container => {
     const y = event.clientY - rect.top
 
     if (overlay) {
-      overlay.style.setProperty('--opacity', '1')
-      overlay.style.setProperty('--x', `${x}px`)
-      overlay.style.setProperty('--y', `${y}px`)
+      overlay.style.setProperty('--color', '#fff')
+      overlay.style.setProperty('--text-shadow', ' 0 0 10px rgba(0, 0, 0, 0.9')
     }
 
     if (card) {
+      card.classList.add('hover')
       card.style.setProperty('--opacity', '0')
       card.style.setProperty('--x', `${x}px`)
       card.style.setProperty('--y', `${y}px`)
@@ -32,11 +26,16 @@ containers.forEach(container => {
 
   container.addEventListener('mouseleave', () => {
     if (overlay) {
-      overlay.style.setProperty('--opacity', '0')
+      overlay.style.setProperty('--color', '#000')
+      overlay.style.setProperty(
+        '--text-shadow',
+        ' 0 0 5px rgba(255, 255, 255, 0.7'
+      )
     }
 
     if (card) {
-      card.style.setProperty('--opacity', '1')
+      card.classList.remove('hover')
+      card.style.setProperty('--opacity', '0')
       card.style.setProperty('--x', '50%')
       card.style.setProperty('--y', '50%')
     }

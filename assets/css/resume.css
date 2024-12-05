@@ -9,12 +9,9 @@
 
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  -webkit-user-select: 100%;
-  /* 2 */
+  text-size-adjust: 100%;
 }
 
 html, body {
@@ -41,14 +38,14 @@ main {
   }
 }
 
-  @keyframes circleDown {
+  /* @keyframes circleDown {
     from {
       bg-position: 50% 0%; 
     }
     to {
       bg-position: 50% 65%; 
     }
-  }
+  } */
 
 @keyframes wiggle {
   0% {
@@ -905,70 +902,6 @@ a:hover {
 }
 
 
-/* .main-content {
-  width: 100%;
-  height: 120vh;
-  border: 0;
-} */
-/* 
-main {
-  display: grid;
-  place-items: center;
-  position: relative;
-  > * {
-    grid-area: 1 / 1 / 2 / 2;
-  }
-} */
-
-.content-box {
-  width: 100%;
-  background-color: #f5f5dc;
-  color: #000000;
-  padding: 1rem;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 100px;
-  margin-bottom: 20px;
-}
-
-.heading-box {
-  width: 100%;
-  background-color: #f5f5dc;
-  color: #ff7f00;
-  padding: 1rem; 
-  box-sizing: border-box; 
-  display: flex; 
-  align-items: center;
-  margin-bottom: 20px;
-  border-radius: 0.5rem;
-
-  /* hover mask styling */
-  .overlay & {
-    background: linear-gradient(
-      45deg,
-      hsl(0, 100%, 50%),
-      hsl(60, 100%, 50%),
-      hsl(120, 100%, 50%),
-      hsl(180, 100%, 50%),
-      hsl(240, 100%, 50%),
-      hsl(300, 100%, 50%),
-      hsl(360, 100%, 50%)
-    );
-    border-color: white;
-  }
-}
-
-.heading-box.card {
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
-
-.heading-box h2 {
-  font-size: 1.5rem;
-}
-
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -1277,40 +1210,7 @@ main {
   }
 }
 
-.path-0 {
-  animation: pathAnim-0 10s;
-  animation-timing-function: linear;
-  /* animation-iteration-count: 1; */
-  animation-timing-function: cubic-bezier(0.4, 0.3, 0.4, .3);
-  animation-iteration-count: infinite;
-}
 
-@keyframes pathAnim-0 {
-  0% {
-    d: path("M 0,400 C 0,400 0,200 0,200 C 62.43333333333334,168.3025641025641 124.86666666666667,136.6051282051282 219,129 C 313.1333333333333,121.3948717948718 438.9666666666666,137.88205128205126 522,143 C 605.0333333333334,148.11794871794874 645.2666666666668,141.86666666666665 718,158 C 790.7333333333332,174.13333333333335 895.9666666666667,212.65128205128207 974,232 C 1052.0333333333333,251.34871794871793 1102.8666666666666,251.52820512820512 1176,243 C 1249.1333333333334,234.47179487179488 1344.5666666666666,217.23589743589744 1440,200 C 1440,200 1440,400 1440,400 Z"
-      );
-  }
-
-  25% {
-    d: path("M 0,400 C 0,400 0,200 0,200 C 70.93846153846152,195.9897435897436 141.87692307692305,191.9794871794872 233,204 C 324.12307692307695,216.0205128205128 435.4307692307692,244.07179487179485 515,256 C 594.5692307692308,267.92820512820515 642.4,263.73333333333335 713,261 C 783.6,258.26666666666665 876.9692307692308,256.99487179487176 956,252 C 1035.0307692307692,247.00512820512822 1099.7230769230769,238.2871794871795 1178,229 C 1256.2769230769231,219.7128205128205 1348.1384615384616,209.85641025641024 1440,200 C 1440,200 1440,400 1440,400 Z"
-      );
-  }
-
-  50% {
-    d: path("M 0,400 C 0,400 0,200 0,200 C 79.91025641025641,201.23076923076923 159.82051282051282,202.46153846153848 249,214 C 338.1794871794872,225.53846153846152 436.6282051282052,247.38461538461536 516,262 C 595.3717948717948,276.61538461538464 655.6666666666667,284 722,263 C 788.3333333333333,242.00000000000003 860.7051282051282,192.6153846153846 948,171 C 1035.2948717948718,149.3846153846154 1137.5128205128203,155.53846153846152 1222,165 C 1306.4871794871797,174.46153846153848 1373.2435897435898,187.23076923076923 1440,200 C 1440,200 1440,400 1440,400 Z"
-      );
-  }
-
-  75% {
-    d: path("M 0,400 C 0,400 0,200 0,200 C 60.45384615384617,191.85897435897436 120.90769230769234,183.71794871794873 202,180 C 283.09230769230766,176.28205128205127 384.8230769230769,176.9871794871795 481,186 C 577.1769230769231,195.0128205128205 667.8,212.33333333333331 757,221 C 846.2,229.66666666666669 933.9769230769232,229.67948717948718 997,234 C 1060.0230769230768,238.32051282051282 1098.2923076923075,246.94871794871796 1168,242 C 1237.7076923076925,237.05128205128204 1338.8538461538462,218.52564102564102 1440,200 C 1440,200 1440,400 1440,400 Z"
-      );
-  }
-
-  100% {
-    d: path("M 0,400 C 0,400 0,200 0,200 C 62.43333333333334,168.3025641025641 124.86666666666667,136.6051282051282 219,129 C 313.1333333333333,121.3948717948718 438.9666666666666,137.88205128205126 522,143 C 605.0333333333334,148.11794871794874 645.2666666666668,141.86666666666665 718,158 C 790.7333333333332,174.13333333333335 895.9666666666667,212.65128205128207 974,232 C 1052.0333333333333,251.34871794871793 1102.8666666666666,251.52820512820512 1176,243 C 1249.1333333333334,234.47179487179488 1344.5666666666666,217.23589743589744 1440,200 C 1440,200 1440,400 1440,400 Z"
-      );
-  }
-}
 
 /* green */
 .main-container {
@@ -1668,10 +1568,7 @@ canvas {
   cursor: pointer;
 }
 
-/* Styling for Firefox to make the dropdown arrow look consistent */
-#itemsPerPage::-ms-expand {
-  display: none; /* Removes the default arrow on Internet Explorer */
-}
+
 
 /* Custom dropdown arrow styling for WebKit browsers */
 #itemsPerPage {cursor: pointer;
@@ -2102,9 +1999,6 @@ input, textarea {
   right: 0;
 }
 
-
-
-
 /* Bot detection input field */
 .ohnohoney{
   opacity: 0;
@@ -2115,6 +2009,168 @@ input, textarea {
   width: 0;
   z-index: -1;
 }
+
+
+.content-box {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.textoverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  font-size: 1.2rem;
+  color: var(--color, #000);
+  text-shadow: var(--text-shadow, 0 0 5px rgba(255, 255, 255, 0.7));
+  pointer-events: none;
+  /* Inherits color and background-color from .content-box */
+}
+
+.content-box.card.carve {
+  height: 100%;
+  background-color: #f5f5dc;
+  color: transparent;
+  position: relative;
+  -webkit-mask-image: none;
+  mask-image: none;
+  transition: mask-image 0.4s ease, -webkit-mask-image 0.4s ease;
+}
+
+.content-box.card.carve.hover {
+  -webkit-mask-image: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    transparent 80px,
+    black 100%
+  );
+  mask-image: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    transparent 80px,
+    black 100%
+  );
+}
+
+
+.heading-box {
+  position: relative;
+
+  width: 100%;
+  color: #ff7f00;
+  padding: 1rem; 
+  box-sizing: border-box; 
+  display: flex; 
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+  z-index: 1;
+}
+  /* hover mask styling */
+  /* .overlay & {
+    background: linear-gradient(
+      45deg,
+      hsl(0, 100%, 50%),
+      hsl(60, 100%, 50%),
+      hsl(120, 100%, 50%),
+      hsl(180, 100%, 50%),
+      hsl(240, 100%, 50%),
+      hsl(300, 100%, 50%),
+      hsl(360, 100%, 50%)
+    );
+    border-color: white;
+  } */
+/* } */
+
+.heading-box.card.carve {
+  height: 100%;
+  position: relative;
+  -webkit-mask-image: none;
+  mask-image: none;
+  transition: mask-image 0.4s ease, -webkit-mask-image 0.4s ease;
+}
+
+.heading-box.card.carve.hover {
+  -webkit-mask-image: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    transparent 80px,
+    black 100%
+  );
+  mask-image: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    transparent 80px,
+    black 100%
+  );
+}
+
+.heading-box.card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.heading-box  h2 {
+  font-size: 1.5rem;
+}
+
+
+.card {
+  /* max-width: 50ch; */
+  border: 2px solid #333;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  background-color: #f5f5dc;
+
+  box-shadow: 0px 4px 6px rgba(255, 174, 74, 0.4);
+  /* transition: 400ms background-color ease, 400ms opacity ease; */
+  
+  h2 {
+    border: 0;
+  }
+
+  .overlay & {
+    background: linear-gradient(
+      45deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 255, 0, 0.8),
+      rgba(0, 255, 0, 0.8),
+      rgba(0, 255, 255, 0.8),
+      rgba(0, 0, 255, 0.8),
+      rgba(255, 0, 255, 0.8),
+      rgba(255, 0, 0, 0.8)
+    );
+
+    color: black;
+    > * {
+      filter: invert(1);
+    }
+    h2 {
+      text-shadow: 0 2px 2px black;
+    }
+    button {
+      background: black;
+    }
+  }
+}
+
+.card.carve {
+  /* Applies the mask for carving */
+  -webkit-mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+  mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: 1;
+    /* child effects */
+    * {
+      pointer-events: none;
+    }
+  }
+
 
 #default-bkg {
   background-image: url('/assets/images/backgrounds/incandescent.png'); 
@@ -2232,14 +2288,14 @@ input, textarea {
   position: relative;
 }
 
+
+
 .overlay {
   position: absolute;
   inset: 0;
 
-  /* disable clicks/interactions */
   pointer-events: none;
 
-  /* JavaScript will make this visible */
   opacity: var(--opacity, 0);
 
   -webkit-mask: radial-gradient(
@@ -2253,78 +2309,6 @@ input, textarea {
     transparent 50%
   );
 
-  /* smooooooth */
   transition: 400ms mask ease;
   will-change: mask;
 }
-
-.card {
-  /* max-width: 50ch; */
-  border: 2px solid #333;
-  padding: 3rem;
-  border-radius: 0.5rem;
-  box-shadow: 0px 4px 6px rgba(255, 174, 74, 0.4);
-  /* transition: 400ms background-color ease, 400ms opacity ease; */
-  
-  h2 {
-    border: 0;
-  }
-
-  .overlay & {
-    background: linear-gradient(
-      45deg,
-      rgba(255, 0, 0, 0.8),
-      rgba(255, 255, 0, 0.8),
-      rgba(0, 255, 0, 0.8),
-      rgba(0, 255, 255, 0.8),
-      rgba(0, 0, 255, 0.8),
-      rgba(255, 0, 255, 0.8),
-      rgba(255, 0, 0, 0.8)
-    );
-
-    color: black;
-    > * {
-      filter: invert(1);
-    }
-    h2 {
-      text-shadow: 0 2px 2px black;
-    }
-    button {
-      background: black;
-    }
-  }
-}
-
-.card.carve {
-  /* Applies the mask for carving */
-  -webkit-mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
-  mask-image: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 80px, black 100%);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
-
-    /* child effects */
-    * {
-      pointer-events: none;
-    }
-  }
-
-  /* .overlay.carve & {
-    pointer-events: none;
-    background: radial-gradient(
-      circle at var(--x, 50%) var(--y, 50%),
-      rgba(137, 44, 44, 0.0) 80px,
-      transparent 80px
-    );
-    opacity: var(--opacity, 0);
-    mix-blend-mode: screen;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    clip-path: circle(80px at var(--x, 50%) var(--y, 50%));
-  }
-    h2 {
-      text-shadow: 0 2px 2px black;
-    }
-
-    button {
-      background: black;
-    } */
-  
