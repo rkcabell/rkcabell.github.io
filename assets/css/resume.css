@@ -2176,10 +2176,8 @@ input, textarea {
   background-image: url('/assets/images/backgrounds/incandescent.png'); 
   background-size: cover;
   background-repeat: no-repeat; 
-  /* color: white;
-  position:relative; */
-  /* height: 100vh;
-  margin: 0; */
+  background-position: center center;
+  max-width: 100%;
 }
 
 #darkroom {

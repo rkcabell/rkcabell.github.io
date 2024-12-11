@@ -1331,7 +1331,7 @@ a:hover {
 
 .main-content .pdf-viewer {
   width: 100%;
-  height: 120vh;
+  height: 85vh;
   border: 0;
 }
 
@@ -2484,4 +2484,30 @@ input, textarea {
   height: 0;
   width: 0;
   z-index: -1;
+}
+
+.onlyfans {
+  stroke: none; 
+  stroke-width: 0;
+  stroke-dasharray: none;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 10;
+  fill: none;
+  fill-rule: nonzero;
+  opacity: 1;
+  /* transform: translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81); */
+}
+
+.of-path-style {
+stroke: none;
+    stroke-width: 1;
+    stroke-dasharray: none;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 10;
+    fill: rgb(0, 0, 0);
+    fill-rule: nonzero;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
