@@ -2511,3 +2511,11 @@ stroke: none;
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

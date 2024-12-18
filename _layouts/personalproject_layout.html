@@ -24,9 +24,15 @@
     {% include navigation.html %}
   </header>
 
-  <main id="content" class="main-content txt-bkg" role="main">
+  <div class="flex-container">
+  {% include project-sidebar.html %}
 
-    {{ content }}
+    <main id="content" class="main-content txt-bkg" role="main">
+
+      {{ content }}
+      
+    </main>
+  </div>
 
     <footer class="site-footer">
       {% if site.github.is_project_page %}
@@ -34,7 +40,7 @@
         is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
       {% endif %}
     </footer>
-  </main>
+  
 </body>
 
 </html>

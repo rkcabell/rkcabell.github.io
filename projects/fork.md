@@ -8,10 +8,8 @@ categories: [project, inproject]
 
 <title>Tuning Fork Simulation</title>
 
-Work In Progress - translating python to js
 
 <!-- <meta charset="UTF-8"> -->
-  <script src="/scripts/clairvoyance.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
 
 <div class="video-container">

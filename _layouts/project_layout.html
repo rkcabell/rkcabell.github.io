@@ -6,62 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <script src="/scripts/clairvoyance.js"></script>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   {% include head-custom.html %}
-  <script>
-      console.log('test');
-  </script>
-  <script>
-    //  _.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-.__.--.__.-'""`-._
-    //                          CLAIRVOYANCE
-    //  "`--'""`-.__.-'""`--'""`-.__.-'""`--'""`-.__.-'""`--'""`-.__.-'"
-    document.addEventListener("DOMContentLoaded", function() {
-    const keyMapping = {
-      smrfhaoc: 'personal',
-      szosxzfarvay: 'professional'
-    }
 
-    function getKeyFromURL() {
-      let urlParams = window.location.search.substring(1); // Get the query string without the '?'
-      return urlParams; // Return the key directly since it's the only part in the query string
-    }
-
-    let key = getKeyFromURL();
-    console.log('Key from URL:', key);
-    let origin = keyMapping[key] 
-    console.log('origin:', origin)
-
-
-    if (origin === 'personal') {
-      let homeLink = document.querySelector('a[title="Home"]')
-      console.log('Home Link:', homeLink)
-      let projectsLink = document.querySelector('a[title="Projects"]')
-      if (homeLink) {
-        homeLink.href = '/'
-        console.log('Home link updated to /')
-      }
-      if (projectsLink) {
-        projectsLink.href = '/projects.html'
-        console.log('Projects link updated to /projects.html')
-      }
-    } else if (origin === 'professional') {
-      let homeLink = document.querySelector('a[title="Home"]')
-      let projectsLink = document.querySelector('a[title="Projects"]')
-      if (homeLink) {
-        homeLink.href = '/professional.html'
-        console.log('Home link updated to /professional.html')
-      }
-      if (projectsLink) {
-        projectsLink.href = '/professional/projects.html'
-        console.log('Projects link updated to /professional/projects.html')
-      }
-    }
-    });
-
-</script>
-
-  <!-- <script src="/scripts/clairvoyance.js"></script> -->
 </head>
 
 <body id="default-bkg">

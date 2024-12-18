@@ -1,8 +1,32 @@
-<div class="sidebar">
+<!-- <div class="sidebar">
   <ul>
     <li><a>Projects</a></li>
     <li><a href="{{ '/projects/vector_field' | relative_url }}">Vector Field</a></li>
     <li><a href="{{ '/projects/halvorsen' | relative_url }}">Halvorsen</a></li>
     <li><a href="{{ '/projects/fork' | relative_url }}">Tuning Fork</a></li>
+    <li><a href="{{ '/projects/color_picker' | relative_url }}">Color Picker</a></li>
+  </ul>
+</div> -->
+
+
+{% if page.categories contains 'professional' %}
+<div class="sidebar">
+  <ul>
+    <li><a>Projects</a></li>
+    <li><a href="{{ '/projects/vector_field' | relative_url }}?szosxzfarvay">Vector Field</a></li>
+    <li><a href="{{ '/projects/halvorsen' | relative_url }}?szosxzfarvay">Halvorsen</a></li>
+    <li><a href="{{ '/projects/fork' | relative_url }}?szosxzfarvay">Tuning Fork</a></li>
+    <li><a href="{{ '/projects/color_picker' | relative_url }}?szosxzfarvay">Color Picker</a></li>
   </ul>
 </div>
+{% elsif page.categories contains 'personal' %}
+<div class="sidebar">
+  <ul>
+    <li><a>Projects</a></li>
+    <li><a href="{{ '/projects/vector_field' | relative_url }}?smrfhaoc">Vector Field</a></li>
+    <li><a href="{{ '/projects/halvorsen' | relative_url }}?smrfhaoc">Halvorsen</a></li>
+    <li><a href="{{ '/projects/fork' | relative_url }}?smrfhaoc">Tuning Fork</a></li>
+    <li><a href="{{ '/projects/color_picker' | relative_url }}?smrfhaoc">Color Picker</a></li>
+  </ul>
+</div>
+{% endif %}
