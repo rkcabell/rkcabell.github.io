@@ -2368,10 +2368,10 @@ label {
   margin-top: 10px;
   text-align: left;
 }
-label::after {
-  content: " *"; /* Add the red asterisk after label */
+/* label::after {
+  content: " *"; 
   color: red;
-}
+} */
 
 input, textarea {
   width: 100%;

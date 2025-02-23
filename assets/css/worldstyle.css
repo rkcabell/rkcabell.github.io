@@ -1,0 +1,28 @@
+
+#three-container {
+    width: 100%;
+    height: 500px;
+}
+
+
+.wiki-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+/* .wiki-btn {
+    padding: 12px 20px;
+    background: #444;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+} */
+
+/* .wiki-btn:hover {
+    background: #313131;
+} */
