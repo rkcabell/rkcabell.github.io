@@ -5,9 +5,10 @@ description: Meet the creatures that live here
 moniker: Worldbuilding
 slug: habitals
 permalink: /habitals.html
-categories: [root, world, personal]
+categories: [root, world]
 order: 5
 ---
+
 <h2>Habitals of Dianthos</h2>
 
 <ul>

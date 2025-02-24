@@ -5,7 +5,7 @@ description: Explore the geography of an alien planet
 moniker: Worldbuilding
 slug: environments
 permalink: /environments.html
-categories: [root, world, personal]
+categories: [root, world]
 order: 5
 ---
 <h2>Environments of Dianthos</h2>

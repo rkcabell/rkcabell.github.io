@@ -5,7 +5,7 @@ description: Explore each era on an alien planet
 moniker: Worldbuilding
 slug: eras
 permalink: /eras.html
-categories: [root, world, personal]
+categories: [root, world]
 order: 5
 ---
 
