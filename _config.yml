@@ -1,7 +1,7 @@
 title: Ryan Cabell
 description: Professional Software Developer
 show_downloads: true
-baseurl: 
+baseurl:
 google_analytics:
 theme: jekyll-theme-cayman
 categories: [root, world, gallery, project, protected, professional, homepage]
@@ -14,13 +14,13 @@ collections:
   eras:
     output: true
     sort_by: order
-    permalink: /:collection/:slug
+    permalink: /:collection/:name
   environments:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:name
   habitals:
     output: true
-    permalink: /:collection/:slug
+    permalink: /:collection/:name
 paginate: 25
 paginate_path: '/page:num/'
 # defaults:

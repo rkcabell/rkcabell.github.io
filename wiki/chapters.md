@@ -8,6 +8,9 @@ permalink: /chapters.html
 categories: [root, world, personal]
 order: 5
 ---
-
- {% for chapter in site.data.chapters %}
-    <div class="chapter">
+<h2>Chapters of Dianthos</h2>
+<ul>
+   {% for chapter in site.chapters %}
+         <li><a href="{{ chapter.url }}">{{ chapter.title }}</a></li>
+   {% endfor %}
+</ul>

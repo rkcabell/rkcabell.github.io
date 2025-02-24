@@ -8,3 +8,10 @@ permalink: /environments.html
 categories: [root, world, personal]
 order: 5
 ---
+<h2>Environments of Dianthos</h2>
+
+<ul>
+   {% for env in site.locations %}
+         <li><a href="{{ env.url }}">{{ env.title }}</a></li>
+   {% endfor %}
+</ul>

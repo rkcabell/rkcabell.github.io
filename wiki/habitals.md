@@ -8,3 +8,10 @@ permalink: /habitals.html
 categories: [root, world, personal]
 order: 5
 ---
+<h2>Habitals of Dianthos</h2>
+
+<ul>
+   {% for habital in site.habitals %}
+         <li><a href="{{ habital.url }}">{{ habital.title }}</a></li>
+   {% endfor %}
+</ul>

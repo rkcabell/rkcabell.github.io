@@ -1,12 +1,34 @@
 ---
 layout: basewiki_layout
 ---
-{% if page.url contains '/chapters/' %}
+<!-- {% if page.url contains '/chapters/' %}
   Chapter: {{page.order | minus: 9}}
 {% endif %}
 
-{{ content }}
+{{ content }} -->
 
-<!-- <article>
-  {{ content }}
-</article> -->
+
+
+<!-- Dynamic Section Indicator -->
+{% if page.url contains '/chapters/' %}
+  <div class="section-indicator">Chapter: {{ page.order | minus: 9 }}</div>
+{% elsif page.url contains '/eras/' %}
+  <div class="section-indicator">Era: {{ page.order }}</div>
+{% elsif page.url contains '/environments/' %}
+  <div class="section-indicator">Environment: {{ page.order }}</div>
+{% elsif page.url contains '/habitals/' %}
+  <div class="section-indicator">Habital: {{ page.order }}</div>
+{% endif %}
+
+<!-- Back to Section Hub -->
+{% if page.url contains '/chapters/' %}
+  <a class="btn-nav" href="/chapters.html">Back to Chapters</a>
+{% elsif page.url contains '/eras/' %}
+  <a class="btn-nav" href="/eras.html">Back to Eras</a>
+{% elsif page.url contains '/environments/' %}
+  <a class="btn-nav" href="/environments.html">Back to Environments</a>
+{% elsif page.url contains '/habitals/' %}
+  <a class="btn-nav" href="/habitals.html">Back to Habitals</a>
+{% endif %}
+
+{{ content }}
