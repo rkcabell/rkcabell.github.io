@@ -17,11 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
   renderer.setSize(container.clientWidth, container.clientHeight)
   container.appendChild(renderer.domElement)
 
-//   // Lighting
-//   const light = new THREE.DirectionalLight(0xffffff, 1)
-//   light.position.set(5, 5, 5)
-//   scene.add(light)
-
     // Ambient Light - Softly lights everything
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.7); // Soft overall light
     scene.add(ambientLight);
@@ -43,22 +38,34 @@ document.addEventListener('DOMContentLoaded', function () {
     scene.add(atmosphere);
 
 
-
-  // Load Texture
-  const textureLoader = new THREE.TextureLoader()
-  const texture = textureLoader.load(
-    '/assets/images/maps_img/names.png',
-    () => {
-      sphere.material.map = texture
-      sphere.material.needsUpdate = true
-    }
-  )
-
   // Create Sphere
   const geometry = new THREE.SphereGeometry(1.3, 64, 64)
-  const material = new THREE.MeshStandardMaterial({ map: texture })
+  const material = new THREE.MeshStandardMaterial()
   const sphere = new THREE.Mesh(geometry, material)
   scene.add(sphere)
+  
+  // Load Initial Texture
+  const textureLoader = new THREE.TextureLoader()
+  function updateTexture(texturePath) {
+    textureLoader.load(texturePath, function (newTexture) {
+        sphere.material.map = newTexture;
+        sphere.material.needsUpdate = true;
+        console.log(`✅ Loaded texture: ${texturePath}`);
+    }, undefined, function (error) {
+        console.error("❌ Texture loading error:", error);
+    });
+  }
+
+  // Load the default texture
+  updateTexture("/assets/images/maps/default.png");
+
+  // Handle Map Selection
+  const mapSelector = document.getElementById("map-selector");
+  if (mapSelector) {
+      mapSelector.addEventListener("change", function (event) {
+          updateTexture(event.target.value);
+      });
+  }
 
   // Camera Position
   camera.position.z = 2.5
