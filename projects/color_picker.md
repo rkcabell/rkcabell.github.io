@@ -3,6 +3,8 @@ layout: project_layout
 title: Color Picker Extension
 moniker: Color
 description: ~Colorful~
+permalink: /projects/color_picker.html
+image: /assets/images/projects/color_picker1.png
 categories: [project, inproject]
 ---
 
@@ -12,8 +14,8 @@ categories: [project, inproject]
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script> -->
 
 <div class="centered">
-    <img class="centered" src="/assets/images/color_picker.png" alt="color picker add-on entry">
-    <img src="/assets/images/color_picker1.png" alt="color picker menu">
+    <img class="centered" src="/assets/images/projects/color_picker.png" alt="color picker add-on entry">
+    <img src="/assets/images/projects/color_picker1.png" alt="color picker menu">
 </div>
 
 A simple browser extension for Mozilla Firefox to grab an element's background and text color.

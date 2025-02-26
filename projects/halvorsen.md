@@ -4,6 +4,7 @@ title: Halvorsen Simulation
 moniker: Halvorsen
 description: ~Attractive~
 permalink: /projects/halvorsen.html
+image: /assets/images/projects/halvorsen.png
 categories: [project, inproject]
 ---
 

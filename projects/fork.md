@@ -3,6 +3,8 @@ layout: project_layout
 title: Tuning Fork Simulation
 moniker: Fork
 description: ~Vibrations~
+permalink: /projects/tuningfork.html
+image: /assets/images/projects/fork.png
 categories: [project, inproject]
 ---
 

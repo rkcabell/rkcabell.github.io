@@ -1,19 +1,19 @@
 - name: Vector Fields
   description: My first project was to create a vector field in Python. The goal was simple, to generate particles to swirl according to a vector field.
-  image: /assets/images/vector_field.png
+  
   link: /projects/vector_field.html
 
 - name: Halvorsen Attractor
   description: Attractors are dynamical systems which show a set of states that tend to evolve to repeat a certain pattern. They display chaotic behavior that is highly sensitive to initial conditions. Although deterministic, two points with ever so slightly different starting positions or velocities may follow very different paths.
-  image: /assets/images/halvorsen.png
+  
   link: /projects/halvorsen.html
 
 - name: Tuning Fork Simulator
   description: Generates a tone based off of a tuning fork with variable properties.
-  image: /assets/images/fork.png
+  
   link: /projects/fork.html
 
 - name: Color Picker Extension
   description: Grabs background color and text color from an element on a page.
-  image: /assets/images/color_picker1.png
+  
   link: /projects/color_picker.html

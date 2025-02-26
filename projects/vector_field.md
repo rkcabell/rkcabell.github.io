@@ -4,6 +4,7 @@ title: Vector Field
 moniker: Vector
 description: ~Gravitational~
 permalink: /projects/vector_field.html
+image: /assets/images/projects/vector_field.png
 categories: [project, inproject]
 ---
 

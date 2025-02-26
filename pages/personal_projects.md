@@ -11,14 +11,25 @@ order: 3
 <!-- PERSONAL PROJECTS == projects.html -->
 ## Welcome to my project page!
 
-<div class="projects-grid ">
-{% for project in site.data.projects %}
-  <div class="project-item " id="txt-bkg">
-    <a href="{{ project.link }}?smrfhaoc">
-    <img src="{{ project.image }}" alt="{{ project.name }}">
-    </a>
-    <h3><a href="{{ project.link }}?smrfhaoc">{{ project.name }}</a></h3>
-    <p>{{ project.description }}</p>
-  </div>
-{% endfor %}
+{% if page.categories contains 'professional' %}
+  {% assign query_param = 'szosxzfarvay' %}
+{% elsif page.categories contains 'personal' %}
+  {% assign query_param = 'smrfhaoc' %}
+{% endif %}
+
+<div class="projects-grid">
+  {% for project in site.pages %}
+    {% if project.categories contains 'inproject' %}
+      <div class="project-item" id="txt-bkg">
+        <a href="{{ project.permalink | relative_url }}?{{ query_param }}">
+          {% if project.image %}
+            <img src="{{ project.image | relative_url }}" alt="{{ project.moniker }}">
+          {% else %}
+            <img src="/assets/images/projects/default-project-image.png" alt="No image available">
+          {% endif %}
+        </a>
+        <h3><a href="{{ project.permalink | relative_url }}?{{ query_param }}">{{ project.title }}</a></h3>
+      </div>
+    {% endif %}
+  {% endfor %}
 </div>
