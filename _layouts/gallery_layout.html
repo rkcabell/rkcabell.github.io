@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.audience == "personal" or page.categories contains "personal" %}
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
     {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
         type="text/css" crossorigin>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -27,7 +29,7 @@
         <h2 class="project-tagline">{{ page.description | default: site.description | default:
             site.github.project_tagline
             }}</h2>
-        {% include navigation.html %}
+        {% include nav.html %}
     </header>
 
 
@@ -80,23 +82,26 @@
             {% if page.gallery %}
             {% assign gallery_items = site.data[page.gallery] %}
                 {% for item in gallery_items %}
+                {% assign thumb_url = item.thumb | default: item.imgSrc %}
+                {% assign full_url = item.src | default: item.imgSrc | default: item.thumb %}
+                {% assign detail_slug = item.slug | default: item.imgSrc | split: '/' | last | split: '.' | first %}
+                {% assign detail_link = 'photo-detail.html?v=' | append: detail_slug %}
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 tm-video-item" >
-                    <figure class="effect-ming tm-format">
+                    <figure class="effect-ming tm-format" data-detail-link="{{ detail_link | relative_url }}">
                         <!-- Check if the page is protected before adding the watermark -->
                         <div class="{% if page.protected %} watermarked {% endif %}">
-                            <img loading="lazy" src="{{ item.imgSrc | image_src_validate }}" alt="{{ item.title }}" class=" img-fluid">
+                            <img loading="lazy" src="{{ thumb_url | relative_url }}" alt="{{ item.title }}" class=" img-fluid">
                         </div>
                         <figcaption class="d-flex align-items-center justify-content-center">
                             <h2>{{ item.title }}</h2>
-                            <a data-fslightbox="gallery" href="{{ item.imgSrc | image_src_validate }}">Expand</a>
+                            <a data-fslightbox="gallery" href="{{ full_url | relative_url }}">Expand</a>
                         </figcaption>
                     </figure>
+                    {% if item.tag %}
                     <div class="d-flex justify-content-between tm-text-gray">
-                        <span class="tm-text-gray-light">{{ item.date }}</span>
-                        {% if page.tags %}
-                            <span>tag: {{ item.tag }}</span>
-                        {% endif %}
+                        <span>tag: {{ item.tag }}</span>
                     </div>
+                    {% endif %}
                 </div>
                 {% endfor %}
              {% endif %}

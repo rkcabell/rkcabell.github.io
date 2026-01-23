@@ -3,6 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  {% if page.audience == "personal" or page.categories contains "personal" %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endif %}
   <title>Homepage</title>
   {% seo %}
   <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
@@ -21,7 +24,7 @@
     <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
       }}</h2>
-    {% include navigation.html %}
+    {% include nav.html %}
   </header>
 
   <main id="content" class="main-content txt-bkg" role="main">

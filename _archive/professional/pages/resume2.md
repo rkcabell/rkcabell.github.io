@@ -1,0 +1,13 @@
+---
+layout: dynamic_resume_layout
+title: Resume2
+description: Click to download
+moniker: Resume2
+slug: resume2
+permalink: /professional/resume2/
+categories: [root, professional]
+audience: professional
+order: 2
+---
+
+<!-- This resume has been censored -->

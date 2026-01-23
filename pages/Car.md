@@ -5,7 +5,8 @@ description: Car display case
 moniker: Car
 slug: car
 permalink: /Car.html
-categories: [root, gallery, protected, personal]
+categories: [root, protected, personal]
+audience: personal
 heading: Car
 gallery: Car-gallery
 order: 9
@@ -35,4 +36,5 @@ protected: true
     <div id="three-container" style="width: 53.33vw; height:30vw; margin: 0 auto 10vh; display: flex; justify-content: center; align-items: center; position: relative; top: 20px; min-width: 400px; min-height: 225px;">
     <script type="module" src="assets/js/carmodel.js"></script>
     
+</div>
 </div>

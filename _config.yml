@@ -4,8 +4,7 @@ show_downloads: true
 baseurl:
 google_analytics:
 theme: jekyll-theme-cayman
-categories: [root, world, gallery, project, protected, professional, homepage]
-collections_dir: wiki
+categories: [root, world, gallery, project, protected, homepage]
 collections:
   chapters:
     output: true
@@ -21,8 +20,25 @@ collections:
   habitals:
     output: true
     permalink: /:collection/:name
+  projects:
+    output: true
+    sort_by: order
+    permalink: /:collection/:name/
 paginate: 25
 paginate_path: '/page:num/'
+defaults:
+  - scope:
+      path: "pages/personal"
+      type: "pages"
+    values:
+      audience: personal
+      section: personal
+      layout: personal_homepage
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
 # defaults:
 #   - scope:
 #       path: '' # empty string to apply settings to all files

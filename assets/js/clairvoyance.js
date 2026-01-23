@@ -33,12 +33,12 @@ document.addEventListener('DOMContentLoaded', function () {
     let homeLink = document.querySelector('a[title="Home"]')
     let projectsLink = document.querySelector('a[title="Projects"]')
     if (homeLink) {
-      homeLink.href = '/professional.html'
-      console.log('Home link updated to /professional.html')
+      homeLink.href = '/professional/'
+      console.log('Home link updated to /professional/')
     }
     if (projectsLink) {
-      projectsLink.href = '/professional/projects.html'
-      console.log('Projects link updated to /professional/projects.html')
+      projectsLink.href = '/professional/projects/'
+      console.log('Projects link updated to /professional/projects/')
     }
   }
 })

@@ -429,6 +429,126 @@ p,
     opacity: 0.8;
 }
 
+/* Gallery size controls for square/compact views */
+.tm-format.small,
+.tm-format.med {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: auto;
+    max-height: none;
+}
+
+.tm-format.med {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tm-format.small .watermarked,
+.tm-format.med .watermarked {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tm-format.small img,
+.tm-format.med img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    min-height: 0;
+}
+
+.tm-format.full {
+    height: auto;
+    max-height: none;
+    aspect-ratio: auto;
+}
+
+.tm-format.full .watermarked {
+    display: flex;
+    justify-content: center;
+}
+
+.tm-format.full img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    min-height: 0;
+}
+
+.tm-gallery.gallery-small {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0.5rem;
+}
+
+.tm-gallery.gallery-small .tm-video-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 0.75rem !important;
+}
+
+@media (min-width: 576px) {
+    .tm-gallery.gallery-small .tm-video-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .tm-gallery.gallery-small .tm-video-item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+@media (min-width: 992px) {
+    .tm-gallery.gallery-small .tm-video-item {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .tm-gallery.gallery-small .tm-video-item {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .tm-gallery.gallery-small .tm-video-item {
+        flex: 0 0 16.6667%;
+        max-width: 16.6667%;
+    }
+}
+
+.tm-gallery.gallery-med {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+}
+
+.tm-gallery.gallery-med .tm-video-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+@media (min-width: 576px) {
+    .tm-gallery.gallery-med .tm-video-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .tm-gallery.gallery-med .tm-video-item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
 .tm-format figcaption {
     padding: 2em;
     color: #fff;

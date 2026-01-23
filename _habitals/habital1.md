@@ -1,0 +1,8 @@
+---
+layout: wikipage_layout
+description: A cool habital
+title: myhabital
+era: biosporepha
+slug: example
+order: 1
+---

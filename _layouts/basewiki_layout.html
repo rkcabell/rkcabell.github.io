@@ -4,6 +4,9 @@
 
 <head>
         <meta charset="UTF-8">
+        {% if page.audience == "personal" or page.categories contains "personal" %}
+        <meta name="robots" content="noindex, nofollow">
+        {% endif %}
         {% seo %}
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"

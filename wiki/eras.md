@@ -10,8 +10,4 @@ order: 5
 ---
 
 <h2>Eras of Dianthos</h2>
-<ul>
-   {% for era in site.eras %}
-         <li><a href="{{ era.url }}">{{ era.title }}</a></li>
-   {% endfor %}
-</ul>
+{% include wiki_index.html collection="eras" %}

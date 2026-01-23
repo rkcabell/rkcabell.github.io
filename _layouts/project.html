@@ -1,0 +1,39 @@
+---
+layout: project_layout
+---
+{% assign project_title = page.title %}
+{% assign project_description = page.description %}
+{% assign project_image = page.image %}
+
+<section class="project-hero">
+  <div class="project-hero__text">
+    <h2 class="project-title">{{ project_title }}</h2>
+    {% if project_description %}
+      <p class="project-description">{{ project_description }}</p>
+    {% endif %}
+    {% if page.repo or page.demo %}
+      <div class="project-links">
+        {% if page.repo %}
+          <a class="btn" href="{{ page.repo }}" target="_blank" rel="noopener noreferrer">Repo</a>
+        {% endif %}
+        {% if page.demo %}
+          <a class="btn" href="{{ page.demo }}" target="_blank" rel="noopener noreferrer">Demo</a>
+        {% endif %}
+      </div>
+    {% endif %}
+    {% if page.stack %}
+      <p class="project-stack"><strong>Stack:</strong> {{ page.stack | join: ", " }}</p>
+    {% endif %}
+    {% if page.tags %}
+      <p class="project-tags"><strong>Tags:</strong> {{ page.tags | join: ", " }}</p>
+    {% endif %}
+    <a class="btn" href="/projects.html">Back to projects</a>
+  </div>
+  {% if project_image %}
+    <div class="project-hero__media">
+      <img src="{{ project_image | relative_url }}" alt="{{ project_title }}">
+    </div>
+  {% endif %}
+</section>
+
+{{ content }}

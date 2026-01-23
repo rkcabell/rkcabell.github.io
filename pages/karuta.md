@@ -6,6 +6,7 @@ moniker: Karuta
 slug: karuta
 permalink: /karuta.html
 categories: [root, gallery, protected, personal]
+audience: personal
 heading: 'Browse my karuta display case'
 gallery: karuta-gallery
 order: 5

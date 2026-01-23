@@ -6,6 +6,7 @@ description: Welcome to my Youtube Channel
 slug: youtube
 permalink: /youtube.html
 categories: [world]
+audience: personal
 ---
 
 # Dianthos youtube series

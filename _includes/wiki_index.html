@@ -1,0 +1,36 @@
+{% assign items = site[include.collection] %}
+{% if items == nil %}
+  {% assign items = "" | split: "" %}
+{% endif %}
+{% assign sort_by = include.sort_by | default: "order" %}
+
+{% if include.title %}
+<h2>{{ include.title }}</h2>
+{% endif %}
+{% if include.description %}
+<p>{{ include.description }}</p>
+{% endif %}
+
+<ul>
+  {% if sort_by == "title" %}
+    {% assign sorted_items = items | sort: "title" %}
+    {% for item in sorted_items %}
+      {% unless item.draft or item.private %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  {% else %}
+    {% assign ordered_items = items | where_exp: "item", "item.order != nil" | sort: "order" %}
+    {% assign unordered_items = items | where_exp: "item", "item.order == nil" | sort: "title" %}
+    {% for item in ordered_items %}
+      {% unless item.draft or item.private %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+    {% for item in unordered_items %}
+      {% unless item.draft or item.private %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  {% endif %}
+</ul>

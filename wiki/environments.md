@@ -7,11 +7,8 @@ slug: environments
 permalink: /environments.html
 categories: [root, world]
 order: 5
+allow_empty: true
 ---
 <h2>Environments of Dianthos</h2>
 
-<ul>
-   {% for env in site.locations %}
-         <li><a href="{{ env.url }}">{{ env.title }}</a></li>
-   {% endfor %}
-</ul>
+{% include wiki_index.html collection="environments" %}

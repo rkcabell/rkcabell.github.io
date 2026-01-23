@@ -1,18 +1,15 @@
-{% if page.categories contains 'professional' %}
-  {% assign query_param = 'szosxzfarvay' %}
-{% elsif page.categories contains 'personal' %}
-  {% assign query_param = 'smrfhaoc' %}
-{% endif %}
-
-{% if query_param %}
 <div class="sidebar">
   <ul>
     <li><a>Projects</a></li>
-    {% for project in site.pages %}
-      {% if project.categories contains 'inproject' %}
-        <li><a href="{{ project.permalink | relative_url }}?{{ query_param }}">{{ project.title }}</a></li>
-      {% endif %}
+    {% assign ordered_projects = site.projects | where_exp: "item", "item.order" | sort: "order" %}
+    {% assign unordered_projects = site.projects | where_exp: "item", "item.order == nil" | sort_natural: "title" %}
+    {% assign all_projects = ordered_projects | concat: unordered_projects %}
+    {% for project in all_projects %}
+      {% assign project_audience = project.audience | default: "both" %}
+      {% unless project_audience == "personal" or project_audience == "both" %}
+        {% continue %}
+      {% endunless %}
+      <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
-{% endif %}

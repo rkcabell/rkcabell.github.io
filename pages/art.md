@@ -6,6 +6,7 @@ moniker: Art
 slug: art
 permalink: /art.html
 categories: [root, gallery, protected, personal]
+audience: personal
 heading: 'Browse my sketches, clay works, and others'
 gallery: art-gallery
 order: 3

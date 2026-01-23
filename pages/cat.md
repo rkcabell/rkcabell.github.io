@@ -6,6 +6,7 @@ moniker: Cat
 slug: cat
 permalink: /cat.html
 categories: [root, gallery, personal]
+audience: personal
 heading: 'Nicknames include: Pico, Pito, Pipi, Fungus, Dirt Queen, Rat'
 gallery: cat-gallery
 order: 4

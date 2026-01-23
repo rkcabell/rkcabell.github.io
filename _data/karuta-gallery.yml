@@ -1,46 +1,36 @@
-
-- title: "Karuta01"
-  imgSrc: "/assets/images/thumbnails/karutaset1.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset1.jpg"
-            
-- title: "Karuta02"
-  imgSrc: "/assets/images/thumbnails/karutaset2.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset2.jpg"
-            
-- title: "Karuta03"
-  imgSrc: "/assets/images/thumbnails/karutaset3.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset3.jpg"
-            
-- title: "Karuta04"
-  imgSrc: "/assets/images/thumbnails/karutaset4.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset4.jpg"
-            
-- title: "Karuta05"
-  imgSrc: "/assets/images/thumbnails/karutaset5.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset5.jpg"
-            
-- title: "Karuta06"
-  imgSrc: "/assets/images/thumbnails/karutaset6.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset6.jpg"
-            
-- title: "Karuta07"
-  imgSrc: "/assets/images/thumbnails/karutaset7.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset7.jpg"
-            
-- title: "Karuta08"
-  imgSrc: "/assets/images/thumbnails/karutaset8.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset8.jpg"
-            
-- title: "Karuta09"
-  imgSrc: "/assets/images/thumbnails/karutaset9.jpg"
-  date: "18 Dec 2024"
-  link: "photo-detail.html?v=karutaset9.jpg"
-            
+- title: Karuta01
+  slug: karuta1
+  thumb: /assets/images/galleries/karuta/thumb/karuta1-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta1.jpg
+- title: Karuta02
+  slug: karuta2
+  thumb: /assets/images/galleries/karuta/thumb/karuta2-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta2.jpg
+- title: Karuta03
+  slug: karuta3
+  thumb: /assets/images/galleries/karuta/thumb/karuta3-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta3.jpg
+- title: Karuta04
+  slug: karuta4
+  thumb: /assets/images/galleries/karuta/thumb/karuta4-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta4.jpg
+- title: Karuta05
+  slug: karuta5
+  thumb: /assets/images/galleries/karuta/thumb/karuta5-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta5.jpg
+- title: Karuta06
+  slug: karuta6
+  thumb: /assets/images/galleries/karuta/thumb/karuta6-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta6.jpg
+- title: Karuta07
+  slug: karuta7
+  thumb: /assets/images/galleries/karuta/thumb/karuta7-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta7.jpg
+- title: Karuta08
+  slug: karuta8
+  thumb: /assets/images/galleries/karuta/thumb/karuta8-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta8.jpg
+- title: Karuta09
+  slug: karuta9
+  thumb: /assets/images/galleries/karuta/thumb/karuta9-thumb.jpg
+  src: /assets/images/galleries/karuta/karuta9.jpg

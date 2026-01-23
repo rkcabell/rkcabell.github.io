@@ -4,6 +4,7 @@ function resizeGallery (size) {
   currentSize = size
   const galleryItems = document.querySelectorAll('.tm-format')
   const buttons = document.querySelectorAll('.size-btn')
+  const gallery = document.getElementById('gallery')
 
   // Reset all buttons to inactive state
   buttons.forEach(button => {
@@ -34,6 +35,11 @@ function resizeGallery (size) {
         break
     }
   })
+
+  if (gallery) {
+    gallery.classList.remove('gallery-small', 'gallery-med', 'gallery-full')
+    gallery.classList.add(`gallery-${size}`)
+  }
   // Update the current size
   currentSize = size
 

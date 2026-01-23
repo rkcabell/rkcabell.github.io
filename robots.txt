@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /projects.html
+Disallow: /art.html
+Disallow: /cat.html
+Disallow: /karuta.html
+Disallow: /Car.html
+Disallow: /youtube.html
+Disallow: /wikihome.html
+Disallow: /world.html
+Disallow: /chapters.html
+Disallow: /eras.html
+Disallow: /environments.html
+Disallow: /habitals.html
+
+Allow: /professional/
+Allow: /professional/resume/
+Allow: /professional/resume2/
+Allow: /professional/projects/

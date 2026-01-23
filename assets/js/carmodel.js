@@ -21,9 +21,6 @@ renderer.setPixelRatio(window.devicePixelRatio)
 renderer.shadowMap.enabled = true
 renderer.shadowMap.type = THREE.PCFSoftShadowMap
 
-//Apply to html
-document.body.appendChild(renderer.domElement)
-
 //################### SCENE ###################\\
 
 const scene = new THREE.Scene()
@@ -88,7 +85,7 @@ loader.load(
     mesh.position.set(0, 0.65, -1)
     scene.add(mesh)
 
-    document.getElementById('progress-container').style.display = 'none'
+    document.getElementById('progress').style.display = 'none'
   },
   xhr => {
     console.log(`loading ${(xhr.loaded / xhr.total) * 100}%`)

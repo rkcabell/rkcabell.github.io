@@ -1,0 +1,342 @@
+File map for: C:\Users\Rynan\Documents\Github\rkcabell\rkcabell.github.io
+Excluded directories: .git, .jekyll-cache, _site
+.
+|-- .github
+|   |-- workflows
+|   |   |-- ci.yaml
+|   |   \-- publish-gem.yml
+|   |-- config.yml
+|   |-- no-response.yml
+|   |-- settings.yml
+|   \-- stale.yml
+|-- _archive
+|   \-- professional
+|       |-- assets
+|       |   |-- audio
+|       |   |   |-- button-press.mp3
+|       |   |   |-- incandescent-light.mp3
+|       |   |   \-- pyrite.mp3
+|       |   |-- css
+|       |   |   \-- resume.css
+|       |   |-- images
+|       |   |   \-- backgrounds
+|       |   |       \-- incandescent.png
+|       |   |-- js
+|       |   |   |-- cursor-glow.js
+|       |   |   \-- lightswitch.js
+|       |   \-- RyanResumePDF.pdf
+|       |-- data
+|       |   |-- nav_professional.yml
+|       |   \-- nav_shared.yml
+|       |-- includes
+|       |   \-- navigation.html
+|       |-- layouts
+|       |   |-- dynamic_resume_layout.html
+|       |   |-- professional.html
+|       |   \-- resume_layout.html
+|       |-- pages
+|       |   |-- professional-projects-redirect.md
+|       |   |-- professional-redirect.md
+|       |   |-- professional-resume-redirect.md
+|       |   |-- professional-resume2-redirect.md
+|       |   |-- professional.md
+|       |   |-- professional_projects.md
+|       |   |-- resume.md
+|       |   \-- resume2.md
+|       |-- log_remove_professional.md
+|       \-- to_restore_professional.md
+|-- _chapters
+|   |-- Aeonia.md
+|   |-- Amplituhedron.md
+|   |-- Archons.md
+|   |-- At capacity.md
+|   |-- Biopoesis.md
+|   |-- Biosporepha.md
+|   |-- Cacophonic.md
+|   |-- Deliquescence.md
+|   |-- Dianthos.md
+|   |-- Efflorescence.md
+|   |-- Escarpment.md
+|   |-- Euphonic.md
+|   |-- Exponential.md
+|   |-- Failure to launch.md
+|   |-- Flowers for Algernon.md
+|   |-- Halcyon.md
+|   |-- Hubris.md
+|   |-- Lapse.md
+|   |-- Neoarchons.md
+|   |-- Onto land.md
+|   |-- Pandora's Cradle.md
+|   |-- Solar eclipse.md
+|   |-- Solar system.md
+|   |-- Starforge Crucible.md
+|   |-- Underdog.md
+|   \-- Universe.md
+|-- _data
+|   |-- wiki-json
+|   |   |-- blueprints.json
+|   |   |-- chapters.json
+|   |   |-- events.json
+|   |   |-- locations.json
+|   |   |-- myths.json
+|   |   |-- project-data.json
+|   |   \-- races.json
+|   |-- art-gallery.yml
+|   |-- cat-gallery.yml
+|   |-- chapters.yaml
+|   |-- events.yaml
+|   |-- karuta-gallery.yml
+|   |-- locations.yaml
+|   |-- maps.yml
+|   |-- myths.yaml
+|   |-- nav_personal.yml
+|   |-- navigation.yml
+|   \-- projects.yml
+|-- _eras
+|   \-- hadean.md
+|-- _events
+|   \-- event.md
+|-- _habitals
+|   \-- habital1.md
+|-- _includes
+|   |-- footer-custom.html
+|   |-- head-custom-google-analytics.html
+|   |-- head-custom.html
+|   |-- nav.html
+|   |-- post-head.html
+|   |-- project-sidebar.html
+|   |-- project_card.html
+|   |-- project_navigation.html
+|   |-- wiki-sidebar.html
+|   \-- wiki_index.html
+|-- _layouts
+|   |-- 404.html
+|   |-- basewiki_layout.html
+|   |-- default.html
+|   |-- eras_layout.html
+|   |-- gallery_layout.html
+|   |-- personal_homepage.html
+|   |-- personalproject_layout.html
+|   |-- post_layout.html
+|   |-- project.html
+|   |-- project_layout.html
+|   |-- wikihome_layout.html
+|   \-- wikipage_layout.html
+|-- _locations
+|-- _plugins
+|   |-- image_src_validate.rb
+|   \-- pages_link_override.rb
+|-- _projects
+|   |-- color_picker.md
+|   |-- commit_art.md
+|   |-- fork.md
+|   |-- halvorsen.md
+|   |-- shelvz.md
+|   \-- vector_field.md
+|-- _sass
+|   |-- cayman.scss
+|   |-- fonts.scss
+|   |-- jekyll-theme-cayman.scss
+|   |-- normalize.scss
+|   |-- rouge-github.scss
+|   |-- variables.scss
+|   \-- w3.scss
+|-- assets
+|   |-- audio
+|   |   |-- button-hover.mp3
+|   |   \-- light-switch.mp3
+|   |-- css
+|   |   |-- bootstrap.min.css
+|   |   |-- contact.css
+|   |   |-- stars.css
+|   |   |-- style.css
+|   |   |-- templatemo-style.css
+|   |   \-- worldstyle.css
+|   |-- fonts
+|   |   |-- Noto-Sans-700
+|   |   |   |-- Noto-Sans-700.svg
+|   |   |   |-- Noto-Sans-700.ttf
+|   |   |   \-- Noto-Sans-700.woff2
+|   |   |-- Noto-Sans-700italic
+|   |   |   |-- Noto-Sans-700italic.svg
+|   |   |   |-- Noto-Sans-700italic.ttf
+|   |   |   \-- Noto-Sans-700italic.woff2
+|   |   |-- Noto-Sans-italic
+|   |   |   |-- Noto-Sans-italic.svg
+|   |   |   |-- Noto-Sans-italic.ttf
+|   |   |   \-- Noto-Sans-italic.woff2
+|   |   \-- Noto-Sans-regular
+|   |       |-- Noto-Sans-regular.svg
+|   |       |-- Noto-Sans-regular.ttf
+|   |       \-- Noto-Sans-regular.woff2
+|   |-- images
+|   |   |-- backgrounds
+|   |   |   |-- incandescent1.png
+|   |   |   \-- incandescent2.png
+|   |   |-- galleries
+|   |   |   |-- art
+|   |   |   |   \-- thumb
+|   |   |   |-- art_img
+|   |   |   |   |-- .gitkeep
+|   |   |   |   |-- art1.png
+|   |   |   |   |-- art10.png
+|   |   |   |   |-- art11.png
+|   |   |   |   |-- art12.png
+|   |   |   |   |-- ...
+|   |   |   |-- car_img
+|   |   |   |   \-- Car1.png
+|   |   |   |-- cat
+|   |   |   |   \-- thumb
+|   |   |   |-- cat_img
+|   |   |   |   |-- .gitkeep
+|   |   |   |   |-- cat1.png
+|   |   |   |   |-- cat10.jpg
+|   |   |   |   |-- cat11.png
+|   |   |   |   |-- cat12.png
+|   |   |   |   |-- ...
+|   |   |   |-- karuta
+|   |   |   |   \-- thumb
+|   |   |   |-- karuta_img
+|   |   |   |   |-- karuta1.jpg
+|   |   |   |   |-- karuta2.jpg
+|   |   |   |   |-- karuta3.jpg
+|   |   |   |   |-- karuta4.jpg
+|   |   |   |   |-- karuta5.jpg
+|   |   |   |   |-- ...
+|   |   |   \-- thumbnails
+|   |   |       |-- art1.png
+|   |   |       |-- art10.png
+|   |   |       |-- art11.png
+|   |   |       |-- art12.png
+|   |   |       |-- art13.png
+|   |   |       |-- ...
+|   |   |-- maps
+|   |   |   |-- Biogeographic realms.png
+|   |   |   |-- Biomes-land.png
+|   |   |   |-- Biomes-water.png
+|   |   |   |-- clean.png
+|   |   |   |-- Climate.png
+|   |   |   |-- continents.png
+|   |   |   |-- default.png
+|   |   |   |-- Humidity-summer.png
+|   |   |   |-- Humidity-winter.png
+|   |   |   |-- islands.png
+|   |   |   |-- Koppen.png
+|   |   |   |-- Land resources.png
+|   |   |   |-- Rainfall-summer.png
+|   |   |   |-- Rainfall-winter.png
+|   |   |   |-- Soil depth.png
+|   |   |   |-- tectonics.png
+|   |   |   |-- Volcanism.png
+|   |   |   |-- waters.png
+|   |   |   \-- Windspeed.png
+|   |   |-- projects
+|   |   |   |-- color_picker.png
+|   |   |   |-- color_picker1.png
+|   |   |   |-- commit_art.png
+|   |   |   |-- commit_art_banner.png
+|   |   |   |-- default-project-image.png
+|   |   |   |-- fork.png
+|   |   |   |-- halvorsen.png
+|   |   |   |-- shelvz.png
+|   |   |   \-- vector_field.png
+|   |   |-- cymatocyst.png
+|   |   |-- default_img.jpg
+|   |   |-- external-link-ltr-icon.png
+|   |   |-- external.svg
+|   |   |-- frac_inf_icon.png
+|   |   |-- icon_1024_yt.png
+|   |   |-- selfie2.jpg
+|   |   |-- selfie3.jpg
+|   |   |-- selfie3_edited.png
+|   |   |-- selfie5.png
+|   |   |-- stars.png
+|   |   |-- twinkling.png
+|   |   |-- watermark.png
+|   |   \-- world_age2_small.png
+|   |-- js
+|   |   |-- carmodel.js
+|   |   |-- clairvoyance.js
+|   |   |-- cursor-glow copy.js
+|   |   |-- email.js
+|   |   |-- mobile-dropdown.js
+|   |   |-- paginator.js
+|   |   |-- resize_gallery.js
+|   |   |-- watermark.js
+|   |   \-- worldmodel.js
+|   |-- models
+|   |   \-- car
+|   |       |-- license.txt
+|   |       |-- scene.bin
+|   |       \-- scene.gltf
+|   \-- videos
+|       |-- halvorsen_vid.mp4
+|       |-- TuningFork_vid.mp4
+|       \-- VectorField_vid.mp4
+|-- hidden
+|   |-- .gitkeep
+|   |-- notion_token.txt
+|   \-- web3forms_key.txt
+|-- pages
+|   |-- 404.md
+|   |-- art.md
+|   |-- Car.md
+|   |-- cat.md
+|   |-- karuta.md
+|   |-- personal.md
+|   |-- personal_projects.md
+|   \-- youtube.md
+|-- plans
+|   |-- file_structure_map.txt
+|   \-- flexibility-redundancy-diagnosis.md
+|-- projects
+|   \-- js
+|       |-- ForkSim.js
+|       |-- fslightbox.js
+|       |-- halvorsen.js
+|       |-- p5.js
+|       |-- p5.min.js
+|       |-- package.json
+|       |-- TuningFork.js
+|       \-- vectors.js
+|-- scripts
+|   |-- .gitkeep
+|   |-- .jekyll-metadata
+|   |-- auto_gallery.py
+|   |-- bash
+|   |-- check.py
+|   |-- exportnotion.sh
+|   |-- folder_structure.txt
+|   |-- generate_tree.sh
+|   |-- new_gallery.py
+|   |-- populate_galleries.py
+|   |-- populate_wiki.py
+|   |-- process_wiki.py
+|   |-- randomize_cats.py
+|   |-- rename_files.py
+|   |-- renotion.py
+|   |-- test.sh
+|   \-- thumbify.bat
+|-- tools
+|   \-- validate_wiki_indexes.py
+|-- wiki
+|   |-- chapters.md
+|   |-- environments.md
+|   |-- eras.md
+|   |-- habitals.md
+|   |-- wikihome.md
+|   \-- world.md
+|-- .gitignore
+|-- .hintrc
+|-- .rubocop.yml
+|-- .travis.yml
+|-- _config.yml
+|-- favicon.ico
+|-- Gemfile
+|-- Gemfile.lock
+|-- jekyll-theme.gemspec
+|-- LICENSE
+|-- README.md
+|-- robots.txt
+|-- SITE_REPORT.md
+\-- tree.txt

@@ -1,0 +1,13 @@
+{% assign project = include.project %}
+{% assign project_url = project.url | relative_url %}
+{% assign project_title = project.title | default: project.moniker %}
+<div class="project-item" id="txt-bkg">
+  <a href="{{ project_url }}">
+    {% if project.image %}
+      <img src="{{ project.image | relative_url }}" alt="{{ project_title }}">
+    {% else %}
+      <img src="/assets/images/projects/default-project-image.png" alt="No image available">
+    {% endif %}
+  </a>
+  <h3><a href="{{ project_url }}">{{ project.title }}</a></h3>
+</div>
